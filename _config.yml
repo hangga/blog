@@ -21,7 +21,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title: 'Hangga Aji Sayekti'
-description: "A passionate Software Engineer from Indonesia with experience since 2008. Bachelor's degree in Mathematics and loves Science and Computers."
+description: "Kadung tresna, jalaran ra ana liya..."
 author: 'Hangga Aji Sayekti'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
