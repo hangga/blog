@@ -1,0 +1,7 @@
+
+
+#Begin Really Simple Security
+<Files *.php>
+deny from all
+</Files>
+#End Really Simple Security
