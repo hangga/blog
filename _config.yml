@@ -51,8 +51,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: Hangga Aji Sayekti
+      avatar: /assets/images/hangga.jpg
       
   # all pages
   - scope:
@@ -65,7 +65,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Paginate
-paginate: 10
+paginate: 9
 
 
 
