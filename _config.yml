@@ -1,6 +1,6 @@
 # Site
-name: 'Hangga Aji Sayekti'
-description: 'Kadung tresna, jalaran ra ana liya.'
+name: 'Mundana'
+description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: '/mundana-theme-jekyll'
@@ -19,14 +19,6 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    jane:
-      name:           Hangga
-      site:           https://hangga.github.io
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "A passionate Software Engineer from Indonesia with experience since 2008. Bachelor's degree in Mathematics and loves Science and Computers."
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-
     sal:
       name:           Sal
       site:           https://www.wowthemes.net
