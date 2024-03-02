@@ -16,6 +16,7 @@ tags:
     - 'machine learning on mobile device'
     - 'ml kit'
     - 'open mouth detection'
+tags: [sticky]
 ---
 
 *Open mouth detection* atau deteksi mulut terbuka adalah salah satu contoh pengembangan dari *face detection*. Dan biasanya menjadi bagian dari *liveness detection*.  

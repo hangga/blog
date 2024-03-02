@@ -19,7 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    Hangga Aji Sayekti:
       name:           Hangga Aji Sayekti
       site:           https://hangga.github.io/blog
       avatar:         /assets/images/hangga.jpg
