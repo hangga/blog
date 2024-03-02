@@ -20,6 +20,13 @@ plugins:
   
 authors:
     sal:
+      name:           Hangga Aji Sayekti
+      site:           https://hangga.github.io/blog
+      avatar:         /assets/images/hangga.jpg
+      bio:            "A passionate Software Engineer from Indonesia with experience since 2008. Bachelor's degree in Mathematics and loves Science and Computers."
+      email:          bazeniancode@gmail.com
+
+    sal:
       name:           Sal
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
