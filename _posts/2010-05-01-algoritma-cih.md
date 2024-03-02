@@ -20,6 +20,7 @@ tags:
     - 'cheapest insertion heuristic'
     - cih
     - delphi
+tags: [featured]
 ---
 
 ATSP(*Asymmetric Traveling Salesman Problem*) merupakan permasalahan klasik untuk mencari rute terpendek yang biasa dilalui selesman atau tukang pos yang ingin mengunjungi beberapa kota tanpa harus mendatangi kota yang sama lebih dari satu kali.
