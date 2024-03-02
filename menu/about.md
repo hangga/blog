@@ -1,19 +1,17 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: About Me!
 permalink: /about
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+### Hi there 👋
+<a target="_blank" href="https://www.linkedin.com/in/hanggaajisayekti/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a target="_blank" href="https://www.hackerrank.com/bazeniancode"><img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"/></a>
 
-### Getting Started
+- I’m currently working on **Java**, **Kotlin** & **Swift**.
+- Sometimes I can also play multiple roles in other languages. No problem, it's fun.
+- Btw I use Arch for daily use.
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hangga&hide=css,scss,html&langs_count=10&layout=compact&theme=ambient_gradient)
 
-### Example Content
-
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
-
-### Questions?
-
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+<img src="https://stats.dooboo.io/api/github-stats?login=hangga&hide=css,scss,html" width="500"/> 
