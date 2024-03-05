@@ -22,6 +22,7 @@ tags:
     - 'publish closed-source library'
     - 'publish java library'
     - 'publish library'
+tags: [featured]
 ---
 
 ### Maven

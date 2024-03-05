@@ -1,8 +1,8 @@
 # Site
 name: 'Hangga Aji Sayekti'
 description: 'Kadung tresna, jalaran ra ana liya.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+logo: 'assets/images/hangga.jpg'
+favicon: 'assets/images/hangga.jpg'
 baseurl: '/blog'
 # disqus: 'demowebsite'
 email: 'bazeniancode@gmail.com'
@@ -65,8 +65,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Paginate
-paginate: 9
-
+paginate: 12
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
