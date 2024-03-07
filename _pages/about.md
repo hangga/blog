@@ -1,8 +1,8 @@
 ---
 title: "About"
-layout: page-sidebar
+# layout: page-sidebar
 permalink: "/about.html"
-image: "/assets/images/screenshot.jpg"
+image: "/wp-content/uploads/2023/05/nabawi-768x480.jpeg"
 comments: true
 ---
 ### Hi there 👋
