@@ -4,7 +4,7 @@ title: 'Software for &#8220;Toefl Test&#8221;'
 date: '2014-05-05T03:35:32+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1866'
+guid: 'http://hangga.github.io/blog/?p=1866'
 permalink: /2014/05/05/software-for-toefl-test/
 post_views_count:
     - '175'
@@ -25,12 +25,12 @@ tags:
 
 **Penampakan Bukunya.**
 
-[![Cover TOEFL 3D](http://hangga.web.id/wp-content/uploads/2014/05/Cover-TOEFL-3D.png)  ](http://hangga.web.id/wp-content/uploads/2014/05/Cover-TOEFL-3D.png)
+[![Cover TOEFL 3D](http://hangga.github.io/blog/wp-content/uploads/2014/05/Cover-TOEFL-3D.png)  ](http://hangga.github.io/blog/wp-content/uploads/2014/05/Cover-TOEFL-3D.png)
 
 **Penampakan *Software*nya**
 
-[![2014-05-04_225213](http://hangga.web.id/wp-content/uploads/2014/05/2014-05-04_225213-1024x545.png)](http://hangga.web.id/wp-content/uploads/2014/05/2014-05-04_225213.png)
+[![2014-05-04_225213](http://hangga.github.io/blog/wp-content/uploads/2014/05/2014-05-04_225213-1024x545.png)](http://hangga.github.io/blog/wp-content/uploads/2014/05/2014-05-04_225213.png)
 
-[![2014-05-04_225252](http://hangga.web.id/wp-content/uploads/2014/05/2014-05-04_225252-1024x545.png)](http://hangga.web.id/wp-content/uploads/2014/05/2014-05-04_225252.png)
+[![2014-05-04_225252](http://hangga.github.io/blog/wp-content/uploads/2014/05/2014-05-04_225252-1024x545.png)](http://hangga.github.io/blog/wp-content/uploads/2014/05/2014-05-04_225252.png)
 
-[![2014-05-04_225306](http://hangga.web.id/wp-content/uploads/2014/05/2014-05-04_225306-1024x545.png)](http://hangga.web.id/wp-content/uploads/2014/05/2014-05-04_225306.png)
+[![2014-05-04_225306](http://hangga.github.io/blog/wp-content/uploads/2014/05/2014-05-04_225306-1024x545.png)](http://hangga.github.io/blog/wp-content/uploads/2014/05/2014-05-04_225306.png)

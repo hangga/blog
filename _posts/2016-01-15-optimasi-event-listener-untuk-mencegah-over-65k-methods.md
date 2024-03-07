@@ -4,7 +4,7 @@ title: 'Optimasi Event Listener untuk mencegah Over 65K Methods.'
 date: '2016-01-15T10:59:53+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2806'
+guid: 'http://hangga.github.io/blog/?p=2806'
 permalink: /2016/01/15/optimasi-event-listener-untuk-mencegah-over-65k-methods/
 post_views_count:
     - '32'

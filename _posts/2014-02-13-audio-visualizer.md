@@ -4,7 +4,7 @@ title: 'Membuat Record Audio dengan efek Audio visualizer'
 date: '2014-02-13T08:46:06+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=15'
+guid: 'http://hangga.github.io/blog/?p=15'
 permalink: /2014/02/13/audio-visualizer/
 post_views_count:
     - '142'
@@ -48,7 +48,7 @@ Saya memanfaatkan kelas *RecorderTask* yang meng*extends* dari kelas *TimerTask.
 
 Berikut kode selengkapnya. Silahkan Anda bisa mengembangkannya sendiri.
 
-[![device-2014-02-13-034349](http://hangga.web.id/wp-content/uploads/2014/02/device-2014-02-13-034349.png)](http://hangga.web.id/?p=15)1. Layout xmlnya adalah seperti dibawah ini.
+[![device-2014-02-13-034349](http://hangga.github.io/blog/wp-content/uploads/2014/02/device-2014-02-13-034349.png)](http://hangga.github.io/blog/?p=15)1. Layout xmlnya adalah seperti dibawah ini.
 
 ```
 <pre class="brush:xml"><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"

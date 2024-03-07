@@ -4,7 +4,7 @@ title: 'Spring Boot : Import Excel into MySQL dengan Apache POI'
 date: '2021-08-05T09:23:12+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=4728'
+guid: 'https://hangga.github.io/blog/?p=4728'
 permalink: /2021/08/05/spring-boot-import-excel-into-mysql-dengan-apache-poi/
 image: /wp-content/uploads/2019/05/javanewfeat-1.jpeg
 categories:
@@ -144,7 +144,7 @@ public class JamaahEntity {
 
 Sebelum membuat helper, mari kita perhatikan *file* *Excel*nya. *Cell* yang akan kita ambil hanya kolom A, B, C dan E, sedangkan kolom D tidak. Sehingga boleh dibilang *column* *index* ke 0, 1, 2 dan 4.
 
-![](https://hangga.web.id/wp-content/uploads/2021/08/data-excel-700x294.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/08/data-excel-700x294.png)
 
 Kemudian saya membuat kelas ***JamaahExcelHelper.java*** yang didalamnya akan kita buat *static method* yaitu ***excelToJamaahEntitys()*** untuk membaca sekaligus menggenerate *List&lt;JamaahEntity&gt;* sehingga nanti pada kelas *JamaahSerice* tinggal dipanggil.
 
@@ -263,6 +263,6 @@ public ResponseEntity uploadExcelFile(@RequestParam("file") MultipartFile file) 
 
 Siap di test. Silahkan pake Rest Client yang anda suka misal PostMan atau Insomnia. Saya pake Insomnia. Hehe..
 
-![](https://hangga.web.id/wp-content/uploads/2021/08/Screen-Shot-2021-08-05-at-16.21.13-700x341.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/08/Screen-Shot-2021-08-05-at-16.21.13-700x341.png)
 
 Mau lihat *full Source Code* boleh unduh [disini](https://github.com/hangga/apijamaah). Selamat mencoba, terimakasih.

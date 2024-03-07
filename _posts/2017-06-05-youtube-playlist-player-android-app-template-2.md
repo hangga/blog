@@ -4,7 +4,7 @@ title: 'Youtube Playlist Player &#8211; Android App Template'
 date: '2017-06-05T02:25:07+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3388'
+guid: 'http://hangga.github.io/blog/?p=3388'
 permalink: /2017/06/05/youtube-playlist-player-android-app-template-2/
 post_views_count:
     - '86'

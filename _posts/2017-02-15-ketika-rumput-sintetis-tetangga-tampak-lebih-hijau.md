@@ -4,7 +4,7 @@ title: 'Ketika rumput sintetis tetangga tampak lebih hijau'
 date: '2017-02-15T10:27:45+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3200'
+guid: 'http://hangga.github.io/blog/?p=3200'
 permalink: /2017/02/15/ketika-rumput-sintetis-tetangga-tampak-lebih-hijau/
 post_views_count:
     - '187'
@@ -27,17 +27,17 @@ untuk *istiqomah* ke jalan yang lurus yaitu jalan yang tidak mudah goyah meskipu
 
 ### Itu duluu..
 
-![sumber gambar:https://pixels.camp/badges/owners/60](http://hangga.web.id/wp-content/uploads/2017/02/computer_avatar_400x400.png)sumber gambar:https://pixels.camp/badges/owners/60
+![sumber gambar:https://pixels.camp/badges/owners/60](http://hangga.github.io/blog/wp-content/uploads/2017/02/computer_avatar_400x400.png)sumber gambar:https://pixels.camp/badges/owners/60
 
 Tapi itu duluu, waktu saya belum menikah dan masih unyu-unyu dan waktu otak ini masih penuh dengan idealisme serta masih berfikir untuk selalu menambah ilmu meskipun gaji tak ikutan nambah.
 
-<figure aria-describedby="caption-attachment-3214" class="wp-caption aligncenter" id="attachment_3214" style="width: 602px">![sumber gambar:http://siteappdev.com/](http://hangga.web.id/wp-content/uploads/2017/02/Developer-pm-ba.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3214">sumber gambar:http://siteappdev.com/</figcaption></figure>Namun seiring meningkatnya kebutuhan hidup dan perut yang harus terus diberi makan, sehingga terkadang rayuan maut para pemburu domba pun tampak mempesona. Ha3x. Ditambah lagi dengan bumbu cerita manis dari teman-teman yang sudah *resign* dan sekarang mendapat pabrik baru tentunya dengan gaji yang meningkat drastis. Meskipun *sakjane* ini sah-sah saja dan **tidak dosa** karena sama-sama pekerjaan *halal*, tapi justeru bagi saya ini berat kawan, karena ada buuaanyak faktor yang harus dipertimbangkan. Dan akhirnya… Oh.
+<figure aria-describedby="caption-attachment-3214" class="wp-caption aligncenter" id="attachment_3214" style="width: 602px">![sumber gambar:http://siteappdev.com/](http://hangga.github.io/blog/wp-content/uploads/2017/02/Developer-pm-ba.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3214">sumber gambar:http://siteappdev.com/</figcaption></figure>Namun seiring meningkatnya kebutuhan hidup dan perut yang harus terus diberi makan, sehingga terkadang rayuan maut para pemburu domba pun tampak mempesona. Ha3x. Ditambah lagi dengan bumbu cerita manis dari teman-teman yang sudah *resign* dan sekarang mendapat pabrik baru tentunya dengan gaji yang meningkat drastis. Meskipun *sakjane* ini sah-sah saja dan **tidak dosa** karena sama-sama pekerjaan *halal*, tapi justeru bagi saya ini berat kawan, karena ada buuaanyak faktor yang harus dipertimbangkan. Dan akhirnya… Oh.
 
-<figure aria-describedby="caption-attachment-3215" class="wp-caption aligncenter" id="attachment_3215" style="width: 500px">![sumber ganbar:https://vectortoons.com](http://hangga.web.id/wp-content/uploads/2017/02/making-money-online-collection-002-700x585.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3215">sumber ganbar:https://vectortoons.com</figcaption></figure>> ### Tempat baru memang asyik. Ah tenanee.. ?
+<figure aria-describedby="caption-attachment-3215" class="wp-caption aligncenter" id="attachment_3215" style="width: 500px">![sumber ganbar:https://vectortoons.com](http://hangga.github.io/blog/wp-content/uploads/2017/02/making-money-online-collection-002-700x585.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3215">sumber ganbar:https://vectortoons.com</figcaption></figure>> ### Tempat baru memang asyik. Ah tenanee.. ?
 
 Lalu apakah benar tempat baru itu benar-benar asyik. Tunggu dulu, tempat baru memang asyik dan menyenangkan karena ada kawan baru, suasana baru, pemandangan baru dan yang paling keren adalah gaji baru dan laptop baru ha3x. Tapi yang baru pun nanti juga akan jadi *lawas* juga kan. Dan akhirnya cerita paragraf ke 2 dan 3 pun terulang kembali. Dan saya yakin akan selalu terulang. Mengapa? yah karena saya **kurang bersyukur**, akhirnya mudah tergoda oleh hijaunya rumput tetangga padahal saya belum tahu persis rumput tetangga itu benar-benar asli atau hanya rumput sintetis yang bertaburan bumbu cerita manis. Saya hanya terpesona oleh hijaunya rumput tanpa mewaspadai siapa tahu ada singa yang mendekam disana.
 
-<figure aria-describedby="caption-attachment-3204" class="wp-caption aligncenter" id="attachment_3204" style="width: 600px">![sumber:http://www.rosswarner.com/](http://hangga.web.id/wp-content/uploads/2017/02/10.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3204">sumber:http://www.rosswarner.com/</figcaption></figure>> Saya hanya terpesona oleh hijaunya rumput tanpa mewaspadai siapa tahu ada singa yang mendekam disana.
+<figure aria-describedby="caption-attachment-3204" class="wp-caption aligncenter" id="attachment_3204" style="width: 600px">![sumber:http://www.rosswarner.com/](http://hangga.github.io/blog/wp-content/uploads/2017/02/10.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3204">sumber:http://www.rosswarner.com/</figcaption></figure>> Saya hanya terpesona oleh hijaunya rumput tanpa mewaspadai siapa tahu ada singa yang mendekam disana.
 
 ### Nikmatilah kawan
 

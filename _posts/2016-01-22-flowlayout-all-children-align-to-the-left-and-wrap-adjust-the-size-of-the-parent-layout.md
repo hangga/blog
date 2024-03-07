@@ -4,7 +4,7 @@ title: 'FlowLayout : All children align to left, and wrap adjust parent size.'
 date: '2016-01-22T04:30:30+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2836'
+guid: 'http://hangga.github.io/blog/?p=2836'
 permalink: /2016/01/22/flowlayout-all-children-align-to-the-left-and-wrap-adjust-the-size-of-the-parent-layout/
 post_views_count:
     - '36'
@@ -30,7 +30,7 @@ Lebih jelasnya seperti gambar dibawah.
 
 ### Screenshot
 
-![device-2016-01-21-194050](http://hangga.web.id/wp-content/uploads/2016/01/device-2016-01-21-194050-510x808.png)
+![device-2016-01-21-194050](http://hangga.github.io/blog/wp-content/uploads/2016/01/device-2016-01-21-194050-510x808.png)
 
 ### Membuat kelas FlowLayout
 

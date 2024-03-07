@@ -4,7 +4,7 @@ title: 'OnePage &#8211; One Page Portfolio HTML Template'
 date: '2016-05-01T10:09:09+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3036'
+guid: 'http://hangga.github.io/blog/?p=3036'
 permalink: /2016/05/01/onepage-one-page-portfolio-html-template/
 post_views_count:
     - '33'

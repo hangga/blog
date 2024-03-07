@@ -4,7 +4,7 @@ title: 'Sorting Tabel HTML dengan JavaScript'
 date: '2011-12-07T05:21:45+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=815'
+guid: 'http://hangga.github.io/blog/?p=815'
 permalink: /2011/12/07/membuat-tabel-sorter-html-dengan-javascript/
 post_views_count:
     - '190'
@@ -26,7 +26,7 @@ Tabel *Sorter* ini sangat bermanfaat dan sering digunakan dalam aplikasi *web ba
 
 Contoh sederhananya adalah seperti di bawah ini :
 
-<link href="http://hangga.web.id/sorting/style.css" rel="stylesheet"></link>| ### ID | ### Name | ### Phone | ### Email | ### Zip |
+<link href="http://hangga.github.io/blog/sorting/style.css" rel="stylesheet"></link>| ### ID | ### Name | ### Phone | ### Email | ### Zip |
 |---|---|---|---|---|
 | 8 | Harper Bowen | (810) 652-6704 | [dis@duinec.ca](mailto:#) | 77110 |
 | 9 | Caldwell Larson | (850) 562-3177 | [elit@dolor.com](mailto:#) | 87519 |
@@ -39,7 +39,7 @@ Contoh sederhananya adalah seperti di bawah ini :
 | 16 | Iliana Ballard | (806) 835-7035 | [vel.sapien@mi.ca](mailto:#) | 84718 |
 | 50 | Eden Burks | (576) 196-6013 | [lorem@magna.com](mailto:#) | 30822 |
 
-<script src="http://hangga.web.id/sorting/script.js" type="text/javascript"></script>  
+<script src="http://hangga.github.io/blog/sorting/script.js" type="text/javascript"></script>  
 <script type="text/javascript">// <![CDATA[
 		var sorter = new TINY.table.sorter("sorter");
 			sorter.head = "head";
@@ -59,7 +59,7 @@ sourcenya sebagai berikut :
 
 ```
 <pre class="lang:js decode:1 ">
-&lt;link rel="stylesheet" href="http://hangga.web.id/sorting/style.css" /&gt;
+&lt;link rel="stylesheet" href="http://hangga.github.io/blog/sorting/style.css" /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;table cellpadding="0" cellspacing="0" border="0" id="table" class="sortable"&gt;
@@ -159,7 +159,7 @@ sourcenya sebagai berikut :
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;script type="text/javascript" src="http://hangga.web.id/sorting/script.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://hangga.github.io/blog/sorting/script.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript"&gt;
 var sorter = new TINY.table.sorter("sorter");
 sorter.head = "head";

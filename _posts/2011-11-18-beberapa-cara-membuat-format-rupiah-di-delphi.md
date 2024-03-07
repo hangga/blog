@@ -4,7 +4,7 @@ title: 'Beberapa cara membuat Format Rupiah di Delphi'
 date: '2011-11-18T03:35:16+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=741'
+guid: 'http://hangga.github.io/blog/?p=741'
 permalink: /2011/11/18/beberapa-cara-membuat-format-rupiah-di-delphi/
 post_views_count:
     - '460'
@@ -21,7 +21,7 @@ tags:
     - rupiah
 ---
 
-[![](http://hangga.web.id/wp-content/uploads/2011/12/Untitled.png "Untitled")](http://hangga.web.id/wp-content/uploads/2011/12/Untitled.png)Di *Delphi* kita mengenal fungsi-fungsi untuk menampilkan format *string* sesuai yg kita inginkan.
+[![](http://hangga.github.io/blog/wp-content/uploads/2011/12/Untitled.png "Untitled")](http://hangga.github.io/blog/wp-content/uploads/2011/12/Untitled.png)Di *Delphi* kita mengenal fungsi-fungsi untuk menampilkan format *string* sesuai yg kita inginkan.
 
 Nah untuk menampilakan format mata uang Rupiah, ternyata kita bisa menggunakan berbagai macam cara. Diantaranya adalah sebagai berikut:
 
@@ -78,7 +78,7 @@ Nah untuk menampilakan format mata uang Rupiah, ternyata kita bisa menggunakan b
 
 Contoh penggunaan fungsi pada program
 
-[![](http://hangga.web.id/wp-content/uploads/2011/12/2011-12-02_104945.png "2011-12-02_104945")](http://hangga.web.id/wp-content/uploads/2011/12/2011-12-02_104945.png)
+[![](http://hangga.github.io/blog/wp-content/uploads/2011/12/2011-12-02_104945.png "2011-12-02_104945")](http://hangga.github.io/blog/wp-content/uploads/2011/12/2011-12-02_104945.png)
 
 ```
 <pre class="lang:pascal decode:1 ">

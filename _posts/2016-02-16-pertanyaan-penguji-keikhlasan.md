@@ -4,7 +4,7 @@ title: 'Pertanyaan penguji keikhlasan.'
 date: '2016-02-16T10:29:43+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2856'
+guid: 'http://hangga.github.io/blog/?p=2856'
 permalink: /2016/02/16/pertanyaan-penguji-keikhlasan/
 post_views_count:
     - '71'
@@ -23,7 +23,7 @@ Terkadang kita sudah beramal dengan ikhlash, akan tetapi karena godaan syaitan, 
 
 Terkadang kita sudah berusaha menyembunyikan amal yg kita lakukan, akan tetapi syaitan menggoda melalui pertanyaan dari saudara kita.
 
-![download-edited](http://hangga.web.id/wp-content/uploads/2016/02/download-edited.png)
+![download-edited](http://hangga.github.io/blog/wp-content/uploads/2016/02/download-edited.png)
 
 Menjawab pertanyaan seperti *screenshot* diatas hanya akan merontokkan keikhlasan amal yg pernah kita lakukan. Terlebih jika kita tidak merasa seperti apa yg saudara kita pikirkan.
 

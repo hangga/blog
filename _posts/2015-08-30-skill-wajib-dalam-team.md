@@ -4,7 +4,7 @@ title: 'Skill Wajib dalam Team'
 date: '2015-08-30T21:09:33+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2451'
+guid: 'http://hangga.github.io/blog/?p=2451'
 permalink: /2015/08/30/skill-wajib-dalam-team/
 post_views_count:
     - '54'

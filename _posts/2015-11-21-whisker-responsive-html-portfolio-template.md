@@ -4,7 +4,7 @@ title: 'Whisker &#8211; Responsive HTML Portfolio Template'
 date: '2015-11-21T10:13:51+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3039'
+guid: 'http://hangga.github.io/blog/?p=3039'
 permalink: /2015/11/21/whisker-responsive-html-portfolio-template/
 post_views_count:
     - '56'

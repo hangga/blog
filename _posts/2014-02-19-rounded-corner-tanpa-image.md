@@ -4,7 +4,7 @@ title: 'Layout dengan Rounded Corner'
 date: '2014-02-19T08:38:45+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=46'
+guid: 'http://hangga.github.io/blog/?p=46'
 permalink: /2014/02/19/rounded-corner-tanpa-image/
 post_views_count:
     - '78'

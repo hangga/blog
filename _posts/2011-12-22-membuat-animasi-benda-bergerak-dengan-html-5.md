@@ -4,7 +4,7 @@ title: 'Membuat animasi benda bergerak dengan HTML 5'
 date: '2011-12-22T04:16:35+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=981'
+guid: 'http://hangga.github.io/blog/?p=981'
 permalink: /2011/12/22/membuat-animasi-benda-bergerak-dengan-html-5/
 post_views_count:
     - '382'
@@ -22,7 +22,7 @@ tags:
     - html5
 ---
 
-![](http://hangga.web.id/wp-content/uploads/2011/12/2011-12-22_112633-300x226.png "2011-12-22_112633")
+![](http://hangga.github.io/blog/wp-content/uploads/2011/12/2011-12-22_112633-300x226.png "2011-12-22_112633")
 
 Di HTML 5 terdapat beberapa komponen baru salah satunya yang saya suka adalah *canvas.* Di canvas ini kita dapat melakukan *draw(*menggambar*).*
 
@@ -80,4 +80,4 @@ step = -step;
 setTimeout('gerak()', 5); /* setTimeout('namafungsi()', interval);*/
 ```
 
-Lihat demonya [disini](http://hangga.web.id/demo/benda-bergerak.html)
+Lihat demonya [disini](http://hangga.github.io/blog/demo/benda-bergerak.html)

@@ -4,7 +4,7 @@ title: 'Sebangsa, Media Sosial Paling Indonesia'
 date: '2014-11-11T09:20:38+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2088'
+guid: 'http://hangga.github.io/blog/?p=2088'
 permalink: /2014/11/11/sebangsa-media-sosial-paling-indonesia/
 post_views_count:
     - '249'
@@ -30,7 +30,7 @@ Aplikasi besutan PT Sebangsa Bersama ini mengklaim sebagai platform media sosial
 
 Layaknya media sosial pada umumnya, dalam keterangan tertulis hari ini, Senin 10 November 2014, Sebangsa mengembangkan fitur dasar seperti posting teks, foto, audio, check-in lokasi, profil pengguna, jaringan komunitas, dan grup. Interaksi komunitas bisa memuat ribuan anggota.
 
-![device-2014-11-11-161147](http://hangga.web.id/wp-content/uploads/2014/11/device-2014-11-11-161147-576x1024.png)
+![device-2014-11-11-161147](http://hangga.github.io/blog/wp-content/uploads/2014/11/device-2014-11-11-161147-576x1024.png)
 
 Sesuai taglinenya, Sebangsa memanfaatkan interaksi dasar pengguna untuk memberikan manfaat lain pada saat kondisi darurat, melalui kanal Sebangsa 911.
 
@@ -42,7 +42,7 @@ Fitur pesan panik memungkinkan pengguna Sebangsa bisa mengirimkan pesan penting 
 
 Selain kanal darurat, Sebangsa juga menyediakan kanal khusus untuk konsumen, Sebangsa1800. Di kanal ini, pengguna bisa berbagi informasi, ulasan atau penaduan atas kualitas layanan produk tertentu.
 
-![Screenshot](http://hangga.web.id/wp-content/uploads/2014/11/Screenshot-1024x575.png)
+![Screenshot](http://hangga.github.io/blog/wp-content/uploads/2014/11/Screenshot-1024x575.png)
 
 Aplikas media sosial ini telah tersedia untuk perangkat berbasis Android dan iOS.
 

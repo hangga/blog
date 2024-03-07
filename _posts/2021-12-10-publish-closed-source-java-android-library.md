@@ -4,7 +4,7 @@ title: 'Publish Closed-Source Java/Android Library'
 date: '2021-12-10T13:03:40+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=4923'
+guid: 'https://hangga.github.io/blog/?p=4923'
 permalink: /2021/12/10/publish-closed-source-java-android-library/
 image: /wp-content/uploads/2021/12/adobestock_document_library-828x500.jpeg
 categories:
@@ -101,11 +101,11 @@ Layanan milik Microsoft ini ada fitur Azure Artifact dan fitur-fitur keren lainy
 
 Dari beberapa alternatif *Maven Hosting* yang ada, setelah sekian lama explorasi, baca referensi sana-sini, singkat cerita akhirnya pilihan saya jatuh pada [Repsy.io](https://repsy.io). 😁
 
-![](https://hangga.web.id/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.50.29-700x438.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.50.29-700x438.png)
 
 Repsy ini tidak hanya untuk *Maven Repository* saja, tapi juga *NPM Regisrty* dan *Python Regisrty.*
 
-![](https://hangga.web.id/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.52.52-700x339.png)  
+![](https://hangga.github.io/blog/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.52.52-700x339.png)  
 Oke, kita mulai step by stepnya.
 
 ###### 1. Register.
@@ -116,23 +116,23 @@ Yak, silahkan daftar dulu gan.😊 kalo belum punya akun. Langsung saja Buka <ht
 
 Kemudian bagian side menu kiri, pilih menu ***Maven.***
 
-![](https://hangga.web.id/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-18.45.03.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-18.45.03.png)
 
 Kemudian buat repositori baru dengan nama sesuai nama *module* dalam *project* anda. Caranya, tinggal ketik nama repo, laku klik tombol plus.
 
-![](https://hangga.web.id/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-18.48.28-300x148.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-18.48.28-300x148.png)
 
 ###### 3. Set sebagai Publik Repository.
 
 Agar dapat diakses secara umum, maka repositori harus di*set* sebagai *public repository*. Sebagai contoh, repository yang saya buat ini bernama ***gampil.*** Klik menu setting warna merah di sisi kanan. Lalu pada option <span style="color: #0000ff;">**Private repository**</span>, silahkan ubah menjadi <span style="color: #0000ff;">*disable*</span> .
 
-![](https://hangga.web.id/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-18.51.40-700x266.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-18.51.40-700x266.png)
 
 ###### 4. Build artifak.
 
 Buka *library project* anda, kemudian silahkan *build* *library* *module* anda. Setelah berhasil build, akan menghasilkan *file* artifak, biasanya berekstensi *.aar* atau *.jar di direktori <span style="color: #0000ff;">*build/outputs/aar/&lt; namafile-release.aar &gt;* </span>.*  Nah, file artifak ini yang bakal kita publish ke Repsy.io. Oh iya, di project ini saya menggunakan ***Intellij IDEA Community Edition***, bisa juga dengan ***Android Studio***.
 
-###### ![](https://hangga.web.id/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-18.57.03-700x710.png)  
+###### ![](https://hangga.github.io/blog/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-18.57.03-700x710.png)  
 5. Membuat publishing script pada gradle.
 
 Cara untuk mempublish artifak adalah mengunakan *gradle script* seperti berikut ini.
@@ -173,15 +173,15 @@ publishing {
 
 Jika tidak ada *error* pada saat *synchronize*, maka tinggal klik menu ***publish*** yang berada dibawah nama modul library anda.
 
-![](https://hangga.web.id/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.04.44-700x619.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.04.44-700x619.png)
 
 Jika *publishing* berhasil, maka akan muncul pesan berikut ini pada *IDE Android Studio* atau *Intellij IDEA*.
 
-![](https://hangga.web.id/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.05.48-700x251.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.05.48-700x251.png)
 
 Nah, sekarang buka kembali halaman repsy.io, kemudian cek version terbaru apakah sesuai dengan publish terbaru.
 
-![](https://hangga.web.id/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.11.57-edited-700x179.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/12/Screen-Shot-2021-12-10-at-19.11.57-edited-700x179.png)
 
 Jika sudah muncul versi terbaru, maka artinya *library* anda sudah *update* dan siap digunakan oleh *user/ developer*.
 

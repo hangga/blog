@@ -4,7 +4,7 @@ title: 'Contoh Penggunaan Fragment'
 date: '2014-03-07T04:44:07+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1812'
+guid: 'http://hangga.github.io/blog/?p=1812'
 permalink: /2014/03/07/contoh-penggunaan-fragment/
 post_views_count:
     - '266'
@@ -21,13 +21,13 @@ tags:
     - viewpager
 ---
 
-[![device-2014-03-06-232132](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-06-232132-180x300.png)](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-06-232132.png)[![device-2014-03-06-232151](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-06-232151-180x300.png)](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-06-232151.png)[![device-2014-03-06-232159](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-06-232159-180x300.png)](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-06-232159.png)[![device-2014-03-06-232206](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-06-232206-180x300.png)](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-06-232206.png)
+[![device-2014-03-06-232132](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-06-232132-180x300.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-06-232132.png)[![device-2014-03-06-232151](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-06-232151-180x300.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-06-232151.png)[![device-2014-03-06-232159](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-06-232159-180x300.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-06-232159.png)[![device-2014-03-06-232206](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-06-232206-180x300.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-06-232206.png)
 
 Salah satu kegunaan *Fragment* adalah untuk menangani *Activity* dengan multi konten. Biasanya dikombinasikan dengan *ViewPager.* Sehingga untuk berpindah-pindah konten tinggal di slide ke kanan atau kekiri. Ok, langsung ke TKP saja.
 
 1\. Gunakan *android-support-v13.jar*
 
-[![Screenshot](http://hangga.web.id/wp-content/uploads/2014/03/Screenshot.png)](http://hangga.web.id/wp-content/uploads/2014/03/Screenshot.png)
+[![Screenshot](http://hangga.github.io/blog/wp-content/uploads/2014/03/Screenshot.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/Screenshot.png)
 
 2\. Buat dua buah kelas *Fragment*. *FragmentSatu* dan *FragmentDua*.
 
@@ -207,4 +207,4 @@ public class MainActivity extends Activity {
 }
 ```
 
-\[dl url=”http://hangga.web.id/wp-content/uploads/2014/03/ikifragment.7z” title=”Download Source Lengkap” desc=”Tolles Archiv”\]
+\[dl url=”http://hangga.github.io/blog/wp-content/uploads/2014/03/ikifragment.7z” title=”Download Source Lengkap” desc=”Tolles Archiv”\]

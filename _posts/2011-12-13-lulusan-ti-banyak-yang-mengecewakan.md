@@ -4,7 +4,7 @@ title: 'Lulusan TI Banyak yang Mengecewakan'
 date: '2011-12-13T22:01:55+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=901'
+guid: 'http://hangga.github.io/blog/?p=901'
 permalink: /2011/12/13/lulusan-ti-banyak-yang-mengecewakan/
 post_views_count:
     - '135'
@@ -17,7 +17,7 @@ tags:
     - 'lulusan ti'
 ---
 
-[![](http://hangga.web.id/wp-content/uploads/2011/12/estudando-278x300.png "estudando")](http://hangga.web.id/wp-content/uploads/2011/12/estudando.png)Banyak calon pelamar kerja di bidang teknologi informasi (TI) yang punya nilai akademis bagus. Namun anehnya, para pelamar ini banyak juga yang dianggap belum mampu menjawab kebutuhanperusahaan.
+[![](http://hangga.github.io/blog/wp-content/uploads/2011/12/estudando-278x300.png "estudando")](http://hangga.github.io/blog/wp-content/uploads/2011/12/estudando.png)Banyak calon pelamar kerja di bidang teknologi informasi (TI) yang punya nilai akademis bagus. Namun anehnya, para pelamar ini banyak juga yang dianggap belum mampu menjawab kebutuhanperusahaan.
 
 Fakta ini terungkap dalam ajang kesempatan pencarian kerja yang di gelar JobsDB Career Expo 2010 di Sasana Budaya Ganesha, Tamansari, Bandung.
 

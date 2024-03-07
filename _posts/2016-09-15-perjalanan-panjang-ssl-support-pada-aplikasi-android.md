@@ -4,7 +4,7 @@ title: 'Perjalanan panjang autentikasi SSL pada Android.'
 date: '2016-09-15T05:26:46+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2998'
+guid: 'http://hangga.github.io/blog/?p=2998'
 permalink: /2016/09/15/perjalanan-panjang-ssl-support-pada-aplikasi-android/
 post_views_count:
     - '62'
@@ -28,19 +28,19 @@ Manfaat dari *SSL* adalah untuk kerahasiaan dan *autentikasi*. Dengan *SSL*, dat
 
 Setiap *request* ke *domain*, *clien* akan meminta *Certificate* dari *server*. *Client* atau *browser* biasanya sudah menyimpan daftar *certificate* yg sudah di *approve* kemudian digunakan untuk memverifikasi keabsahan *Certificate*.
 
-<figure aria-describedby="caption-attachment-2999" class="wp-caption aligncenter" id="attachment_2999" style="width: 616px">![howsslworkschart](http://hangga.web.id/wp-content/uploads/2016/09/HowSSLWorksChart-700x196.png)<figcaption class="wp-caption-text" id="caption-attachment-2999">sumber: https://www.entrust.com/</figcaption></figure>Domain yg terlindungi *SSL* dapat dilihat dari *prefix*nya yaitu *https://*
+<figure aria-describedby="caption-attachment-2999" class="wp-caption aligncenter" id="attachment_2999" style="width: 616px">![howsslworkschart](http://hangga.github.io/blog/wp-content/uploads/2016/09/HowSSLWorksChart-700x196.png)<figcaption class="wp-caption-text" id="caption-attachment-2999">sumber: https://www.entrust.com/</figcaption></figure>Domain yg terlindungi *SSL* dapat dilihat dari *prefix*nya yaitu *https://*
 
-![sslheroart](http://hangga.web.id/wp-content/uploads/2016/09/sslheroart-700x294.jpg)
+![sslheroart](http://hangga.github.io/blog/wp-content/uploads/2016/09/sslheroart-700x294.jpg)
 
 ### Autentikasi SSL pada aplikasi Android.
 
 Kalo di aplikasi *mobile*, mekanismenya beda lagi. Di *Android* misalnya, *certificate* harus di *download* dari *server* kemudian di simpan dan di *embed* ke dalam aplikasi. *Embeded* *certificate* ini berbentuk *keystore* kemudian akan divalidasi bersamaan dengan *httprequest*.
 
-![sip](http://hangga.web.id/wp-content/uploads/2016/09/sip.png)
+![sip](http://hangga.github.io/blog/wp-content/uploads/2016/09/sip.png)
 
-![screenshot-certificate-viewer-github-com](http://hangga.web.id/wp-content/uploads/2016/09/Screenshot-Certificate-Viewer-.github.com_.png)
+![screenshot-certificate-viewer-github-com](http://hangga.github.io/blog/wp-content/uploads/2016/09/Screenshot-Certificate-Viewer-.github.com_.png)
 
-![screenshot-certificate-viewer-github-com-1](http://hangga.web.id/wp-content/uploads/2016/09/Screenshot-Certificate-Viewer-.github.com-1.png)
+![screenshot-certificate-viewer-github-com-1](http://hangga.github.io/blog/wp-content/uploads/2016/09/Screenshot-Certificate-Viewer-.github.com-1.png)
 
 *Certificate* hasil *download*-an ini dapat disimpan dalam bentuk file berekstensi \*.pem.
 

@@ -4,7 +4,7 @@ title: 'Mencegah multiple Click'
 date: '2016-02-19T14:26:46+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2880'
+guid: 'http://hangga.github.io/blog/?p=2880'
 permalink: /2016/02/19/mencegah-multiple-click/
 post_views_count:
     - '39'

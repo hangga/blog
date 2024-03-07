@@ -4,7 +4,7 @@ title: 'Cara nginstall Google Play Services di Genymotion'
 date: '2014-09-12T10:41:19+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2021'
+guid: 'http://hangga.github.io/blog/?p=2021'
 permalink: /2014/09/12/cara-nginstall-google-play-services-di-genymotion/
 post_views_count:
     - '340'

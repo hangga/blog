@@ -4,7 +4,7 @@ title: 'Mencoba Javalin : Membuat REST-API Data Santri'
 date: '2023-08-14T23:19:18+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=5112'
+guid: 'https://hangga.github.io/blog/?p=5112'
 permalink: /2023/08/14/membuat-rest-api-data-santri-dengan-javalin/
 image: /wp-content/uploads/2023/08/javalin.png
 categories:

@@ -4,7 +4,7 @@ title: 'Menampilkan notifikasi pada ActionBar seperti Facebook (Versi 1)'
 date: '2015-12-07T10:10:57+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2695'
+guid: 'http://hangga.github.io/blog/?p=2695'
 permalink: /2015/12/07/menampilkan-jumlah-notifikasi-pada-item-menu-actionbar-seperti-facebook/
 post_views_count:
     - '71'
@@ -195,9 +195,9 @@ fab.setOnClickListener(new View.OnClickListener() {
 });
 ```
 
-![device-2015-12-07-163515](http://hangga.web.id/wp-content/uploads/2015/12/device-2015-12-07-163515-510x731.png)
+![device-2015-12-07-163515](http://hangga.github.io/blog/wp-content/uploads/2015/12/device-2015-12-07-163515-510x731.png)
 
-\[dl url=”http://hangga.web.id/wp-content/uploads/2015/12/DynamicNotification.7z” title=”Download Source Lengkap” desc=”by : Hangga Aji Sayekti”\]
+\[dl url=”http://hangga.github.io/blog/wp-content/uploads/2015/12/DynamicNotification.7z” title=”Download Source Lengkap” desc=”by : Hangga Aji Sayekti”\]
 
 **Referensi:**
 

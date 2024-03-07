@@ -4,7 +4,7 @@ title: 'Kirim SMS Gratis lewat Internet'
 date: '2009-02-15T03:32:10+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=111'
+guid: 'http://hangga.github.io/blog/?p=111'
 permalink: /2009/02/15/kirim-sms-gratis-lewat-internet/
 post_views_count:
     - '138'

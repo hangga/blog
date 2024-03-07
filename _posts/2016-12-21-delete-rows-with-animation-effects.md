@@ -4,7 +4,7 @@ title: 'Delete rows with animation effects.'
 date: '2016-12-21T10:13:01+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3132'
+guid: 'http://hangga.github.io/blog/?p=3132'
 permalink: /2016/12/21/delete-rows-with-animation-effects/
 post_views_count:
     - '110'

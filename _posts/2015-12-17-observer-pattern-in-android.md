@@ -4,7 +4,7 @@ title: 'Observer Pattern in Android'
 date: '2015-12-17T07:31:23+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2728'
+guid: 'http://hangga.github.io/blog/?p=2728'
 permalink: /2015/12/17/observer-pattern-in-android/
 post_views_count:
     - '42'
@@ -23,7 +23,7 @@ tags:
 
 *Observer Pattern* adalah pola desain perangkat lunak di mana ada suatu *object*(disebut sebagai *Observable*) secara otomatis memberi notifikasi kepada semua *object* yang memiliki *dependency*(disebut *Observer*) setiap ada perubahan data pada *Observable*.
 
-<figure aria-describedby="caption-attachment-2736" class="wp-caption aligncenter" id="attachment_2736" style="width: 500px">![https://en.wikipedia.org/wiki/Observer_pattern#Structure](http://hangga.web.id/wp-content/uploads/2015/12/500px-Observer.svg_.png)<figcaption class="wp-caption-text" id="caption-attachment-2736">https://en.wikipedia.org/wiki/Observer\_pattern#Structure</figcaption></figure>Sedangkan di Android, Observable pattern sudah di *handle* oleh kelas bawaan *Java* yg sangat keren pada kelas ***java.util.Observable.*** Sehingga untuk dapat menggunakan fitur-fitur Observable dapat dilakukan dengan cara mengimport kelas ***java.util.Observable***.
+<figure aria-describedby="caption-attachment-2736" class="wp-caption aligncenter" id="attachment_2736" style="width: 500px">![https://en.wikipedia.org/wiki/Observer_pattern#Structure](http://hangga.github.io/blog/wp-content/uploads/2015/12/500px-Observer.svg_.png)<figcaption class="wp-caption-text" id="caption-attachment-2736">https://en.wikipedia.org/wiki/Observer\_pattern#Structure</figcaption></figure>Sedangkan di Android, Observable pattern sudah di *handle* oleh kelas bawaan *Java* yg sangat keren pada kelas ***java.util.Observable.*** Sehingga untuk dapat menggunakan fitur-fitur Observable dapat dilakukan dengan cara mengimport kelas ***java.util.Observable***.
 
 ```
 <pre class="lang:java decode:true ">import java.util.Observable;
@@ -35,15 +35,15 @@ Untuk memudahkan dalam memahami Observer Pattern di Android, dapat dilihat pada 
 
 1\. *ActivityMain, Activity 2* dan *Activity 3* adalah sama-sama *Observer*. *ActivityMain* dapat memanggil *Activity 2* dan *Activity 3*.
 
-![skenario-1](http://hangga.web.id/wp-content/uploads/2015/12/skenario-1-510x360.png)
+![skenario-1](http://hangga.github.io/blog/wp-content/uploads/2015/12/skenario-1-510x360.png)
 
 2\. Berikutnya adalah simulasi *update value* pada *Observable* yaitu berupa jumlah notifikasi.
 
-![skenario-2](http://hangga.web.id/wp-content/uploads/2015/12/skenario-2-510x360.png)
+![skenario-2](http://hangga.github.io/blog/wp-content/uploads/2015/12/skenario-2-510x360.png)
 
 3\. *Observable* akan memberi notifikasi kepada semua *Observer* secara otomatis setiap ada perubahan data.
 
-![skenario-3](http://hangga.web.id/wp-content/uploads/2015/12/skenario-3-510x361.png)
+![skenario-3](http://hangga.github.io/blog/wp-content/uploads/2015/12/skenario-3-510x361.png)
 
 Object-object yg dibutuhkan antara lain:
 
@@ -179,4 +179,4 @@ Object-object yg dibutuhkan antara lain:
     }
     ```
 
-\[dl url=”http://hangga.web.id/wp-content/uploads/2015/12/ObservablePattern.7z” title=”Download Source Lengkap” desc=”by : Hangga Aji Sayekti”\]
+\[dl url=”http://hangga.github.io/blog/wp-content/uploads/2015/12/ObservablePattern.7z” title=”Download Source Lengkap” desc=”by : Hangga Aji Sayekti”\]

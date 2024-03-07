@@ -4,7 +4,7 @@ title: 'Delphi : Error rtl70.bpl, vcl70.bpl, vlcSmp.bpl dan sejenisnya.'
 date: '2014-02-26T01:49:39+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1660'
+guid: 'http://hangga.github.io/blog/?p=1660'
 permalink: /2014/02/26/delphi-error-rtl70-bpl-vcl70-bpl-vlcsmp-bpl-dan-sejenisnya/
 post_views_count:
     - '272'
@@ -18,7 +18,7 @@ tags:
     - 'error vclSmp70.bpl'
 ---
 
-[![2014-02-26_045907](http://hangga.web.id/wp-content/uploads/2014/02/2014-02-26_045907.png)](http://hangga.web.id/wp-content/uploads/2014/02/2014-02-26_045907.png)
+[![2014-02-26_045907](http://hangga.github.io/blog/wp-content/uploads/2014/02/2014-02-26_045907.png)](http://hangga.github.io/blog/wp-content/uploads/2014/02/2014-02-26_045907.png)
 
 Ini adalah kasus yg saya temui beberapa waktu lalu. *Error* missing *VclSmp.bpl* ketika aplikasi dijalankan di komputer klien. Padahal ketika di *run* lewat IDE, tidak ada masalah.
 
@@ -30,9 +30,9 @@ Sebenarnya secara default, Delphi sudah menyetel konfigurasi agar semua *runtime
 
 Silahkan menuju *IDE Delphi,* lalu buka menu ***Project*** -&gt; ***Option..***
 
-[![2014-02-25_162633](http://hangga.web.id/wp-content/uploads/2014/02/2014-02-25_162633.png)](http://hangga.web.id/wp-content/uploads/2014/02/2014-02-25_162633.png)
+[![2014-02-25_162633](http://hangga.github.io/blog/wp-content/uploads/2014/02/2014-02-25_162633.png)](http://hangga.github.io/blog/wp-content/uploads/2014/02/2014-02-25_162633.png)
 
-[![2014-02-25_162235](http://hangga.web.id/wp-content/uploads/2014/02/2014-02-25_162235.png)](http://hangga.web.id/wp-content/uploads/2014/02/2014-02-25_162235.png)
+[![2014-02-25_162235](http://hangga.github.io/blog/wp-content/uploads/2014/02/2014-02-25_162235.png)](http://hangga.github.io/blog/wp-content/uploads/2014/02/2014-02-25_162235.png)
 
 Kemudian anda bisa pilih setelan pada checkbox Build with runtime packages. Ternyata sepele bukan?
 

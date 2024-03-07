@@ -4,7 +4,7 @@ title: 'Youtube Playlist Player &#8211; Android App Template'
 date: '2016-09-21T10:24:50+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3042'
+guid: 'http://hangga.github.io/blog/?p=3042'
 permalink: /2016/09/21/youtube-playlist-player-android-app-template/
 post_views_count:
     - '117'
@@ -51,6 +51,6 @@ Youtube video player template is a ready-to-use Youtube video player source code
 
 ![](https://www.codester.com/static/uploads/items/2001/preview/3.jpg)
 
-![4-1](http://hangga.web.id/wp-content/uploads/2016/09/4-1-700x442.jpg)
+![4-1](http://hangga.github.io/blog/wp-content/uploads/2016/09/4-1-700x442.jpg)
 
 \[dl target=”\_blank” url=”https://www.codester.com/items/2001/youtube-playlist-player-android-app-template?ref=bazeniancode” title=”Download” desc=”on codester.com”\]

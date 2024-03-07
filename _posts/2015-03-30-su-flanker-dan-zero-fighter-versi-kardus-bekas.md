@@ -4,7 +4,7 @@ title: 'Su Flanker dan Zero Fighter dari kardus bekas.'
 date: '2015-03-30T09:42:28+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2231'
+guid: 'http://hangga.github.io/blog/?p=2231'
 permalink: /2015/03/30/su-flanker-dan-zero-fighter-versi-kardus-bekas/
 post_views_count:
     - '108'
@@ -26,8 +26,8 @@ Karena akhir-akhir ini Si jagoan kecil Sultan Muhammad Fatih sedang *demen bange
 
 Ini adalah pesawat tempur *Su Flanker* dan *Zero Fighter* tapi yg ini terbuat dari kardus bekas. ha3x. keren kan… 🙂
 
-![IMG-20150329-WA0013](http://hangga.web.id/wp-content/uploads/2015/03/IMG-20150329-WA0013-1024x768.jpg)
+![IMG-20150329-WA0013](http://hangga.github.io/blog/wp-content/uploads/2015/03/IMG-20150329-WA0013-1024x768.jpg)
 
-![IMG-20150329-WA0011](http://hangga.web.id/wp-content/uploads/2015/03/IMG-20150329-WA0011-1024x768.jpg)
+![IMG-20150329-WA0011](http://hangga.github.io/blog/wp-content/uploads/2015/03/IMG-20150329-WA0011-1024x768.jpg)
 
-![IMG-20150329-WA0006](http://hangga.web.id/wp-content/uploads/2015/03/IMG-20150329-WA0006-1024x768.jpg)
+![IMG-20150329-WA0006](http://hangga.github.io/blog/wp-content/uploads/2015/03/IMG-20150329-WA0006-1024x768.jpg)

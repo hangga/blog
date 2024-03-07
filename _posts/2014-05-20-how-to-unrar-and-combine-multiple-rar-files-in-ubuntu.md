@@ -4,7 +4,7 @@ title: 'How to unrar and combine multiple RAR files in Ubuntu'
 date: '2014-05-20T06:59:53+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1878'
+guid: 'http://hangga.github.io/blog/?p=1878'
 permalink: /2014/05/20/how-to-unrar-and-combine-multiple-rar-files-in-ubuntu/
 post_views_count:
     - '142'

@@ -4,7 +4,7 @@ title: 'Custom Dialog dengan Array'
 date: '2013-05-29T03:11:50+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1564'
+guid: 'http://hangga.github.io/blog/?p=1564'
 permalink: /2013/05/29/custom-dialog-dengan-array/
 post_views_count:
     - '214'
@@ -21,7 +21,7 @@ tags:
 
 Di Android, kita juga dapat membuat alert dialog yang bentuknya seperti pada gambar diatas. Yuk, langsung menuju TKP.
 
-![custom-dialog](http://hangga.web.id/wp-content/uploads/2013/05/custom-dialog.png)
+![custom-dialog](http://hangga.github.io/blog/wp-content/uploads/2013/05/custom-dialog.png)
 
 ```
 <pre class="brush:java">import android.app.AlertDialog;

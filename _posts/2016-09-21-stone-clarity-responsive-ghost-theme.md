@@ -4,7 +4,7 @@ title: 'Stone Clarity &#8211; Responsive Ghost Theme'
 date: '2016-09-21T09:44:12+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3024'
+guid: 'http://hangga.github.io/blog/?p=3024'
 permalink: /2016/09/21/stone-clarity-responsive-ghost-theme/
 post_views_count:
     - '71'

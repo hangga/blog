@@ -4,7 +4,7 @@ title: 'Kiat Mengendalikan Marah'
 date: '2015-10-19T05:38:32+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2623'
+guid: 'http://hangga.github.io/blog/?p=2623'
 permalink: /2015/10/19/kiat-mengendalikan-marah/
 post_views_count:
     - '204'

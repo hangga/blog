@@ -4,7 +4,7 @@ title: 'Android app development: Connect your device on Ubuntu/Linuxmint'
 date: '2014-09-10T11:45:34+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2006'
+guid: 'http://hangga.github.io/blog/?p=2006'
 permalink: /2014/09/10/android-app-development-connect-your-device-on-ubuntulinuxmint/
 post_views_count:
     - '263'
@@ -49,13 +49,13 @@ Kemudian *edit* pake *nano*, seperti ini.
 sudo nano <span style="color: #008000;">/etc/udev/rules.d/51-android.rules. </span>
 ```
 
-![Screenshot-Terminal](http://hangga.web.id/wp-content/uploads/2014/09/Screenshot-Terminal.png)
+![Screenshot-Terminal](http://hangga.github.io/blog/wp-content/uploads/2014/09/Screenshot-Terminal.png)
 
-![Screenshot-Terminal-1](http://hangga.web.id/wp-content/uploads/2014/09/Screenshot-Terminal-1.png)
+![Screenshot-Terminal-1](http://hangga.github.io/blog/wp-content/uploads/2014/09/Screenshot-Terminal-1.png)
 
 Sedangkan *USB Vendor ID* dapat kita lihat dengan memanggil *lsusb*.
 
-![Screenshot-Terminal-dab](http://hangga.web.id/wp-content/uploads/2014/09/Screenshot-Terminal-dab.png)
+![Screenshot-Terminal-dab](http://hangga.github.io/blog/wp-content/uploads/2014/09/Screenshot-Terminal-dab.png)
 
 Setelah itu, *restart adb* nya.
 

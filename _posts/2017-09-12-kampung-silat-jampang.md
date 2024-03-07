@@ -4,7 +4,7 @@ title: 'Kampung Silat Jampang'
 date: '2017-09-12T03:22:02+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3545'
+guid: 'http://hangga.github.io/blog/?p=3545'
 permalink: /2017/09/12/kampung-silat-jampang/
 categories:
     - 'Corat coret'

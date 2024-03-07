@@ -4,7 +4,7 @@ title: 'Beberapa trik mengatasi OutOfMemoryError Bitmap'
 date: '2017-04-21T09:18:03+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3379'
+guid: 'http://hangga.github.io/blog/?p=3379'
 permalink: /2017/04/21/beberapa-trik-mengatasi-outofmemoryerror-bitmap/
 post_views_count:
     - '110'

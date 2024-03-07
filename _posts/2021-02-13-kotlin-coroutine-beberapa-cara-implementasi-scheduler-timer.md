@@ -4,7 +4,7 @@ title: 'Kotlin Coroutine : Beberapa Cara Implementasi Scheduler/Timer'
 date: '2021-02-13T15:08:24+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=5161'
+guid: 'https://hangga.github.io/blog/?p=5161'
 permalink: /2021/02/13/kotlin-coroutine-beberapa-cara-implementasi-scheduler-timer/
 image: /wp-content/uploads/2021/02/pxfuel-1.jpg
 categories:

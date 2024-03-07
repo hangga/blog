@@ -4,7 +4,7 @@ title: 'Hukum Menggunakan Software Bajakan (2)'
 date: '2011-12-03T09:59:13+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=767'
+guid: 'http://hangga.github.io/blog/?p=767'
 permalink: /2011/12/03/hukum-menggunakan-software-bajakan-2/
 post_views_count:
     - '89'
@@ -21,7 +21,7 @@ tags:
 
 **Asy-Syaikh al-’Utsaimin -rahimahulloh-**
 
-[![](http://hangga.web.id/wp-content/uploads/2011/12/news715_img1-150x150.jpg "news715_img1")](http://hangga.web.id/wp-content/uploads/2011/12/news715_img1.jpg)Apa hukum mengcopy program-program computer yang bermanfaat dari cd-nya yang asli, yang diterbitkan oleh salah satu perusahaan, untuk dimanfaatkan secara pribadi, atau membagikannya kepada teman-teman, atau untuk dijual. Apakah sama hukumnya jika perusahaan ini dimiliki orang-orang kafir atau muslimin, ataukah tidak (sama hukumnya)?
+[![](http://hangga.github.io/blog/wp-content/uploads/2011/12/news715_img1-150x150.jpg "news715_img1")](http://hangga.github.io/blog/wp-content/uploads/2011/12/news715_img1.jpg)Apa hukum mengcopy program-program computer yang bermanfaat dari cd-nya yang asli, yang diterbitkan oleh salah satu perusahaan, untuk dimanfaatkan secara pribadi, atau membagikannya kepada teman-teman, atau untuk dijual. Apakah sama hukumnya jika perusahaan ini dimiliki orang-orang kafir atau muslimin, ataukah tidak (sama hukumnya)?
 
 Jawaban:  
 Pertama: kita bertanya, apakah perusahaan tersebut yang menerbitkan berbagai program ini, apakah secara jujur dia yang menjaga haknya atau tidak? Jika tidak benar bahwa dia yang membuatnya sendiri dan memeliharanya, maka boleh bagi setiap orang menyalin darinya, sama saja apakah untuk dirinya, atau untuk dibagikan kepada teman-temannya, atau dia jual. Sebab tidak terjaga (haknya). Adapun jika ia mengatakan: hak penyalinan terpelihara, maka disini wajib bagi kita sekalian kaum muslimin , atau diseluruh dunia untuk menegakkan apa yang wajib. Dan merupakan hal yang telah diketahui bahwa peraturan telah menetapkan bahwa jika dia sendiri yang membuat pemeliharaannya, maka tidak seorang pun diperbolehkan untuk melanggarnya. Sebab jika dibuka pintu ini, maka akan rugilah perusahaan yang menerbitkannya tersebut, dengan kerugian yang besar, boleh jadi computer ini tidak dihasilkan oleh perusahaan tersebut kecuali dengan biaya yang sangat besar. maka jika disalin lalu disebarkan, maka jadilah yang dijual seharga lima ratus (riyal) menjadi berapa? Lima (riyal), dan ini kemudharatan, sedangkan Nabi Shallallahu alaihi wasallam bersabda: “tidak ada kemudharatan yang tanpa disengaja maupun yang disengaja”. Dan hadits ini umum.

@@ -4,7 +4,7 @@ title: 'Memanfaatkan Object Oriented Database PostgreSQL'
 date: '2011-12-13T00:52:17+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=886'
+guid: 'http://hangga.github.io/blog/?p=886'
 permalink: /2011/12/13/memanfaatkan-object-oriented-database-postgresql/
 post_views_count:
     - '226'
@@ -18,7 +18,7 @@ tags:
     - postgre
 ---
 
-<span style="color: #008080;">***[![](http://hangga.web.id/wp-content/uploads/2011/12/logo_postgres-791620-300x237.png "logo_postgres-791620")](http://hangga.web.id/wp-content/uploads/2011/12/logo_postgres-791620.png)PostgreSQL***</span> adalah salah satu *database engine* faforit saya. Alasannya karena banyak kelebihan yg dimiliki oleh <span style="color: #008080;">***PostgreSQL.*** <span style="color: #000000;">Diantaranya adalah:</span></span>
+<span style="color: #008080;">***[![](http://hangga.github.io/blog/wp-content/uploads/2011/12/logo_postgres-791620-300x237.png "logo_postgres-791620")](http://hangga.github.io/blog/wp-content/uploads/2011/12/logo_postgres-791620.png)PostgreSQL***</span> adalah salah satu *database engine* faforit saya. Alasannya karena banyak kelebihan yg dimiliki oleh <span style="color: #008080;">***PostgreSQL.*** <span style="color: #000000;">Diantaranya adalah:</span></span>
 
 1. **Cross platform** PostgreSQL dapat dijalankan hampir di setiap jenis Unix (34 platform yang paling baru dirilis), juga di Windows dengan menggunakan Cygwin.
 2. **Desain database GUI dan administration tools**  
@@ -65,7 +65,7 @@ select * from special_customer
 
 Hasilnya sebagai berikut :
 
-[![](http://hangga.web.id/wp-content/uploads/2011/12/2011-12-13_074705-300x45.png "2011-12-13_074705")](http://hangga.web.id/wp-content/uploads/2011/12/2011-12-13_074705.png)
+[![](http://hangga.github.io/blog/wp-content/uploads/2011/12/2011-12-13_074705-300x45.png "2011-12-13_074705")](http://hangga.github.io/blog/wp-content/uploads/2011/12/2011-12-13_074705.png)
 
 Sedangkan jika kita query tabel “customer” maka hasilnya sebagai berikut :
 
@@ -76,8 +76,8 @@ select * from customer
 
 ```
 
-[![](http://hangga.web.id/wp-content/uploads/2011/12/customer-300x99.png "customer")](http://hangga.web.id/wp-content/uploads/2011/12/customer.png)
+[![](http://hangga.github.io/blog/wp-content/uploads/2011/12/customer-300x99.png "customer")](http://hangga.github.io/blog/wp-content/uploads/2011/12/customer.png)
 
 Mari kita perhatikan. Isi record dari tabel special\_customer juga ikut muncul ketika tabel induknya “customer” di *select.*
 
-[![](http://hangga.web.id/wp-content/uploads/2011/12/customer-2-300x99.png "customer-2")](http://hangga.web.id/wp-content/uploads/2011/12/customer-2.png)
+[![](http://hangga.github.io/blog/wp-content/uploads/2011/12/customer-2-300x99.png "customer-2")](http://hangga.github.io/blog/wp-content/uploads/2011/12/customer-2.png)

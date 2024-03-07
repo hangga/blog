@@ -4,7 +4,7 @@ title: 'Add Smilley/Sticker/Emoticon in EditText'
 date: '2014-04-06T07:57:44+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1849'
+guid: 'http://hangga.github.io/blog/?p=1849'
 permalink: /2014/04/06/add-smilleystickeremoticon-in-edittext/
 post_views_count:
     - '220'
@@ -26,7 +26,7 @@ Jumpa lagi kawan. Kasus menarik lagi nih. Yaitu menambahkan *Emoticon* di dalam 
 
 Trik yg saya gunakan kali ini adalah dengan menggunakan ***Spannable String.*** Apa itu Spannable String silahkan baca sendiri disini [SpannableString](http://developer.android.com/reference/android/text/SpannableString.html).
 
-[![device-2014-04-06-132659](http://hangga.web.id/wp-content/uploads/2014/04/device-2014-04-06-132659.png)](http://hangga.web.id/wp-content/uploads/2014/04/device-2014-04-06-132659.png)[![device-2014-04-06-132602](http://hangga.web.id/wp-content/uploads/2014/04/device-2014-04-06-132602.png)](http://hangga.web.id/wp-content/uploads/2014/04/device-2014-04-06-132602.png)
+[![device-2014-04-06-132659](http://hangga.github.io/blog/wp-content/uploads/2014/04/device-2014-04-06-132659.png)](http://hangga.github.io/blog/wp-content/uploads/2014/04/device-2014-04-06-132659.png)[![device-2014-04-06-132602](http://hangga.github.io/blog/wp-content/uploads/2014/04/device-2014-04-06-132602.png)](http://hangga.github.io/blog/wp-content/uploads/2014/04/device-2014-04-06-132602.png)
 
 **Go TKP…**
 
@@ -292,4 +292,4 @@ icFire.setBounds(5,5,60,60);
 		});
 ```
 
-\[dl url=”http://hangga.web.id/wp-content/uploads/2014/04/Emot.tar.gz” title=”Download Source Lengkap” desc=”Tolles Archiv”\]
+\[dl url=”http://hangga.github.io/blog/wp-content/uploads/2014/04/Emot.tar.gz” title=”Download Source Lengkap” desc=”Tolles Archiv”\]

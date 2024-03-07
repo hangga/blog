@@ -4,7 +4,7 @@ title: 'Membuat Aplikasi Record Audio dengan Intent bawaan Android'
 date: '2013-05-31T02:38:52+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1590'
+guid: 'http://hangga.github.io/blog/?p=1590'
 permalink: /2013/05/31/membuat-aplikasi-record-audio-dengan-intent-bawaan-android/
 post_views_count:
     - '201'
@@ -121,5 +121,5 @@ Toast.makeText(MainActivity.this,"Saved: " + savedUri.getPath(), Toast.LENGTH_LO
 }
 ```
 
-6\. Hasilnya.[![device-2013-05-30-225910](http://hangga.web.id/wp-content/uploads/2013/05/device-2013-05-30-225910.png)](http://hangga.web.id/wp-content/uploads/2013/05/device-2013-05-30-225910.png)  
-[![device-2013-05-30-060228](http://hangga.web.id/wp-content/uploads/2013/05/device-2013-05-30-060228.png)](http://hangga.web.id/wp-content/uploads/2013/05/device-2013-05-30-060228.png)
+6\. Hasilnya.[![device-2013-05-30-225910](http://hangga.github.io/blog/wp-content/uploads/2013/05/device-2013-05-30-225910.png)](http://hangga.github.io/blog/wp-content/uploads/2013/05/device-2013-05-30-225910.png)  
+[![device-2013-05-30-060228](http://hangga.github.io/blog/wp-content/uploads/2013/05/device-2013-05-30-060228.png)](http://hangga.github.io/blog/wp-content/uploads/2013/05/device-2013-05-30-060228.png)

@@ -4,7 +4,7 @@ title: 'Crash on Viewpager inside ScrollView'
 date: '2014-03-12T16:15:56+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1834'
+guid: 'http://hangga.github.io/blog/?p=1834'
 permalink: /2014/03/12/crash-pada-viewpager-di-dalam-horizontalscrollview/
 post_views_count:
     - '276'
@@ -23,7 +23,7 @@ Kali ini(Rabu, 12-03-14) saya kembali menjumpai kasus yg cukup menarik yaitu Cra
 
 Crash ini terjadi ketika *ViewPager* berada di dalam *ScrollView(hirizontal)* seperti ilustrasi dibawah ini.
 
-[![Untitled](http://hangga.web.id/wp-content/uploads/2014/03/Untitled.png)](http://hangga.web.id/wp-content/uploads/2014/03/Untitled.png)
+[![Untitled](http://hangga.github.io/blog/wp-content/uploads/2014/03/Untitled.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/Untitled.png)
 
 Dari sisi User, aksi *swipe* ke kanan dan ke kiri akan terasa seperti tersendat atau tidak mulus atau apalah istilahnya, yg jelas user bakal merasa tidak nyaman.
 

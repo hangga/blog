@@ -4,7 +4,7 @@ title: 'Android Studio 4.2.1 vs Intellij IDEA CE 2021.1 on Macbook Air M1'
 date: '2021-05-26T00:32:24+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=4676'
+guid: 'https://hangga.github.io/blog/?p=4676'
 permalink: /2021/05/26/android-studio-vs-intellij-ide-ce/
 image: /wp-content/uploads/2021/05/intellij_vs_android_studio-889x500.png
 categories:
@@ -21,7 +21,7 @@ tags:
     - 'macbook m1 for development'
 ---
 
-Boleh dibilang ini adalah lanjutan dari [Set Up MacBook M1 untuk Software Development](https://hangga.web.id/2021/03/03/setup-macbook-m1-2020-for-development/) yang saya posting beberapa waktu lalu.
+Boleh dibilang ini adalah lanjutan dari [Set Up MacBook M1 untuk Software Development](https://hangga.github.io/blog/2021/03/03/setup-macbook-m1-2020-for-development/) yang saya posting beberapa waktu lalu.
 
 Singkat cerita setelah 3 bulan menggunakan ***Macbook Air M1 2020*** untuk *coding* khususnya *Android*, akhirnya merasakan beberapa hal yang kurang nyaman, seperti misalnya setelah *coding* lebih dari 5 jam kadang nge*-lag* dan *lag* ini lumayan terasa ketika *switch* dari satu *tab* ke *tab* lainnya atau ketika *edit* *xml file*.
 
@@ -33,7 +33,7 @@ Ya, memang benar. Setelah *browsing*, baca sana-sini ternyata ***Android Studio 
 
 [*Rosseta*](https://support.apple.com/en-au/HT211861) ini semacam translator yang berjalan di *background* *service* yang bertugas menerjemahkan aplikasi *based on Intel* agar dapat berjalan pada arsitektur *Apple Silicon*.
 
-![](https://hangga.web.id/wp-content/uploads/2021/05/activity_manager_android-700x465.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/05/activity_manager_android-700x465.png)
 
 Bisa dilihat pada *Activity Monitor* bahwa Android Studio masih *based on Intel*. Prosentase *CPU usage*nya juga lebih besar ketimbang *Intellij IDEA* meskipun masih relatif kecil, yaitu dibawah 10%.
 
@@ -43,7 +43,7 @@ Nah, berikut ini bisa jadi jalan alternatif yang mungkin dapat menolong anda unt
 
 #### 1. Pakai *Intellij IDEA – Community Edition*
 
-![](https://hangga.web.id/wp-content/uploads/2021/05/Screen-Shot-2021-06-01-at-09.15.44-700x438.png)  
+![](https://hangga.github.io/blog/wp-content/uploads/2021/05/Screen-Shot-2021-06-01-at-09.15.44-700x438.png)  
 Tinggalkan *Android Studio 4.2.1* dan ganti pake *Intellij IDEA CE*. Anda boleh coba dan **rasakan sendiri bedanya**. Saya sudah mencobanya menggunakan *Intellij IDEA CE* v ***2021.1.1***, coding dari pagi sampai sore tidak pernah nge*-lag* sama sekali.👍👍👍😊
 
 Namun tentu saja ada kelebihan dan kekurangan menggunakan *Intellij IDEA* *CE,* diantaranya adalah sebagai berikut:
@@ -52,11 +52,11 @@ Namun tentu saja ada kelebihan dan kekurangan menggunakan *Intellij IDEA* *CE,* 
 
 *Intellij IDEA CE(Community Edition)* ini sudah tersedia versi *Apple Silicon*, bisa dilihat di halaman [*download*](https://www.jetbrains.com/idea/download/#section=mac). Anda dapat melihat pilihan *.dmg file* yang *Intel* atau yang *Apple Silicon*. Tentu saja pilih yang *Apple Silicon* lah.
 
-![](https://hangga.web.id/wp-content/uploads/2021/03/Screen-Shot-2021-03-03-at-11.37.54-700x405.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/03/Screen-Shot-2021-03-03-at-11.37.54-700x405.png)
 
 ###### (+) *CPU usage* lebih kecil
 
-![](https://hangga.web.id/wp-content/uploads/2021/05/activity_manager_intellij-700x465.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/05/activity_manager_intellij-700x465.png)
 
 Terpantau di *Activity Monitor,* bahwa *Intellij IDEA* berjalan pada *Apple Silicon* dengan prosentase *CPU usage* yang lebih kecil ketimbang *Android Studio* *4.2.1* (test coding 3-5 jam). Benar-benar ringan, silahkan coba sendiri.
 
@@ -64,7 +64,7 @@ Terpantau di *Activity Monitor,* bahwa *Intellij IDEA* berjalan pada *Apple Sili
 
 Salah satu keuntungan yang saya rasakan adalah bisa sekalian untuk *coding* pada *project* *Java* lainnya. Karena kebetulan untuk beberapa project, saya menggunakan *Intellij*, jadi malah bisa sekalian beberapa pulau terlampaui dalam sekali dayung.
 
-![](https://hangga.web.id/wp-content/uploads/2021/05/intellij-blur-700x438.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/05/intellij-blur-700x438.png)
 
 ###### (-) Setup Android SDK sendiri
 

@@ -4,7 +4,7 @@ title: 'Beberapa issue saat mengaktifkan Proguard(1).'
 date: '2016-03-22T07:49:38+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2889'
+guid: 'http://hangga.github.io/blog/?p=2889'
 permalink: /2016/03/22/beberapa-issue-saat-mengaktifkan-proguard1/
 post_views_count:
     - '28'

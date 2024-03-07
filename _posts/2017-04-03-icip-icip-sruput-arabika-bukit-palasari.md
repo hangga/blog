@@ -4,7 +4,7 @@ title: 'Arabika Bukit Palasari'
 date: '2017-04-03T09:13:45+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3268'
+guid: 'http://hangga.github.io/blog/?p=3268'
 permalink: /2017/04/03/icip-icip-sruput-arabika-bukit-palasari/
 post_views_count:
     - '99'
@@ -25,7 +25,7 @@ sambil *nyruput* secangkir kopi. Lebih enak lagi kali kopinya gratisan.
 
 Nah ini adalah untuk yang kedua kalinya saya dapet kopi gratisan dari mas Alvin bakule kopi dengan brandnya [kopirelo](http://kopirelocoffee.com/). Dulu yang pertama saya dapat 100gr Arabika Aceh Gayo gegara salah proses.
 
-![](http://hangga.web.id/wp-content/uploads/2017/04/IMG_20170328_170631_HDR.jpg)Kali ini dapet lagi **Arabika Bukit Palasari**, Single Origin baru malahan dan disuruh ngreview katanya. Karena saya bukan ahli kopi, *yasudah* nikmati saja dan kebetulan juga belum pernah *ngicicipi* kopi ini.
+![](http://hangga.github.io/blog/wp-content/uploads/2017/04/IMG_20170328_170631_HDR.jpg)Kali ini dapet lagi **Arabika Bukit Palasari**, Single Origin baru malahan dan disuruh ngreview katanya. Karena saya bukan ahli kopi, *yasudah* nikmati saja dan kebetulan juga belum pernah *ngicicipi* kopi ini.
 
 **Wanginya** memang ndak kalah sama kopi-kopi Sumatera, benar-benar wangi khas kopi arabica. Tidak terlalu pahit sebagaimana kopi Java Arabica pada umumnya. Mungkin 11-12 sama Preanger.
 

@@ -4,7 +4,7 @@ title: 'Toefl Test Ultimate Edition'
 date: '2014-11-04T03:33:29+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2040'
+guid: 'http://hangga.github.io/blog/?p=2040'
 permalink: /2014/11/04/toefl-test-ultimate-edition/
 post_views_count:
     - '360'
@@ -25,7 +25,7 @@ Ini project ceritanya ada Penerbit mau nerbitkan buku Tes Toefl, lalu ane yg dim
 
 ## Berikut penampakan bukunya
 
-![buku](http://hangga.web.id/wp-content/uploads/2014/11/buku-300x300.png)
+![buku](http://hangga.github.io/blog/wp-content/uploads/2014/11/buku-300x300.png)
 
 <div class="table-responsive">| Platform | Environtment | Waktu Pengerjaan |
 |---|---|---|
@@ -33,10 +33,10 @@ Ini project ceritanya ada Penerbit mau nerbitkan buku Tes Toefl, lalu ane yg dim
 
 </div>## Skrinsut aplikasinya..
 
-![2014-11-04_093435](http://hangga.web.id/wp-content/uploads/2014/11/2014-11-04_093435-1024x531.png)
+![2014-11-04_093435](http://hangga.github.io/blog/wp-content/uploads/2014/11/2014-11-04_093435-1024x531.png)
 
-![2014-11-04_093506](http://hangga.web.id/wp-content/uploads/2014/11/2014-11-04_093506-1024x545.png)
+![2014-11-04_093506](http://hangga.github.io/blog/wp-content/uploads/2014/11/2014-11-04_093506-1024x545.png)
 
-![2014-11-04_093514](http://hangga.web.id/wp-content/uploads/2014/11/2014-11-04_093514-1024x545.png)
+![2014-11-04_093514](http://hangga.github.io/blog/wp-content/uploads/2014/11/2014-11-04_093514-1024x545.png)
 
-![2014-11-04_093528](http://hangga.web.id/wp-content/uploads/2014/11/2014-11-04_093528-1024x545.png)
+![2014-11-04_093528](http://hangga.github.io/blog/wp-content/uploads/2014/11/2014-11-04_093528-1024x545.png)

@@ -4,7 +4,7 @@ title: 'Antara MMA dan Beladiri Tradisional'
 date: '2017-05-20T09:53:45+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3600'
+guid: 'http://hangga.github.io/blog/?p=3600'
 permalink: /2017/05/20/antara-mma-dan-beladiri-traditional/
 image: /wp-content/uploads/2017/05/160105105617-bashir-ahmad-mma-2-super-169-1024x576.jpg
 categories:
@@ -28,7 +28,7 @@ Yang menarik di MMA adalah tidak ada fanatisme buta, karena memiliki prinsip men
 
 Jadi jika ada teknik dari beladiri lain yang ternyata terbukti lebih efektif, maka para praktisi MMA tidak akan malu-malu untuk mengambil ilmu darinya.
 
-![](http://hangga.web.id/wp-content/uploads/2017/05/549c3eb606eb0b93f726c757b93258e8-700x2511.jpg)
+![](http://hangga.github.io/blog/wp-content/uploads/2017/05/549c3eb606eb0b93f726c757b93258e8-700x2511.jpg)
 
 #### Tradisi meracik teknik dan jurus
 
@@ -38,7 +38,7 @@ MMA ini ngetren dan dianggap gaya baru karena terbukti efektif dan cepat melumpu
 
 Sebagai contoh misalnya ***Tekpi*** atau kita sering menyebutnya *Trisula* merupakan senjata khas pencak *Kuntau*. Kata para pakar, Trisula ini berasal dari Jepang. Padahal *Kuntau* sendiri merupakan akulturasi Silat Melayu dengan beladiri Tiongkok.
 
-![sendeng](http://hangga.web.id/wp-content/uploads/2017/05/sendeng.jpg)
+![sendeng](http://hangga.github.io/blog/wp-content/uploads/2017/05/sendeng.jpg)
 
 Ada juga Parang lais yang masih merupakan senjata khas *Kuntau* yang tekniknya mirip bahkan bisa dibilang sama persis dengan Iaijutsu.
 
@@ -50,7 +50,7 @@ Nun jauh di negara Israel sana ada *Kravmaga* yang kebanyakan para praktisi bila
 
 #### Sama-sama baik
 
-<figure aria-describedby="caption-attachment-3609" class="wp-caption aligncenter" id="attachment_3609" style="width: 1024px">![sumber : https://i.ytimg.com/vi/2gvGebn11sk/maxresdefault.jpg](http://hangga.web.id/wp-content/uploads/2017/05/maxresdefault.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3609">sumber : https://i.ytimg.com</figcaption></figure>Karena tradisi meracik berbagai aliran ini sudah ada sejak dulu sehingga dapat boleh dikatakan bahwa cikal bakal MMA ini sakjane juga sudah ada sejak dahulu kala. Namun itu semua kembali pada pilihan anda, mau pilih MMA atau Tradisional semua sama-sama baik. Karena teknik-teknik yang ada di MMA ini berasal dari teknik-teknik tradisional yang sudah terbukti keefektifannya. Bahkan para petarung MMA yang bertanding di oktagon UFC juga sebelumnya sudah memiliki satu disiplin beladiri tradisional sebelum belajar MMA. Anda menginginkan beladiri yang aplikatif, cepat, efektif melumpuhkan lawan, silahkan belajar MMA. Jika anda ingin beladiri yang tak sekedar teknik bertarung, tapi juga kental filosofi, olah rasa, pengendalian diri, dan unsur seni, pilih beladiri tradisional.
+<figure aria-describedby="caption-attachment-3609" class="wp-caption aligncenter" id="attachment_3609" style="width: 1024px">![sumber : https://i.ytimg.com/vi/2gvGebn11sk/maxresdefault.jpg](http://hangga.github.io/blog/wp-content/uploads/2017/05/maxresdefault.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3609">sumber : https://i.ytimg.com</figcaption></figure>Karena tradisi meracik berbagai aliran ini sudah ada sejak dulu sehingga dapat boleh dikatakan bahwa cikal bakal MMA ini sakjane juga sudah ada sejak dahulu kala. Namun itu semua kembali pada pilihan anda, mau pilih MMA atau Tradisional semua sama-sama baik. Karena teknik-teknik yang ada di MMA ini berasal dari teknik-teknik tradisional yang sudah terbukti keefektifannya. Bahkan para petarung MMA yang bertanding di oktagon UFC juga sebelumnya sudah memiliki satu disiplin beladiri tradisional sebelum belajar MMA. Anda menginginkan beladiri yang aplikatif, cepat, efektif melumpuhkan lawan, silahkan belajar MMA. Jika anda ingin beladiri yang tak sekedar teknik bertarung, tapi juga kental filosofi, olah rasa, pengendalian diri, dan unsur seni, pilih beladiri tradisional.
 
 Sumber gambar:
 

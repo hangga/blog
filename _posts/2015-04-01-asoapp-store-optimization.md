@@ -4,7 +4,7 @@ title: 'ASO(App Store Optimization)'
 date: '2015-04-01T04:36:25+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2239'
+guid: 'http://hangga.github.io/blog/?p=2239'
 permalink: /2015/04/01/asoapp-store-optimization/
 diarjolite_template:
     - full
@@ -31,7 +31,7 @@ Karena ini adalah salah satu cara yang disarankan oleh google(khususnya Android)
 
 Sedangkan menurut pendapat kissmetric, 63% user menemukan aplikasi kita melalui browsing via appstore. Nah, pada poin inilah peranan ASO cukup besar.
 
-[![LearnAboutApps-1](http://hangga.web.id/wp-content/uploads/2015/04/LearnAboutApps-1.png)](http://hangga.web.id/wp-content/uploads/2015/04/LearnAboutApps-1.png)
+[![LearnAboutApps-1](http://hangga.github.io/blog/wp-content/uploads/2015/04/LearnAboutApps-1.png)](http://hangga.github.io/blog/wp-content/uploads/2015/04/LearnAboutApps-1.png)
 
 ### Tips
 

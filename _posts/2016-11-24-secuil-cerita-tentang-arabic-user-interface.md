@@ -4,7 +4,7 @@ title: 'Sedikit cerita tentang Arabic User Interface'
 date: '2016-11-24T09:21:46+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3118'
+guid: 'http://hangga.github.io/blog/?p=3118'
 permalink: /2016/11/24/secuil-cerita-tentang-arabic-user-interface/
 post_views_count:
     - '116'
@@ -46,7 +46,7 @@ Pastikan semua rata kanan.
 <pre class="">align:right;
 ```
 
-<figure aria-describedby="caption-attachment-3121" class="wp-caption aligncenter" id="attachment_3121" style="width: 450px">![arabic-ux-design](http://hangga.web.id/wp-content/uploads/2016/11/Arabic-UX-Design.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3121">Sumber: http://istizada.com/</figcaption></figure>### Numbering
+<figure aria-describedby="caption-attachment-3121" class="wp-caption aligncenter" id="attachment_3121" style="width: 450px">![arabic-ux-design](http://hangga.github.io/blog/wp-content/uploads/2016/11/Arabic-UX-Design.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3121">Sumber: http://istizada.com/</figcaption></figure>### Numbering
 
 Karena angka Latin dan Arab itu beda, sehingga kita juga harus memikirkan *support Arabic Number*-nya.
 
@@ -67,9 +67,9 @@ Karena angka Latin dan Arab itu beda, sehingga kita juga harus memikirkan *suppo
 
 Kalo Anda udah gede tapi masih bingung dengan *Arabic Number*, silahkan belajar dulu sama [*Zaky*](https://www.youtube.com/watch?v=5A9cz4zLYHk) bareng anak saya.
 
-<figure aria-describedby="caption-attachment-3125" class="wp-caption aligncenter" id="attachment_3125" style="width: 616px">![sumber:https://i.ytimg.com/vi/5A9cz4zLYHk/maxresdefault.jpg](http://hangga.web.id/wp-content/uploads/2016/11/maxresdefault-700x394.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3125">sumber:https://i.ytimg.com/vi/5A9cz4zLYHk/maxresdefault.jpg</figcaption></figure>### Kalender
+<figure aria-describedby="caption-attachment-3125" class="wp-caption aligncenter" id="attachment_3125" style="width: 616px">![sumber:https://i.ytimg.com/vi/5A9cz4zLYHk/maxresdefault.jpg](http://hangga.github.io/blog/wp-content/uploads/2016/11/maxresdefault-700x394.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3125">sumber:https://i.ytimg.com/vi/5A9cz4zLYHk/maxresdefault.jpg</figcaption></figure>### Kalender
 
-<figure aria-describedby="caption-attachment-3124" class="wp-caption aligncenter" id="attachment_3124" style="width: 599px">![sumber:http://www.halalcertificationturkey.com/en/2014/10/hijri-new-year-mubarak/](http://hangga.web.id/wp-content/uploads/2016/11/timthumb.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3124">sumber:http://www.halalcertificationturkey.com/en/2014/10/hijri-new-year-mubarak/</figcaption></figure>Kalender yang digunakan di negara Arab selain *Gregorian* adalah kalender *Hijriah* ya bro.  
+<figure aria-describedby="caption-attachment-3124" class="wp-caption aligncenter" id="attachment_3124" style="width: 599px">![sumber:http://www.halalcertificationturkey.com/en/2014/10/hijri-new-year-mubarak/](http://hangga.github.io/blog/wp-content/uploads/2016/11/timthumb.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3124">sumber:http://www.halalcertificationturkey.com/en/2014/10/hijri-new-year-mubarak/</figcaption></figure>Kalender yang digunakan di negara Arab selain *Gregorian* adalah kalender *Hijriah* ya bro.  
 Untuk *Hijriah*nya tak perlu susah-susah membuat algoritma sendiri, sudah banyak *enginer* baik hati yang telah meng*open-source*kan hasil karyanya untuk sesama *developer*.
 
 Contohnya ini <https://gist.github.com/fatfingers/6492017>

@@ -4,7 +4,7 @@ title: 'Konversi tanggal masehi ke hijriah'
 date: '2012-04-11T06:08:12+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1244'
+guid: 'http://hangga.github.io/blog/?p=1244'
 permalink: /2012/04/11/masehi-to-hijri-untuk-mengkonversi-tanggal-masehi-ke-hijriah/
 post_views_count:
     - '370'
@@ -24,5 +24,5 @@ Cara pake nya mudah tinggal klik copy paste, selesai. Tidak perlu membolak-balik
 
 Yang tertarik silahkan download, gratis.
 
-[![](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-11_131022.png "2012-04-11_131022")](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-11_131022.png)  
-[![](http://hangga.web.id/wp-content/uploads/2012/04/download_button_0033.png)](http://www.4shared.com/file/mmmzRixa/MasehiToHijri.html)
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-11_131022.png "2012-04-11_131022")](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-11_131022.png)  
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/04/download_button_0033.png)](http://www.4shared.com/file/mmmzRixa/MasehiToHijri.html)

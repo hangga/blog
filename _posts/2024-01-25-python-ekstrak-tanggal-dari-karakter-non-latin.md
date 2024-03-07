@@ -4,7 +4,7 @@ title: 'Python : Ekstrak Tanggal dari Karakter Non Latin'
 date: '2024-01-25T07:30:05+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=5219'
+guid: 'https://hangga.github.io/blog/?p=5219'
 permalink: /2024/01/25/python-ekstrak-tanggal-dari-karakter-non-latin/
 image: /wp-content/uploads/2024/01/articleocw-5c6632dd1fe9f.jpg
 categories:
@@ -496,7 +496,7 @@ for date in sample_inputs:
 
 Walhamdulillah, outputnya sesuai dengan yang diharapkan.
 
-![](https://hangga.web.id/wp-content/uploads/2024/01/Screenshot_2024-01-25_14-29-01-300x252.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2024/01/Screenshot_2024-01-25_14-29-01-300x252.png)
 
 Nah, begitu saja manteman.
 

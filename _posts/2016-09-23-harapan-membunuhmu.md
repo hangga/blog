@@ -4,7 +4,7 @@ title: 'Harapan Membunuhmu'
 date: '2016-09-23T10:46:02+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3061'
+guid: 'http://hangga.github.io/blog/?p=3061'
 permalink: /2016/09/23/harapan-membunuhmu/
 post_views_count:
     - '1353'
@@ -26,7 +26,7 @@ Tapi taruhlah seluruh harapan pada Allah, yang apabila Dia hendak menetapkan ses
 
 Jangan berharap kepada manusia karena mereka akan mengecewakanmu. Tetapi berharaplah hanya kepada Allah karena Dia akan memberikan yang terbaik untukmu.
 
-<figure aria-describedby="caption-attachment-3064" class="wp-caption aligncenter" id="attachment_3064" style="width: 500px">![sumber gambar : http://anarosmuslimah.blogspot.co.id/](http://hangga.web.id/wp-content/uploads/2016/09/rhhlu.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3064">sumber gambar : http://anarosmuslimah.blogspot.co.id/</figcaption></figure>> “Jikalau mereka sungguh-sungguh ridha dengan apa yang diberikan Allah dan RasulNya kepada mereka, dan berkata: ‘Cukuplah Allah bagi kami, Allah akan memberikan sebagian dari karunia-Nya dan demikian (pula) Rasul-Nya, sesungguhnya kami adalah orang-orang yang berharap kepada Allah,’ (tentulah yang demikian itu lebih baik bagi mereka).” (Q.S. At-Taubah (9): 9)
+<figure aria-describedby="caption-attachment-3064" class="wp-caption aligncenter" id="attachment_3064" style="width: 500px">![sumber gambar : http://anarosmuslimah.blogspot.co.id/](http://hangga.github.io/blog/wp-content/uploads/2016/09/rhhlu.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3064">sumber gambar : http://anarosmuslimah.blogspot.co.id/</figcaption></figure>> “Jikalau mereka sungguh-sungguh ridha dengan apa yang diberikan Allah dan RasulNya kepada mereka, dan berkata: ‘Cukuplah Allah bagi kami, Allah akan memberikan sebagian dari karunia-Nya dan demikian (pula) Rasul-Nya, sesungguhnya kami adalah orang-orang yang berharap kepada Allah,’ (tentulah yang demikian itu lebih baik bagi mereka).” (Q.S. At-Taubah (9): 9)
 
 Referensi :  
 <https://www.facebook.com/yasser.alayubi/posts/10207301658243476>  

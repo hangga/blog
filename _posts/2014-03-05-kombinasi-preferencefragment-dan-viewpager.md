@@ -4,7 +4,7 @@ title: 'Kombinasi PreferenceFragment dan ViewPager'
 date: '2014-03-05T11:03:07+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1783'
+guid: 'http://hangga.github.io/blog/?p=1783'
 permalink: /2014/03/05/kombinasi-preferencefragment-dan-viewpager/
 post_views_count:
     - '230'
@@ -19,9 +19,9 @@ tags:
     - 'source code android'
 ---
 
-![device-2014-03-05-052427](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-05-052427.png)[![device-2014-03-05-052409](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-05-052409.png)](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-05-052409.png)
+![device-2014-03-05-052427](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-05-052427.png)[![device-2014-03-05-052409](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-05-052409.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-05-052409.png)
 
-[![device-2014-03-05-052442](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-05-052442.png)](http://hangga.web.id/wp-content/uploads/2014/03/device-2014-03-05-052442.png)
+[![device-2014-03-05-052442](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-05-052442.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/device-2014-03-05-052442.png)
 
 Ini adalah sebuah halaman *Prefference* yang biasa dipakai untuk halaman *setting* pada aplikasi-aplikasi *Android.* Bukan mustahil menerapkan *slide to left/ slide to right* untuk berpindah ke *prefference* yg berbeda. Caranya adalah mengkombinasika *PrefferenceFragment, ViewPager* dan *ViewPagerIndicator*.
 
@@ -29,11 +29,11 @@ Ini adalah sebuah halaman *Prefference* yang biasa dipakai untuk halaman *settin
 
 1\. Pastikan Anda sudah menggunakan *library ActionbarSherlock* dan *ViewPagerIndicator.*
 
-[![Screenshot-Properties for SlidePreffDemo](http://hangga.web.id/wp-content/uploads/2014/03/Screenshot-Properties-for-SlidePreffDemo-1.png)](http://hangga.web.id/wp-content/uploads/2014/03/Screenshot-Properties-for-SlidePreffDemo-1.png)
+[![Screenshot-Properties for SlidePreffDemo](http://hangga.github.io/blog/wp-content/uploads/2014/03/Screenshot-Properties-for-SlidePreffDemo-1.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/Screenshot-Properties-for-SlidePreffDemo-1.png)
 
 dan *android-support-v13.jar*
 
-[![Screenshot](http://hangga.web.id/wp-content/uploads/2014/03/Screenshot.png)](http://hangga.web.id/wp-content/uploads/2014/03/Screenshot.png)
+[![Screenshot](http://hangga.github.io/blog/wp-content/uploads/2014/03/Screenshot.png)](http://hangga.github.io/blog/wp-content/uploads/2014/03/Screenshot.png)
 
 2\. Kita perlu membuat kelas *PreferenceFragment* di abstract dari *PreferenceFragment* milik Android. Lalu simpan di *package* kita.
 
@@ -661,4 +661,4 @@ public class MainActivity extends SherlockFragmentActivity {
 }
 ```
 
-\[dl url=”http://hangga.web.id/wp-content/uploads/2014/03/SlidePreffDemo.7z” title=”Download Source Lengkap” desc=”Tolles Archiv”\]
+\[dl url=”http://hangga.github.io/blog/wp-content/uploads/2014/03/SlidePreffDemo.7z” title=”Download Source Lengkap” desc=”Tolles Archiv”\]

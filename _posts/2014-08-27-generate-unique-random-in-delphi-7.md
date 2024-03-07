@@ -4,7 +4,7 @@ title: 'Generate Unique Random in Delphi 7'
 date: '2014-08-27T04:34:29+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1935'
+guid: 'http://hangga.github.io/blog/?p=1935'
 permalink: /2014/08/27/generate-unique-random-in-delphi-7/
 diarjolite_template:
     - full
@@ -81,7 +81,7 @@ begin
 end;
 ```
 
-[![2014-08-27_101110](http://hangga.web.id/wp-content/uploads/2014/08/2014-08-27_101110.png)](http://hangga.web.id/wp-content/uploads/2014/08/2014-08-27_101110.png)  
-\[dl url=”http://hangga.web.id/wp-content/uploads/2014/08/UniqueRandom.rar” title=”Download Source Lengkap” desc=”Tolles Archiv”\]
+[![2014-08-27_101110](http://hangga.github.io/blog/wp-content/uploads/2014/08/2014-08-27_101110.png)](http://hangga.github.io/blog/wp-content/uploads/2014/08/2014-08-27_101110.png)  
+\[dl url=”http://hangga.github.io/blog/wp-content/uploads/2014/08/UniqueRandom.rar” title=”Download Source Lengkap” desc=”Tolles Archiv”\]
 
 Referensi: [http://www.swissdelphicenter.ch/en/showcode.php?id=1006](http://www.swissdelphicenter.ch/en/showcode.phpid=1006)

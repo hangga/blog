@@ -4,7 +4,7 @@ title: 'Cara Bahagia Meminum Kopi'
 date: '2016-12-23T09:24:02+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3139'
+guid: 'http://hangga.github.io/blog/?p=3139'
 permalink: /2016/12/23/sruput-kopinya-dan-bahagialah/
 post_views_count:
     - '66'

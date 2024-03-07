@@ -4,7 +4,7 @@ title: '[Git] fatal: The remote end hung up unexpectedly'
 date: '2016-12-23T09:53:20+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3144'
+guid: 'http://hangga.github.io/blog/?p=3144'
 permalink: /2016/12/23/git-fatal-the-remote-end-hung-up-unexpectedly/
 post_views_count:
     - '72'

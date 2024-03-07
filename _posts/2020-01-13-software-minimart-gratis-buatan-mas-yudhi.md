@@ -4,7 +4,7 @@ title: 'Software MiniMart Gratis buatan mas Yudhi'
 date: '2020-01-13T09:27:05+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3993'
+guid: 'http://hangga.github.io/blog/?p=3993'
 permalink: /2020/01/13/software-minimart-gratis-buatan-mas-yudhi/
 ct_founder_last_updated:
     - default

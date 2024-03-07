@@ -4,7 +4,7 @@ title: 'ML Kit: Open Mouth Detection'
 date: '2021-10-14T08:26:55+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=4877'
+guid: 'https://hangga.github.io/blog/?p=4877'
 permalink: /2021/10/14/ml-kit-open-mouth-detection/
 image: /wp-content/uploads/2021/10/green-face-shrek-with-open-mouth-sky-background-shrek-889x500.jpg
 categories:
@@ -52,7 +52,7 @@ Hitung menggunakan formula/rumus jarak 2 titik.
 
 Jika *UPPER\_LIP\_BOTTOM* dan *LOWER\_LIP\_TOP* memiliki 9 titik, maka kita asumsikan titik tengahnya ada di indek ke 4, sehingga, koordinat (x, y) yg diambil adalah index ke 4.
 
-![](https://hangga.web.id/wp-content/uploads/2021/10/Screen-Shot-2021-10-14-at-15.39.29-700x354.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/10/Screen-Shot-2021-10-14-at-15.39.29-700x354.png)
 
 ```
 float x1 = upperLipBottomContour.get(4).x;

@@ -4,7 +4,7 @@ title: 'Memasang Python Package di Arch Linux'
 date: '2024-01-14T09:36:18+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=5177'
+guid: 'https://hangga.github.io/blog/?p=5177'
 permalink: /2024/01/14/memasang-python-package-di-arch-linux/
 image: /wp-content/uploads/2024/01/articleocw-5c6632dd1fe9f.jpg
 categories:
@@ -25,7 +25,7 @@ pip install nama_paket
 
 Tapi jika kalian lakukan ini di Arch Linux, nanti pasti akan muncul error seperti ini:
 
-![](https://hangga.web.id/wp-content/uploads/2024/01/must-using-pacman.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2024/01/must-using-pacman.png)
 
 Disini awalnya saya mencoba menjalankan file Python yang membutuhkan modul bernama **requests**. Lalu saya coba install pake pip dan muncul error tersebut.
 

@@ -4,7 +4,7 @@ title: 'Optical Character Recognition(OCR) dengan Google Vision'
 date: '2020-11-19T09:29:09+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=4236'
+guid: 'http://hangga.github.io/blog/?p=4236'
 permalink: /2020/11/19/optical-character-recognitionocr-dengan-google-vision/
 image: /wp-content/uploads/2020/11/1200px-Portable_scanner_and_OCR_video.webm-889x500.jpg
 categories:

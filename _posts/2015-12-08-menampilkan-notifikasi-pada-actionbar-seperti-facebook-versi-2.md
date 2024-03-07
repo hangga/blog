@@ -4,7 +4,7 @@ title: 'Menampilkan notifikasi pada ActionBar seperti Facebook (Versi 2)'
 date: '2015-12-08T12:53:40+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2706'
+guid: 'http://hangga.github.io/blog/?p=2706'
 permalink: /2015/12/08/menampilkan-notifikasi-pada-actionbar-seperti-facebook-versi-2/
 post_views_count:
     - '40'
@@ -19,9 +19,9 @@ tags:
     - 'notification like facebook'
 ---
 
-Pada postingan [sebelumnya](http://hangga.web.id/2015/12/07/menampilkan-jumlah-notifikasi-pada-item-menu-actionbar-seperti-facebook/), telah dibahas cara menampilkan notifikasi pada *ActionBar menu* dengan menggunakan kelas *BadgeDrawable* yang merupakan turunan dari *drawable* dengan ditambahkan sedikit *behaviour*.
+Pada postingan [sebelumnya](http://hangga.github.io/blog/2015/12/07/menampilkan-jumlah-notifikasi-pada-item-menu-actionbar-seperti-facebook/), telah dibahas cara menampilkan notifikasi pada *ActionBar menu* dengan menggunakan kelas *BadgeDrawable* yang merupakan turunan dari *drawable* dengan ditambahkan sedikit *behaviour*.
 
-Pada postingan [kali ini](http://hangga.web.id/2015/12/08/menampilkan-notifikasi-pada-actionbar-seperti-facebook-versi-2/), akan dibahas cara lain, yaitu dengan menggunakan *inflating view*. Langkah-langkahnya adalah sebagai berikut:
+Pada postingan [kali ini](http://hangga.github.io/blog/2015/12/08/menampilkan-notifikasi-pada-actionbar-seperti-facebook-versi-2/), akan dibahas cara lain, yaitu dengan menggunakan *inflating view*. Langkah-langkahnya adalah sebagai berikut:
 
 > 1. Mendefinisikan menu yang akan dipasangi notifikasi.
 > 2. Membuat kelas ***NotifView*** yang meng-*extends* dari *RelativeLayout.* Kemudian ***NotifView**** inilah yang akan dijadikan *ActionView* dari menu yg sudah didefinisikan.
@@ -183,6 +183,6 @@ Simulasi updating jumlah notifikasi
     }
 ```
 
-![device-2015-12-08-195216](http://hangga.web.id/wp-content/uploads/2015/12/device-2015-12-08-195216-510x808.png)
+![device-2015-12-08-195216](http://hangga.github.io/blog/wp-content/uploads/2015/12/device-2015-12-08-195216-510x808.png)
 
-\[dl url=”http://hangga.web.id/wp-content/uploads/2015/12/DynamicNotifInflate.7z” title=”Download Source Lengkap” desc=”by : Hangga Aji Sayekti”\]
+\[dl url=”http://hangga.github.io/blog/wp-content/uploads/2015/12/DynamicNotifInflate.7z” title=”Download Source Lengkap” desc=”by : Hangga Aji Sayekti”\]

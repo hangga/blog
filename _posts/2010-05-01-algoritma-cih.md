@@ -31,8 +31,8 @@ CIH merupakan salah satu metode untuk menyelesaikan permasalahan ATSP
 
 Berikut ini adalah program aplikasi komputer untuk menyelesaikan permasalahan ATSP dengan algoritma CIH yang dibuat dengan Delphi.
 
-[![](http://hangga.web.id/wp-content/uploads/2010/05/cih_new.jpg "cih_new")](http://hangga.web.id/wp-content/uploads/2010/05/cih_new.jpg)
+[![](http://hangga.github.io/blog/wp-content/uploads/2010/05/cih_new.jpg "cih_new")](http://hangga.github.io/blog/wp-content/uploads/2010/05/cih_new.jpg)
 
-[![](http://hangga.web.id/wp-content/uploads/2010/05/cih_real.jpg "cih_real")](http://hangga.web.id/wp-content/uploads/2010/05/cih_real.jpg)
+[![](http://hangga.github.io/blog/wp-content/uploads/2010/05/cih_real.jpg "cih_real")](http://hangga.github.io/blog/wp-content/uploads/2010/05/cih_real.jpg)
 
 \[dl url=”https://github.com/hangga/CIH” title=”Download” desc=”Github”\]

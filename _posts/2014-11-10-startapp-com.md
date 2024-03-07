@@ -4,7 +4,7 @@ title: 'Sediakan sedikit space pada aplikasimu untuk iklan, Dollar-pun mengalir 
 date: '2014-11-10T09:51:33+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2078'
+guid: 'http://hangga.github.io/blog/?p=2078'
 permalink: /2014/11/10/startapp-com/
 post_views_count:
     - '572'
@@ -27,9 +27,9 @@ Sebenarnya *Programmer* juga bisa memiliki *sleeping income* a.k.a penghasilan p
 
 Contoh iklan di aplikasi sy.
 
-![device-2014-11-14-094655](http://hangga.web.id/wp-content/uploads/2014/11/device-2014-11-14-094655-576x1024.png)
+![device-2014-11-14-094655](http://hangga.github.io/blog/wp-content/uploads/2014/11/device-2014-11-14-094655-576x1024.png)
 
-![device-2014-11-14-094745](http://hangga.web.id/wp-content/uploads/2014/11/device-2014-11-14-094745-576x1024.png)
+![device-2014-11-14-094745](http://hangga.github.io/blog/wp-content/uploads/2014/11/device-2014-11-14-094745-576x1024.png)
 
 ## Mirip AdSense
 
@@ -41,11 +41,11 @@ Biar tidak dikira bohong sy kasih screnshootnya, sori tak blur cz digitnya masih
 
 **Dari StartApp.com**
 
-[![Screenshot](http://hangga.web.id/wp-content/uploads/2014/11/Screenshot1.png)](http://hangga.web.id/wp-content/uploads/2014/11/Screenshot1.png)
+[![Screenshot](http://hangga.github.io/blog/wp-content/uploads/2014/11/Screenshot1.png)](http://hangga.github.io/blog/wp-content/uploads/2014/11/Screenshot1.png)
 
 Dari **AirPush.com**
 
-[![Screenshot-1](http://hangga.web.id/wp-content/uploads/2014/11/Screenshot-11.png)](http://hangga.web.id/wp-content/uploads/2014/11/Screenshot-11.png)
+[![Screenshot-1](http://hangga.github.io/blog/wp-content/uploads/2014/11/Screenshot-11.png)](http://hangga.github.io/blog/wp-content/uploads/2014/11/Screenshot-11.png)
 
 ## Ayo membuat aplikasi yg bermanfaat…
 

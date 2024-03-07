@@ -4,7 +4,7 @@ title: 'Solusi SSLCertVerificationError Pada Python Pandas'
 date: '2024-01-20T15:38:50+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=5210'
+guid: 'https://hangga.github.io/blog/?p=5210'
 permalink: /2024/01/20/solusi-sslcertverificationerror-pada-python-pandas/
 image: /wp-content/uploads/2024/01/articleocw-5c6632dd1fe9f.jpg
 categories:

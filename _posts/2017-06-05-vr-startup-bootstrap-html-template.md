@@ -4,7 +4,7 @@ title: 'VR Startup &#8211; Bootstrap HTML Template'
 date: '2017-06-05T02:40:02+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3394'
+guid: 'http://hangga.github.io/blog/?p=3394'
 permalink: /2017/06/05/vr-startup-bootstrap-html-template/
 post_views_count:
     - '89'

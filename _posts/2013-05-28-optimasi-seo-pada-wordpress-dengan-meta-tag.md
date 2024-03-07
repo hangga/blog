@@ -4,7 +4,7 @@ title: 'Optimasi SEO pada WordPress dengan memanfaatkan meta tag'
 date: '2013-05-28T07:31:37+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1533'
+guid: 'http://hangga.github.io/blog/?p=1533'
 permalink: /2013/05/28/optimasi-seo-pada-wordpress-dengan-meta-tag/
 post_views_count:
     - '294'
@@ -22,7 +22,7 @@ tags:
     - 'wordpress SEO'
 ---
 
-[![12925_514616348568130_1984462092_n](http://hangga.web.id/wp-content/uploads/2013/05/12925_514616348568130_1984462092_n.jpg)](http://hangga.web.id/wp-content/uploads/2013/05/12925_514616348568130_1984462092_n.jpg)Salah satu teknik Optimasi *SEO* pada *website* kita adalah dengan memanfaatkan *meta tag*.
+[![12925_514616348568130_1984462092_n](http://hangga.github.io/blog/wp-content/uploads/2013/05/12925_514616348568130_1984462092_n.jpg)](http://hangga.github.io/blog/wp-content/uploads/2013/05/12925_514616348568130_1984462092_n.jpg)Salah satu teknik Optimasi *SEO* pada *website* kita adalah dengan memanfaatkan *meta tag*.
 
 ## Apa itu ***meta tag?***
 

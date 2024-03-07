@@ -4,7 +4,7 @@ title: 'Joining &#8211; Agency HTML Template'
 date: '2016-03-03T10:04:50+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3033'
+guid: 'http://hangga.github.io/blog/?p=3033'
 permalink: /2016/03/03/joining-agency-html-template/
 post_views_count:
     - '36'

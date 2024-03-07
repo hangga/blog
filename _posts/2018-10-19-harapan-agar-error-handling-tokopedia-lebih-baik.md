@@ -4,7 +4,7 @@ title: 'Harapan agar error handling Tokopedia lebih baik'
 date: '2018-10-19T06:43:14+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3909'
+guid: 'http://hangga.github.io/blog/?p=3909'
 permalink: /2018/10/19/harapan-agar-error-handling-tokopedia-lebih-baik/
 image: /wp-content/uploads/2017/12/image-keren-tokopedia-lengkapi-layanan-pembelian-pulsa-miliknya-dengan-pengisian-saldo-platform-game.jpg
 categories:
@@ -24,26 +24,26 @@ Satu lagi saya menemukan sesuatu yang saya rasa kurang nyaman pada [tokopedia.co
 
 1\. Saya memilih produk ini buat display dagangan-dagangan baju, daster dan gamis punya istri. Pilih, kemudian **klik tombol beli**.
 
-![](http://hangga.web.id/wp-content/uploads/2018/10/produknya-700x394.png)  
+![](http://hangga.github.io/blog/wp-content/uploads/2018/10/produknya-700x394.png)  
 2\. Masuk ke **keranjang belanja**, lalu ***checkout** s*eperti biasa, **pilih jasa kurir**.
 
 ## *Issue*
 
 1\. Saat memuat data kurir terjadi *timeout*.
 
-![](http://hangga.web.id/wp-content/uploads/2018/10/time-out-edit-700x394.png)  
+![](http://hangga.github.io/blog/wp-content/uploads/2018/10/time-out-edit-700x394.png)  
 2\. Kemudian muncul pesan <span style="color: #000080;">“Gagal mengambil data”</span>, namun lucunya ada *action link* untuk mencoba me*request* data lagi.
 
-![](http://hangga.web.id/wp-content/uploads/2018/10/gagal-mengambil-data-700x378.png)  
+![](http://hangga.github.io/blog/wp-content/uploads/2018/10/gagal-mengambil-data-700x378.png)  
 3\. Poin 1 dan 2 terus menerus terulang sampai 2 hari hingga membuat saya penasaran. Padahal jika *field* ini kosong, muncul *hint error warnig* supaya wajib diisi.
 
-![](http://hangga.web.id/wp-content/uploads/2018/10/wajib-diisi-toped-700x300.png)
+![](http://hangga.github.io/blog/wp-content/uploads/2018/10/wajib-diisi-toped-700x300.png)
 
 ## Identifikasi
 
 Karena penasaran, sehingga sayapun mencoba mengidentifikasi apa penyebabnya.
 
-![](http://hangga.web.id/wp-content/uploads/2018/10/tokopedia-inspect-700x394.png)
+![](http://hangga.github.io/blog/wp-content/uploads/2018/10/tokopedia-inspect-700x394.png)
 
 Terpantau *url* yang ditembak untuk mengambil data kurir berdasarkan kota tinggal saya adalah sebagai berukut:
 
@@ -53,7 +53,7 @@ Terpantau *url* yang ditembak untuk mengambil data kurir berdasarkan kota tingga
 
 Sedangkan *response json*-nya sebagai berikut:
 
-![](http://hangga.web.id/wp-content/uploads/2018/10/response-wagu-700x394.png)
+![](http://hangga.github.io/blog/wp-content/uploads/2018/10/response-wagu-700x394.png)
 
 ```
 <pre class="lang:js decode:true ">{"errors":[{"id":"541","status":"400","title":"No data found."}]}

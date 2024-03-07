@@ -4,7 +4,7 @@ title: 'Pengalaman Mengikuti Test Engineer Bukalapak 2020'
 date: '2020-11-10T11:32:21+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=4207'
+guid: 'http://hangga.github.io/blog/?p=4207'
 permalink: /2020/11/10/pengalaman-mengikuti-test-engineer-bukalapak-2020/
 image: /wp-content/uploads/2020/11/036468100_1454399682-bukalapak_2.jpg
 categories:
@@ -36,7 +36,7 @@ Singkat cerita, pada bulan Maret lalu saya *apply* melalui sebuah *link* yang di
 
 #### Undangan Test – 1
 
-![](http://hangga.web.id/wp-content/uploads/2020/11/bukalapak-codility-invite-700x329.png)
+![](http://hangga.github.io/blog/wp-content/uploads/2020/11/bukalapak-codility-invite-700x329.png)
 
 Akhirnya pada **Selasa, 2 Juni 2020** masih dalam suasana *Ramadhan* saya mendapat undangan tes melalui *email*. Lumayan lama juga ya, setelah 3 bulan *apply* baru dapat undangan test.
 
@@ -58,7 +58,7 @@ Setelah selesai, langsung lanjut makan sahur. *Maasyaaa Allah..* nikmat tuhanmu 
 
 Pada tgl 14 Juli 2020 tetiba ada email masuk. Eh, ternyata undangan ***Online Interview*** dari **Bukalapak**.
 
-![](http://hangga.web.id/wp-content/uploads/2020/11/bukalapak-interview.png)
+![](http://hangga.github.io/blog/wp-content/uploads/2020/11/bukalapak-interview.png)
 
 Dari titlenya sih bener, ***Online Interview.*** Tapiii ternyataaaa.. Oh.. ***Live Coding**..* ckckck…  
 Pada Test Live Coding ini saya diberi waktu max 2 jam untuk mengerjakan test praktik. Namun praktik kali ini lebih relevan dengan pekerjaan, tidak seperti test tahap – 1.
@@ -85,7 +85,7 @@ Setelah lama tak ada kabar, akhirnya tepat 2 bulan setelah *live coding*, pada t
 
 Lolos.. ? Ya jelas enggaaak laahh.. wkwkwk.
 
-![](http://hangga.web.id/wp-content/uploads/2020/11/bukalapak-terimakasih-tidak-lolos-700x312.png)
+![](http://hangga.github.io/blog/wp-content/uploads/2020/11/bukalapak-terimakasih-tidak-lolos-700x312.png)
 
 #### Tetap diapresiasi dengan baik
 

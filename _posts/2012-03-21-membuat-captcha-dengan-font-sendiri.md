@@ -4,7 +4,7 @@ title: 'Membuat Captcha dengan font sendiri.'
 date: '2012-03-21T06:45:22+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1095'
+guid: 'http://hangga.github.io/blog/?p=1095'
 permalink: /2012/03/21/membuat-captcha-dengan-font-sendiri/
 post_views_count:
     - '367'
@@ -19,7 +19,7 @@ tags:
     - 'Membuat Captcha dengan font sendiri.'
 ---
 
-[![](http://hangga.web.id/wp-content/uploads/2012/03/Untitled-1.jpg "Untitled-1")](http://hangga.web.id/wp-content/uploads/2012/03/Untitled-1.jpg)Teman2 tahu *Captcha* kan.. yup gambar yang di create dari sebuah teks secara random yang bertujuan untuk melindungi form php kita dari aksi *flooding.* Di php kita dapat membuat teks menjadi gambar dengan fungsi
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/03/Untitled-1.jpg "Untitled-1")](http://hangga.github.io/blog/wp-content/uploads/2012/03/Untitled-1.jpg)Teman2 tahu *Captcha* kan.. yup gambar yang di create dari sebuah teks secara random yang bertujuan untuk melindungi form php kita dari aksi *flooding.* Di php kita dapat membuat teks menjadi gambar dengan fungsi
 
 ```
 <pre class="lang:php decode:1 ">imagestring( resource $image , int $font , int $x, int $y, string $string, int $color);
@@ -43,4 +43,4 @@ Setelah itu barulah mari kita beraksi
 
 Akhirnya *captcha*ku jadi juga
 
-[![](http://hangga.web.id/wp-content/uploads/2012/03/2012-03-21_135727.png "2012-03-21_135727")](http://hangga.web.id/wp-content/uploads/2012/03/2012-03-21_135727.png)
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/03/2012-03-21_135727.png "2012-03-21_135727")](http://hangga.github.io/blog/wp-content/uploads/2012/03/2012-03-21_135727.png)

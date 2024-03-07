@@ -4,7 +4,7 @@ title: 'Interrupting a Programmer'
 date: '2021-04-08T05:58:33+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'https://hangga.web.id/?p=4581'
+guid: 'https://hangga.github.io/blog/?p=4581'
 permalink: /2021/04/08/interrupting-programmer/
 image: /wp-content/uploads/2021/04/disturb-text-door-wallpaper-preview.jpg
 categories:
@@ -23,19 +23,19 @@ Hal-hal yang mengganggu konsentrasi semisal ada yang menyela atau semisalnya ten
 
 Bahkan tak jarang dapat menyulut emosi, terlebih programmer *cowok* yang **konon** otaknya tak bisa *multi tasking* seperti perempuan.🤭
 
-![](https://hangga.web.id/wp-content/uploads/2021/04/r_317858_NtRNo.jpg)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/04/r_317858_NtRNo.jpg)
 
 ### Mengapa demikian?
 
 Hasil browsing sana-sini, akhirnya menemukan coretan yang *cocik* di[sini](https://georgestocker.com/2014/04/15/how-to-destroy-programmer-productivity/). Judulnya juga ekstrim banget 😆. ***How to destroy Programmer Productivity.*** Ternyata cukup mewakili apa yang selama ini rasakan. 😁😁😁😁😁.
 
-![](https://hangga.web.id/wp-content/uploads/2021/04/Screenshot-at-2021-04-08-11-11-01.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/04/Screenshot-at-2021-04-08-11-11-01.png)
 
 Grafik diatas cukup menggambarkan betapa susahnya membangkitkan kembali *mood* setelah terhenti secara mendadak meskipun hanya sebentar saja. Hal ini benar-benar membutuhkan energi dan waktu dan itu tidaklah mudah kawan.😎
 
 Bayangkan jika hal itu terjadi dalam sehari. Imbasnya, kerjaan tak jadi kelar. Jangka panjangnya mungkin bisa jadi *project* molor, gagal *release* dan ujung-ujungnya bayaran molor juga. 😩😩😩
 
-![](https://hangga.web.id/wp-content/uploads/2021/04/Screenshot-at-2021-04-08-11-21-44-e1617859411631.png)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/04/Screenshot-at-2021-04-08-11-21-44-e1617859411631.png)
 
 Grafik diatas mungkin kurang bisa diterima bagi *non-coders*, memang susah untuk dijelaskan, tapi gambar dibawah ini mungkin lebih mudah dipahami.
 
@@ -66,7 +66,7 @@ Namun bagi programmer, hal-hal yang dapat mengganggu produktifitas itu kadang su
 
 #### 1. Ruang kerja
 
-![](https://hangga.web.id/wp-content/uploads/2021/04/960x0-700x467.jpg)
+![](https://hangga.github.io/blog/wp-content/uploads/2021/04/960x0-700x467.jpg)
 
 Meskipun kerja dirumah, usahakan punya ruang khusus untuk kerja, sehingga keluarga tahu kalo anda disitu artinya anda sedang kerja. Kalo perlu kuci pintu wkwkwk. 😆😆😆
 

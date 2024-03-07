@@ -4,7 +4,7 @@ title: 'Nasib Anak Bodoh'
 date: '2017-06-05T03:12:43+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3399'
+guid: 'http://hangga.github.io/blog/?p=3399'
 permalink: /2017/06/05/nasib-anak-bodoh/
 post_views_count:
     - '171'
@@ -33,7 +33,7 @@ Saya ingat dulu punya teman waktu SD, anaknya baik, tidak nakal, kalem, santun, 
 
 Cerita kedua tetangga saya punya anak laki-laki usia SMP yg dikeluarkan dari sekolah gara-gara nilainya buruk. Lalu pindah ke sekolah lain yang murid-muridnya terkenal nakal(Maklum satu-satunya sekolah yang mau menerima murid DO). Tapi akhirnya tidak betah dan sekarang malah putus sekolah karena sering jadi korban bully.
 
-![102099731](http://hangga.web.id/wp-content/uploads/2017/06/102099731-700x469.jpg)
+![102099731](http://hangga.github.io/blog/wp-content/uploads/2017/06/102099731-700x469.jpg)
 
 
 ### Bodoh? Ndak masalah..

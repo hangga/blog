@@ -4,7 +4,7 @@ title: 'Resize multiple images'
 date: '2013-03-24T13:01:40+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2429'
+guid: 'http://hangga.github.io/blog/?p=2429'
 permalink: /2013/03/24/resize-multiple-images/
 post_views_count:
     - '33'
@@ -29,9 +29,9 @@ Oh iya, trik ini khusus pengguna *Linux* ya. Kalo window sori ndak tahu 🙂 he3
 
 Dengan cara seperti dibawah ini juga bisa.
 
-![car_040](http://hangga.web.id/wp-content/uploads/2015/08/car_040-510x277.png)
+![car_040](http://hangga.github.io/blog/wp-content/uploads/2015/08/car_040-510x277.png)
 
-![Screenshot-Terminal](http://hangga.web.id/wp-content/uploads/2015/08/Screenshot-Terminal-510x359.png)
+![Screenshot-Terminal](http://hangga.github.io/blog/wp-content/uploads/2015/08/Screenshot-Terminal-510x359.png)
 
 ```
 <pre class="brush:plain">mogrify -resize <prosentase>% -format <output extension> *
@@ -43,4 +43,4 @@ contoh
 <pre class="brush:plain">mogrify -resize 90% -format png *
 ```
 
-![Screenshot-Terminal-1](http://hangga.web.id/wp-content/uploads/2015/08/Screenshot-Terminal-1-510x266.png)
+![Screenshot-Terminal-1](http://hangga.github.io/blog/wp-content/uploads/2015/08/Screenshot-Terminal-1-510x266.png)

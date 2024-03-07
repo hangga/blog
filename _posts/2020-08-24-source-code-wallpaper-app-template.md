@@ -4,7 +4,7 @@ title: 'Source Code: Wallpaper App Template'
 date: '2020-08-24T09:09:57+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=4105'
+guid: 'http://hangga.github.io/blog/?p=4105'
 permalink: /2020/08/24/source-code-wallpaper-app-template/
 ct_founder_last_updated:
     - default

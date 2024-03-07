@@ -4,7 +4,7 @@ title: 'Kustomasi ActionBar pada Android'
 date: '2015-04-09T11:12:04+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2259'
+guid: 'http://hangga.github.io/blog/?p=2259'
 permalink: /2015/04/09/custom-actionbar/
 post_views_count:
     - '77'
@@ -21,7 +21,7 @@ tags:
 
 Sebenarnya ada beberapa cara untuk meng*custom ActionBar.* Berikut ini adalah salah satu cara yg dapat kita lakukan untuk membuat *custom ActionBar* dengan *style* sesuai keinginan kita. Kita bisa membuat ActionBar dengan warna *background,* maupun warna teks terserah kita pula.
 
-[![actionbar](http://hangga.web.id/wp-content/uploads/2015/04/actionbar.png)](http://hangga.web.id/wp-content/uploads/2015/04/actionbar.png)
+[![actionbar](http://hangga.github.io/blog/wp-content/uploads/2015/04/actionbar.png)](http://hangga.github.io/blog/wp-content/uploads/2015/04/actionbar.png)
 
 Pada postingan ini, saya menggunakan android:minSdkVersion=”14″  
 android:targetSdkVersion=”19″
@@ -30,9 +30,9 @@ Oke, langsung menuju TKP..
 
 ### 1. Membuat Kelas CustomBar
 
-![Menu_021](http://hangga.web.id/wp-content/uploads/2015/04/Menu_021.png)
+![Menu_021](http://hangga.github.io/blog/wp-content/uploads/2015/04/Menu_021.png)
 
-![New Java Class _025](http://hangga.web.id/wp-content/uploads/2015/04/New-Java-Class-_025.png)
+![New Java Class _025](http://hangga.github.io/blog/wp-content/uploads/2015/04/New-Java-Class-_025.png)
 
 ### 2. Kemudian membuat xml Layout untuk CustomBar
 
@@ -146,7 +146,7 @@ android.app.ActionBar actionBar = getActionBar();
 
 Nah, kemudian untuk membuat action back nya, kita dapat menambahkan script berikut.
 
-![actionbar_backpress](http://hangga.web.id/wp-content/uploads/2015/04/actionbar_backpress-300x276.png)
+![actionbar_backpress](http://hangga.github.io/blog/wp-content/uploads/2015/04/actionbar_backpress-300x276.png)
 
 ```
 <pre class="brush:java">customBar.getImgBack().setOnClickListener(new View.OnClickListener() {
@@ -160,4 +160,4 @@ Nah, kemudian untuk membuat action back nya, kita dapat menambahkan script berik
 
 ### Hasilnya..
 
-![device-2015-04-09-174313](http://hangga.web.id/wp-content/uploads/2015/04/device-2015-04-09-174313-576x1024.png)
+![device-2015-04-09-174313](http://hangga.github.io/blog/wp-content/uploads/2015/04/device-2015-04-09-174313-576x1024.png)

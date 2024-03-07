@@ -4,7 +4,7 @@ title: 'Optimasi Layout dengan ViewStub'
 date: '2015-11-24T11:46:04+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2643'
+guid: 'http://hangga.github.io/blog/?p=2643'
 permalink: /2015/11/24/optimasi-layout-dengan/
 post_views_count:
     - '68'
@@ -33,7 +33,7 @@ Lalu apa bedanya dengan include. Sekilas memang sama, tapi *sakjane* beda lah.
 
 Kemudian gambaran betapa ngiritnya ViewStub ini dapat kita lihat pada gambar berikut:
 
-<figure aria-describedby="caption-attachment-2644" class="wp-caption aligncenter" id="attachment_2644" style="width: 510px">![Sumber: http://android-developers.blogspot.co.id/](http://hangga.web.id/wp-content/uploads/2015/11/view-stub1-510x431.png)<figcaption class="wp-caption-text" id="caption-attachment-2644">Sumber: http://android-developers.blogspot.co.id/</figcaption></figure><figure aria-describedby="caption-attachment-2645" class="wp-caption aligncenter" id="attachment_2645" style="width: 510px">![Sumber : http://android-developers.blogspot.co.id/](http://hangga.web.id/wp-content/uploads/2015/11/view-stub2-510x431.png)<figcaption class="wp-caption-text" id="caption-attachment-2645">Sumber : http://android-developers.blogspot.co.id/</figcaption></figure>### Penggunaan ViewStub
+<figure aria-describedby="caption-attachment-2644" class="wp-caption aligncenter" id="attachment_2644" style="width: 510px">![Sumber: http://android-developers.blogspot.co.id/](http://hangga.github.io/blog/wp-content/uploads/2015/11/view-stub1-510x431.png)<figcaption class="wp-caption-text" id="caption-attachment-2644">Sumber: http://android-developers.blogspot.co.id/</figcaption></figure><figure aria-describedby="caption-attachment-2645" class="wp-caption aligncenter" id="attachment_2645" style="width: 510px">![Sumber : http://android-developers.blogspot.co.id/](http://hangga.github.io/blog/wp-content/uploads/2015/11/view-stub2-510x431.png)<figcaption class="wp-caption-text" id="caption-attachment-2645">Sumber : http://android-developers.blogspot.co.id/</figcaption></figure>### Penggunaan ViewStub
 
 ```
 <pre class="brush:xml"><ViewStub android:id="@+id/stub"

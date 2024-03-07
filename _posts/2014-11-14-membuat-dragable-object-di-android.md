@@ -4,7 +4,7 @@ title: 'Membuat Drag and Drop Object di Android'
 date: '2014-11-14T04:32:35+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2159'
+guid: 'http://hangga.github.io/blog/?p=2159'
 permalink: /2014/11/14/membuat-dragable-object-di-android/
 post_views_count:
     - '1615'
@@ -40,7 +40,7 @@ Banyak cara, tapi yg saya lakukan cukup sederhana. Intinya tinggal ng*ekstends* 
 
 1\. Buat kelas baru, tak kasih nama *Dragable* aja lah.
 
-![Menu_011](http://hangga.web.id/wp-content/uploads/2015/01/Menu_011.png)![New Java Class _013](http://hangga.web.id/wp-content/uploads/2015/01/New-Java-Class-_013.png)
+![Menu_011](http://hangga.github.io/blog/wp-content/uploads/2015/01/Menu_011.png)![New Java Class _013](http://hangga.github.io/blog/wp-content/uploads/2015/01/New-Java-Class-_013.png)
 
 2\. *Extends* *RelativeLayout*
 
@@ -202,7 +202,7 @@ public class Dragable extends RelativeLayout{
 
 Jika kelas Dragable sudah berhasil dibuat, biasanya akan muncul di pallete.
 
-![Selection_019--](http://hangga.web.id/wp-content/uploads/2015/01/Selection_019-.png)
+![Selection_019--](http://hangga.github.io/blog/wp-content/uploads/2015/01/Selection_019-.png)
 
 Contoh penggunaan di layoutnya
 

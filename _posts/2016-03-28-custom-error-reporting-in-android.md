@@ -4,7 +4,7 @@ title: 'Error Reporting in Real Time'
 date: '2016-03-28T23:16:44+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2913'
+guid: 'http://hangga.github.io/blog/?p=2913'
 permalink: /2016/03/28/custom-error-reporting-in-android/
 post_views_count:
     - '1057'
@@ -143,8 +143,8 @@ Hal terpenting yang harus dilakukan dalam pengembangan *mobile apps* ketika mema
         }
     ```
     
-    ![device-2016-03-29-061022](http://hangga.web.id/wp-content/uploads/2016/03/device-2016-03-29-061022.png)
+    ![device-2016-03-29-061022](http://hangga.github.io/blog/wp-content/uploads/2016/03/device-2016-03-29-061022.png)
 
-![device-2016-03-29-062131](http://hangga.web.id/wp-content/uploads/2016/03/device-2016-03-29-062131.png)
+![device-2016-03-29-062131](http://hangga.github.io/blog/wp-content/uploads/2016/03/device-2016-03-29-062131.png)
 
 Tinggal *copy paste*, lalu kirim ke *developer*.

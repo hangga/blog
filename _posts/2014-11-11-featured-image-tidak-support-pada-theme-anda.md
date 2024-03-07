@@ -4,7 +4,7 @@ title: 'Featured Image tidak support pada theme Anda'
 date: '2014-11-11T09:53:17+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2094'
+guid: 'http://hangga.github.io/blog/?p=2094'
 permalink: /2014/11/11/featured-image-tidak-support-pada-theme-anda/
 post_views_count:
     - '924'
@@ -30,7 +30,7 @@ Anda perlu menambahkan *script* di bawah ini ke dalam *functions.php* pada *them
 
 Buka Menu ***Apperance*** -&gt; ***Editor*** -&gt; *functions.php*
 
-![Screenshot-1](http://hangga.web.id/wp-content/uploads/2014/11/Screenshot-1.png)
+![Screenshot-1](http://hangga.github.io/blog/wp-content/uploads/2014/11/Screenshot-1.png)
 
 Lalu tambahkan script diatas.  
 Selesai.

@@ -4,7 +4,7 @@ title: 'Pahitnya Robusta dan Manisnya Hidup'
 date: '2016-03-16T08:30:36+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3053'
+guid: 'http://hangga.github.io/blog/?p=3053'
 permalink: /2016/03/16/hidupmu-tak-sepahit-robusta/
 post_views_count:
     - '57'
@@ -27,7 +27,7 @@ Konon katanya, kopi *Robusta* memiliki kandungan *kafein* yang paling tinggi ket
 
 Nah yang ada di foto yg di bawah ini adalah teman penyemangat saya di pagi hari. Robusta Lampung Tanggamus asli dari Lampung kecamatan Tanggamus dan *grinding* sendiri. Rasanya mantab, *fresh*.
 
-![img-20160914-wa0002](http://hangga.web.id/wp-content/uploads/2016/03/IMG-20160914-WA0002-700x933.jpg)
+![img-20160914-wa0002](http://hangga.github.io/blog/wp-content/uploads/2016/03/IMG-20160914-WA0002-700x933.jpg)
 
 Banyak *ibroh* yang dapat kita ambil dari segelas kopi ini. Jika kita tak bisa memisahkan biang ampasnya, maka diamkan sejenak sampai mengendap. Setelah itu baru kelihatan mana kopi mana air kopi. Nah, baru terasa nikmat ketika disruput.
 

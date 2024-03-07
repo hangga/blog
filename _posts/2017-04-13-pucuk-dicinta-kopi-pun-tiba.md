@@ -4,7 +4,7 @@ title: 'Pucuk Dicinta'
 date: '2017-04-13T09:26:32+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3371'
+guid: 'http://hangga.github.io/blog/?p=3371'
 permalink: /2017/04/13/pucuk-dicinta-kopi-pun-tiba/
 post_views_count:
     - '99'

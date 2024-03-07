@@ -4,7 +4,7 @@ title: 'Maling Software'
 date: '2018-10-17T10:48:40+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=3876'
+guid: 'http://hangga.github.io/blog/?p=3876'
 permalink: /2018/10/17/maling-software-di-tanah-air/
 ct_founder_last_updated:
     - default
@@ -33,23 +33,23 @@ Baiklah mari simak dan pahami baik-baik agar tidak ada lagi yang ngeyel padahal 
 
 ## *Software* &lt;&gt; Pisang Goreng
 
-<figure aria-describedby="caption-attachment-3890" class="wp-caption aligncenter" id="attachment_3890" style="width: 500px">![](http://hangga.web.id/wp-content/uploads/2018/10/pisang-goreng_20170803_133814-700x393.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3890">Sumber: www.bacaberita.com/eatrekom-3-pisang-goreng-terhits-di-jakarta/</figcaption></figure>Dengan tidak ada maksud merendahkan profesi penjual pisang goreng. *Software* a.k.a perangkat lunak tidaklah sama dengan pisang goreng. Kalo pisang goreng, anda mau jual 100 biji, berarti anda harus memproduksi sebanyak 100 biji juga. Semakin banyak jumlah produksi, semakin banyak tenaga yg dibutuhkan dan semakin terasa capek pula di badan.
+<figure aria-describedby="caption-attachment-3890" class="wp-caption aligncenter" id="attachment_3890" style="width: 500px">![](http://hangga.github.io/blog/wp-content/uploads/2018/10/pisang-goreng_20170803_133814-700x393.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3890">Sumber: www.bacaberita.com/eatrekom-3-pisang-goreng-terhits-di-jakarta/</figcaption></figure>Dengan tidak ada maksud merendahkan profesi penjual pisang goreng. *Software* a.k.a perangkat lunak tidaklah sama dengan pisang goreng. Kalo pisang goreng, anda mau jual 100 biji, berarti anda harus memproduksi sebanyak 100 biji juga. Semakin banyak jumlah produksi, semakin banyak tenaga yg dibutuhkan dan semakin terasa capek pula di badan.
 
 Berbeda dengan *software*, karena yang dijual adalah *copy*-nya. Jadi cukup sekali produksi, perusahaan/*developer* dapat menjual *copy*-nya sebanyak yang ia mau. Enak kan? Ya dong..
 
-<figure aria-describedby="caption-attachment-3889" class="wp-caption aligncenter" id="attachment_3889" style="width: 596px">![](https://hangga.web.id/wp-content/uploads/2018/10/interior_corporate_offerings.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3889">Sumber: https://www.afterdawn.com</figcaption></figure>Namun pernahkah anda tahu perjuangan sebuah tim *software developer*?. Satu produk *software* mungkin dapat dikerjakan selama berbulan-bulan bahkan sampai hitungan tahun. Bahkan bagi tim *developer*, lembur hingga larut malam adalah hal yang biasa ketika mengejar *deadline*. Saya yakin semua *developer* pernah merasakan ini, termasuk saya. Ha3x.
+<figure aria-describedby="caption-attachment-3889" class="wp-caption aligncenter" id="attachment_3889" style="width: 596px">![](https://hangga.github.io/blog/wp-content/uploads/2018/10/interior_corporate_offerings.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3889">Sumber: https://www.afterdawn.com</figcaption></figure>Namun pernahkah anda tahu perjuangan sebuah tim *software developer*?. Satu produk *software* mungkin dapat dikerjakan selama berbulan-bulan bahkan sampai hitungan tahun. Bahkan bagi tim *developer*, lembur hingga larut malam adalah hal yang biasa ketika mengejar *deadline*. Saya yakin semua *developer* pernah merasakan ini, termasuk saya. Ha3x.
 
-<figure aria-describedby="caption-attachment-3893" class="wp-caption aligncenter" id="attachment_3893" style="width: 590px">![](https://hangga.web.id/wp-content/uploads/2018/10/preview.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3893">i’m programmer i have no life Sumber: https://depositphotos.com</figcaption></figure><figure aria-describedby="caption-attachment-3895" class="wp-caption aligncenter" id="attachment_3895" style="width: 600px">![](https://hangga.web.id/wp-content/uploads/2018/10/Programmers.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3895">Kesel leren lur.. Sumber: https://mavericktraveler.com/6-reasons-why-young-men-should-not-become-programmers/</figcaption></figure>Dalam tim, biasanya terdiri dari *programmer*, *ux, ui designer*, *analys,* tim riset*, marketing* dan masih banyak lagi tergantung kebutuhan dan kebijakan *vendor*/perusahaan. Mungkin termasuk juga OB, tukang sapu, tukang kebon dan tukang cuci piring kalo ada. Nah, <span style="color: #9e0000;">**kalo produknya anda bajak, artinya mereka semua tidak gajiaaan**</span>.
+<figure aria-describedby="caption-attachment-3893" class="wp-caption aligncenter" id="attachment_3893" style="width: 590px">![](https://hangga.github.io/blog/wp-content/uploads/2018/10/preview.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3893">i’m programmer i have no life Sumber: https://depositphotos.com</figcaption></figure><figure aria-describedby="caption-attachment-3895" class="wp-caption aligncenter" id="attachment_3895" style="width: 600px">![](https://hangga.github.io/blog/wp-content/uploads/2018/10/Programmers.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3895">Kesel leren lur.. Sumber: https://mavericktraveler.com/6-reasons-why-young-men-should-not-become-programmers/</figcaption></figure>Dalam tim, biasanya terdiri dari *programmer*, *ux, ui designer*, *analys,* tim riset*, marketing* dan masih banyak lagi tergantung kebutuhan dan kebijakan *vendor*/perusahaan. Mungkin termasuk juga OB, tukang sapu, tukang kebon dan tukang cuci piring kalo ada. Nah, <span style="color: #9e0000;">**kalo produknya anda bajak, artinya mereka semua tidak gajiaaan**</span>.
 
 > ..untungnya belum pernah ada *maling* *software* digebukin.
 
 Dari penjelasa ini seharusnya sudah terbayang, betapa jahatnya pembajak *software*. Lalu butuh bukti apa lagi untuk menunjukkan betapa jahatnya maling *software*. Agama manapun pasti mengajarkan kalo mencuri itu dosakan. Tapi untungnya belum pernah ada *maling* *software* digebukin.
 
-<figure aria-describedby="caption-attachment-4330" class="wp-caption aligncenter" id="attachment_4330" style="width: 700px">![](https://hangga.web.id/wp-content/uploads/2018/10/Grafis-Maling-Motor-Digebuki.jpeg)<figcaption class="wp-caption-text" id="caption-attachment-4330">Sumber: https://radarpekalongan.co.id</figcaption></figure>## Baca *EULA(End User Lisence Agreement)*
+<figure aria-describedby="caption-attachment-4330" class="wp-caption aligncenter" id="attachment_4330" style="width: 700px">![](https://hangga.github.io/blog/wp-content/uploads/2018/10/Grafis-Maling-Motor-Digebuki.jpeg)<figcaption class="wp-caption-text" id="caption-attachment-4330">Sumber: https://radarpekalongan.co.id</figcaption></figure>## Baca *EULA(End User Lisence Agreement)*
 
 Itulah mengapa perlu ada [*EULA(End User License Agreement)*](https://id.wikipedia.org/wiki/EULA), yaitu semacam perjanjian antara *vendor*/ perusahaan pembuat *software* dan pengguna **agar *vendor* tidak dirugikan**. Perjanjian *EULA* ini biasanya ditampilkan dalam bentuk *window dialog* ketika proses installasi. Isi perjanjian biasanya berisi penjelasan lisensi aplikasi termasuk **dilarang men*copy*** tanpa izin dan lain sebagainya yang saya yakin hanya sedikit pengguna yang mau membacanya.
 
-<figure aria-describedby="caption-attachment-3880" class="wp-caption aligncenter" id="attachment_3880" style="width: 694px">![](http://hangga.web.id/wp-content/uploads/2018/10/1.png)<figcaption class="wp-caption-text" id="caption-attachment-3880">License Agreement punya Adobe. Pasti jarang dibaca kan..</figcaption></figure>Nah sekarang kita seharusnya paham bahwa *copy* tanpa izin sama dengan ilegal/mencuri/membajak.
+<figure aria-describedby="caption-attachment-3880" class="wp-caption aligncenter" id="attachment_3880" style="width: 694px">![](http://hangga.github.io/blog/wp-content/uploads/2018/10/1.png)<figcaption class="wp-caption-text" id="caption-attachment-3880">License Agreement punya Adobe. Pasti jarang dibaca kan..</figcaption></figure>Nah sekarang kita seharusnya paham bahwa *copy* tanpa izin sama dengan ilegal/mencuri/membajak.
 
 ## Jenis-jenis pembajak/maling
 
@@ -86,13 +86,13 @@ Tapi tetep kita doakan semoga dapat hidayah. Amin.
 
 “Mau maju” katanya. Ha ha ha, sungguh ***ndagel*** sekali. Orang model begini pertanda mainnya kurang jauh, kurang banyak membaca, dan update teknologi. Justeru semakin kita tergantung dengan software bajakan, semakin pula kita ketinggalan. Coba sekali-kali main ke forum/komunitas *open source*, komunitas *coder*/*developer/engineer*.
 
-<figure aria-describedby="caption-attachment-3881" class="wp-caption aligncenter" id="attachment_3881" style="width: 360px">![](http://hangga.web.id/wp-content/uploads/2018/10/z_p45-Suspended.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3881">Maling</figcaption></figure>## Solusinya gimana
+<figure aria-describedby="caption-attachment-3881" class="wp-caption aligncenter" id="attachment_3881" style="width: 360px">![](http://hangga.github.io/blog/wp-content/uploads/2018/10/z_p45-Suspended.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3881">Maling</figcaption></figure>## Solusinya gimana
 
 ##### **1. Beli**
 
 Ingin punya ya beli. *Mosok* mampu beli laptop tapi beli *software*nya ndak mampu. Malu sama kucing.. *meong.. meong.. meong. Sakjane* juga ndak mahal-mahal amat. Coba cek saja ke lapaknya [microsoft](https://www.microsoft.com/id-id/store/b/home).
 
-![](http://hangga.web.id/wp-content/uploads/2018/10/Screenshot-at-2018-10-17-19-42-04-700x354.png)
+![](http://hangga.github.io/blog/wp-content/uploads/2018/10/Screenshot-at-2018-10-17-19-42-04-700x354.png)
 
 ##### **2. Nabung dulu, baru beli**
 
@@ -106,7 +106,7 @@ Nah kalo tetep ngotot ndak mau bayar, ya ini pake yang [*freeware*](https://en.w
 
 Kalo mau tahu keunggulan ***Linux*** dibanding ***Windows***, silahkan browsing sendiri.
 
-<figure aria-describedby="caption-attachment-3901" class="wp-caption aligncenter" id="attachment_3901" style="width: 700px">![](https://hangga.web.id/wp-content/uploads/2018/10/MacPCLinuxTruth-700x264.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3901">Sumber: https://itsfoss.com/10-funny-jokes-pictures-windows-mac-linux/</figcaption></figure>##### 4. Tetap pake Bajakan
+<figure aria-describedby="caption-attachment-3901" class="wp-caption aligncenter" id="attachment_3901" style="width: 700px">![](https://hangga.github.io/blog/wp-content/uploads/2018/10/MacPCLinuxTruth-700x264.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3901">Sumber: https://itsfoss.com/10-funny-jokes-pictures-windows-mac-linux/</figcaption></figure>##### 4. Tetap pake Bajakan
 
 Jika solusi diatas masih anda *paido,* masih ngeyel, dan tetap nyaman pake *software* bajakan dan tidak merasa berdosa sama sekali, maka dengan ini saya ucapkan **selamat menjadi maling**.
 

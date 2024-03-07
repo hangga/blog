@@ -4,7 +4,7 @@ title: 'Aplikasi Inventory, cocok buat toko Anda.'
 date: '2012-04-10T03:15:11+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=1226'
+guid: 'http://hangga.github.io/blog/?p=1226'
 permalink: /2012/04/10/aplikasi-stok-cocok-buat-toko-anda/
 post_views_count:
     - '1053'
@@ -22,7 +22,7 @@ tags:
     - 'software toko gratis'
 ---
 
-[![](http://hangga.web.id/wp-content/uploads/2012/04/swbox.jpg "swbox")](http://hangga.web.id/wp-content/uploads/2012/04/swbox.jpg)Assalaamu’alaikum.. saudara2 yg budiman. Software gratis sy kali ini sebenarnya berawal dari pesanan seorang klien beberapa tahun yg lalu. Kemudian karena banyak permintaan akhirnya sy jual dg harga miring(sangat miring ha3x). Eh Allah ta’ala berkehendak lain, harga semiring itu masih ada yg nawar. Oke lah sy ngalah saja. Dari pada bertengkar lebih baik sy upload aj disini. Tp sebelum tak upload, fiturnya tak kurangi dulu he3x sori ya. Tapi paling tidak untuk versi gratisan lumayan komplit.
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/04/swbox.jpg "swbox")](http://hangga.github.io/blog/wp-content/uploads/2012/04/swbox.jpg)Assalaamu’alaikum.. saudara2 yg budiman. Software gratis sy kali ini sebenarnya berawal dari pesanan seorang klien beberapa tahun yg lalu. Kemudian karena banyak permintaan akhirnya sy jual dg harga miring(sangat miring ha3x). Eh Allah ta’ala berkehendak lain, harga semiring itu masih ada yg nawar. Oke lah sy ngalah saja. Dari pada bertengkar lebih baik sy upload aj disini. Tp sebelum tak upload, fiturnya tak kurangi dulu he3x sori ya. Tapi paling tidak untuk versi gratisan lumayan komplit.
 
 Nama aplikasi ini **Omasastro Juragan Toko**. siapa yg mau ambil gratis.
 
@@ -68,20 +68,20 @@ Beberapa contoh *interface*
 
 **Halaman Utama**
 
-[![](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-10_100645-1024x545.png "2012-04-10_100645")](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-10_100645.png)
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-10_100645-1024x545.png "2012-04-10_100645")](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-10_100645.png)
 
 **HalamanKasir**
 
-[![](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-10_100717-1024x545.png "2012-04-10_100717")](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-10_100717.png)
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-10_100717-1024x545.png "2012-04-10_100717")](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-10_100717.png)
 
 Konversi Satuan
 
-[![](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-10_100826.png "2012-04-10_100826")](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-10_100826.png)
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-10_100826.png "2012-04-10_100826")](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-10_100826.png)
 
 Laporan-laporan
 
-[![](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-10_100728-1024x545.png "2012-04-10_100728")](http://hangga.web.id/wp-content/uploads/2012/04/2012-04-10_100728.png)
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-10_100728-1024x545.png "2012-04-10_100728")](http://hangga.github.io/blog/wp-content/uploads/2012/04/2012-04-10_100728.png)
 
 Oke langsung saja download di sini
 
-[![](http://hangga.web.id/wp-content/uploads/2012/04/download_button_0033.png)](http://www.4shared.com/file/uHOPDntd/omasastro_juragan_toko_setup.html "http://www.4shared.com/file/uHOPDntd/omasastro_juragan_toko_setup.html")
+[![](http://hangga.github.io/blog/wp-content/uploads/2012/04/download_button_0033.png)](http://www.4shared.com/file/uHOPDntd/omasastro_juragan_toko_setup.html "http://www.4shared.com/file/uHOPDntd/omasastro_juragan_toko_setup.html")

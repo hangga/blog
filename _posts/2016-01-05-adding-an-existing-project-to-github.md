@@ -4,7 +4,7 @@ title: 'Adding an existing project to GitHub'
 date: '2016-01-05T04:05:38+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.web.id/?p=2768'
+guid: 'http://hangga.github.io/blog/?p=2768'
 permalink: /2016/01/05/adding-an-existing-project-to-github/
 post_views_count:
     - '63'
@@ -20,7 +20,7 @@ tags:
 
 Postingan ini hanyalah sekedar catatan agar mudah untuk diingat dan dilihat kembali jika lupa. Baiklah mari menuju TKP.
 
-1. Buat *Repository*nya dulu jika belum punya![repo-create](http://hangga.web.id/wp-content/uploads/2016/01/repo-create.png).
+1. Buat *Repository*nya dulu jika belum punya![repo-create](http://hangga.github.io/blog/wp-content/uploads/2016/01/repo-create.png).
 2. Masuk ke *local project directory,* via *terminal* tentunya.
 3. Inisialisasikan direktori tersebut sebagai **local repository**```
     <pre class="lang:sh decode:true">$ git init<em>.</em>
