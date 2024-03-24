@@ -2,69 +2,118 @@
   Code
 */
 
-code,
-pre {
-  font-family: $code-font-family;
-}
+// code,
+// pre {
+//   font-family: $code-font-family;
+// }
+// code {
+//   padding: .25em .5em;
+//   font-size: .8rem;
+//   background-color: $code-background-color;
+//   border-radius: 3px;
+// }
+// pre {
+//   display: block;
+//   margin-top: 0;
+//   margin-bottom: 1rem;
+//   padding: 1rem;
+//   font-size: .8rem;
+//   line-height: 1.4;
+//   white-space: pre;
+//   white-space: pre-wrap;
+//   word-break: break-all;
+//   word-wrap: break-word;
+//   background-color: $code-background-color;
+// }
+// pre code {
+//   padding: 0;
+//   font-size: 100%;
+//   color: inherit;
+//   background-color: transparent;
+// }
+
+// /* Horizontal code overflow fix */
+// pre.highlight {
+//   white-space: pre;
+//   overflow-x: auto;
+// }
+
+// /* Pygments via Jekyll */
+// .highlight {
+//   margin-bottom: 1rem;
+//   border-radius: 4px;
+// }
+// .highlight pre {
+//   margin-bottom: 0;
+// }
+
+// /* Gist via GitHub Pages */
+// .gist .gist-file {
+//   font-family: $code-font-family !important;
+// }
+// .gist .markdown-body {
+//   padding: 15px;
+// }
+// .gist pre {
+//   padding: 0;
+//   background-color: transparent;
+// }
+// .gist .gist-file .gist-data {
+//   font-size: .8rem !important;
+//   line-height: 1.4;
+// }
+// .gist code {
+//   padding: 0;
+//   color: inherit;
+//   background-color: transparent;
+//   border-radius: 0;
+// }
+
+// Inline code
 code {
-  padding: .25em .5em;
-  font-size: .8rem;
-  background-color: $code-background-color;
-  border-radius: 3px;
+  @include font-size($code-font-size);
+  color: $code-color;
+  word-wrap: break-word;
+
+  // Streamline the style when inside anchors to avoid broken underline and more
+  a > & {
+    color: inherit;
+  }
 }
+
+// User input typically entered via keyboard
+kbd {
+  padding: $kbd-padding-y $kbd-padding-x;
+  @include font-size($kbd-font-size);
+  color: $kbd-color;
+  background-color: $kbd-bg;
+  @include border-radius($border-radius-sm);
+  @include box-shadow($kbd-box-shadow);
+
+  kbd {
+    padding: 0;
+    @include font-size(100%);
+    font-weight: $nested-kbd-font-weight;
+    @include box-shadow(none);
+  }
+}
+
+// Blocks of code
 pre {
   display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: $code-background-color;
-}
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
+  @include font-size($code-font-size);
+  color: $pre-color;
+
+  // Account for some code outputs that place code tags in pre tags
+  code {
+    @include font-size(inherit);
+    color: inherit;
+    word-break: normal;
+  }
 }
 
-/* Horizontal code overflow fix */
-pre.highlight {
-  white-space: pre;
-  overflow-x: auto;
-}
-
-/* Pygments via Jekyll */
-.highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px;
-}
-.highlight pre {
-  margin-bottom: 0;
-}
-
-/* Gist via GitHub Pages */
-.gist .gist-file {
-  font-family: $code-font-family !important;
-}
-.gist .markdown-body {
-  padding: 15px;
-}
-.gist pre {
-  padding: 0;
-  background-color: transparent;
-}
-.gist .gist-file .gist-data {
-  font-size: .8rem !important;
-  line-height: 1.4;
-}
-.gist code {
-  padding: 0;
-  color: inherit;
-  background-color: transparent;
-  border-radius: 0;
+// Enable scrollable blocks of code
+.pre-scrollable {
+  max-height: $pre-scrollable-max-height;
+  overflow-y: scroll;
 }
