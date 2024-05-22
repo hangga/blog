@@ -22,7 +22,7 @@ Kebetulan ini saya perlukan untuk membackup 1 RAM saya yang mati.
 Jadi ceritanya saya punya pc cadangan (dulunya laptop yang dioprek menjadi pc) untuk kerja sehari-hari dengan OS Arch Linux. 
 
 <p align="center">
-<img src="../wp-content/uploads/2024/05/arch-linux-lenovo.jpeg" width="550"/>
+<img src="https://raw.githubusercontent.com/hangga/blog/gh-pages/wp-content/uploads/2024/05/arch-linux-lenovo.jpeg" width="550"/>
 </p>
 
 Laptop ini lumayan banyak menorehka cerita. Speknya pun lumayan garang pada masanya:
@@ -36,7 +36,7 @@ Meskipun udah ada Macbook Air M1, 2020 yang dibelikan sama mas Boss untuk kerjaa
 Nah, tiba-tiba beberapa waktu lalu 1 RAM-nya mati dan berakhir menjadi gantungan kunci.
 
 <p align="center">
-<img src="../wp-content/uploads/2024/05/ram-g-k.jpeg" width="440"/>
+<img src="https://raw.githubusercontent.com/hangga/blog/gh-pages/wp-content/uploads/2024/05/ram-g-k.jpeg" width="440"/>
 </p>
 
 Akhirnya sementara pc hidup dengan 1 RAM dan menyalakan Swap Memory.
@@ -100,7 +100,7 @@ Atau bisa juga dengan htop
 htop
 ```
 <p align="center">
-<img src="../wp-content/uploads/2024/05/untung-ada-swap.jpg" width="550">
+<img src="https://raw.githubusercontent.com/hangga/blog/gh-pages/wp-content/uploads/2024/05/untung-ada-swap.jpg" width="550">
 </p>
 
 Nah, sekarang pc Arch Linux udah auto Swap-On.
