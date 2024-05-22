@@ -6,7 +6,7 @@ author: 'Hangga Aji Sayekti'
 layout: post
 guid: 'https://hangga.github.io/blog/?p=000676767'
 permalink: /2024/05/22/arch-linux-set-auto-swap-on/
-image: /wp-content/uploads/2024/05/i-use-arch-linux-btw.png
+image: /wp-content/uploads/2024/05/arch-btw.png
 categories:
     - Linux
 tags:
