@@ -25,13 +25,13 @@ Jadi ceritanya saya punya pc cadangan (dulunya laptop yang dioprek menjadi pc) u
 <img src="https://raw.githubusercontent.com/hangga/blog/gh-pages/wp-content/uploads/2024/05/arch-linux-lenovo.jpeg" width="550"/>
 </p>
 
-Laptop ini lumayan banyak menorehka cerita. Speknya pun lumayan garang pada masanya:
+Laptop ini lumayan menorehkan banyak cerita. Speknya pun lumayan garang pada masanya:
 
 > Lenovo T440s, Intel Core i5, HDD 1 TB, DDR 3 RAM 2 x 8 GB
 
-Sehingga meskipun sudah tua bangka, saya sangat eman untuk membesituakannya. 
+Sehingga meskipun sudah tua bangka, saya sangat _eman_ untuk membesituakannya. 
 
-Meskipun udah ada Macbook Air M1, 2020 yang dibelikan sama mas Boss untuk kerjaan utama, namun kadang pc ini saya hidupkan untuk ngerjakan side project, atau sekedar oprek-oprek dll.
+Meskipun udah ada <a target="_blank" href="https://hangga.github.io/blog/2021/03/03/setup-macbook-m1-2020-for-development/">Macbook Air M1, 2020</a> yang dibelikan sama mas Boss untuk kerjaan utama, namun kadang pc ini saya hidupkan untuk ngerjakan side project, atau sekedar oprek-oprek dll.
 
 Nah, tiba-tiba beberapa waktu lalu 1 RAM-nya mati dan berakhir menjadi gantungan kunci.
 
@@ -64,7 +64,7 @@ sda       8:0    0 931,5G  0 disk
 
 Tapi jika belum punya partisi SWAP, maka kita bisa membuatnya dengan perintah `mkswap` dan menambahkannya ke file `/etc/fstab`.
 
-### 2. Buka file /etc/fstab dengan editor teks, misalnya dengan perintah:
+### 2. Buka file /etc/fstab dengan editor teks idola, misalnya dengan `nano`:
 ```Bash
 sudo nano /etc/fstab
 ```
