@@ -8,7 +8,9 @@ comments: true
 ### Hi there 👋
 I’m a passionate Software Engineer from Indonesia with experience since 2008. 
 
-Has a bachelor's degree in Mathematics and loves Science and Computers. 
+Has a bachelor's degree in Mathematics
+
+Loves Science and Computers. 
 
 Working on Java and Kotlin to develop Liveness Detection SDK.
 
