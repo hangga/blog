@@ -442,13 +442,13 @@ kbd {
     padding: 0;
     font-size: 100%;
     font-weight: 700; }
-
+/* 
 pre {    
-  /* background: #f2f3f5; */
+  background: #f2f3f5;
   padding: 5px;
   font-size:14px;
   display: block;
-  /* color: #252525;  */
+  color: #252525; 
 }
 pre code {
   font-size: inherit;
@@ -458,7 +458,7 @@ pre code {
 
 .pre-scrollable {
   max-height: 340px;
-  overflow-y: scroll; }
+  overflow-y: scroll; } */
 
 .container {
   width: 100%;
