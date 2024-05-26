@@ -25,7 +25,7 @@ Ini hanyalah salah satu trik agar proses *remove* *view* pada *LinearLayout* tam
 Saya membuat satu kelas untuk menangani hal ini yaitu ***DeleteRowAnimation*** turunan dari kelas ***Animation.***
 
 ```
-<pre class="lang:java decode:true">package id.web.hangga.deleterowanim;
+package id.web.hangga.deleterowanim;
 
 import android.os.Handler;
 import android.view.View;
@@ -134,7 +134,7 @@ Contoh implementasinya adalah sebagai berikut :
 ### Alpha
 
 ```
-<pre class="lang:java decode:true">DeleteRowAnimation anim = new DeleteRowAnimation(child);
+DeleteRowAnimation anim = new DeleteRowAnimation(child);
 anim.setAnimType(DeleteRowAnimation.ALPHA);
 anim.setDuration(1000);
 child.startAnimation(anim);
@@ -152,7 +152,7 @@ child.startAnimation(anim);
 ### Swipe Up
 
 ```
-<pre class="lang:java decode:true">DeleteRowAnimation anim = new DeleteRowAnimation(child);
+DeleteRowAnimation anim = new DeleteRowAnimation(child);
 anim.setAnimType(DeleteRowAnimation.SWIPE_UP);
 anim.setDuration(1000);
 child.startAnimation(anim);

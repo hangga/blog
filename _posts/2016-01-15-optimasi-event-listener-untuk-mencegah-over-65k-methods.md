@@ -34,7 +34,7 @@ Total methods count: 15594
 ### 2. Memanggil 1 object ***new** OnClickListener().*
 
 ```
-<pre class="lang:java decode:true">btnFirst = (Button) findViewById(R.id.btnFirst);
+btnFirst = (Button) findViewById(R.id.btnFirst);
 btnFirst.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {

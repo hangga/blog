@@ -34,7 +34,7 @@ Nah, bagi programmer <span style="color: #800080;">*Java*</span> atau pengembang
 He3x jujur saja, pasti anda juga sering melakukan hal berikut ini untuk mengantisipasi <span style="color: #800080;">*NullPointerException*</span>.
 
  ```
-<pre class="lang:java decode:true">if (viewMain == null) {
+if (viewMain == null) {
      viewMain = inflater.inflate(R.layout.fragment_main, container, false);
      ButterKnife.bind(this, viewMain);
      initialize();
@@ -42,7 +42,7 @@ He3x jujur saja, pasti anda juga sering melakukan hal berikut ini untuk menganti
 ```
 
  ```
-<pre class="lang:java decode:true">if (mentions == null || mentions.isEmpty()) {
+if (mentions == null || mentions.isEmpty()) {
      throw new IllegalArgumentException("Appended Mentions cannot be null nor empty.");
 }
 ```
@@ -52,7 +52,7 @@ Nah, jadi <span style="color: #800080;">*Objects.requireNonNull()*</span> ini gu
 Jadi, jika misalkan
 
  ```
-<pre class="lang:java decode:true">this.bar = Objects.requireNonNull(bar, "bar must not be null");
+this.bar = Objects.requireNonNull(bar, "bar must not be null");
 ```
 
 maka dijamin <span style="color: #800080;">***this.bar***</span> ini tidak akan null.

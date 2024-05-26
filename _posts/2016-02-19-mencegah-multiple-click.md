@@ -25,7 +25,7 @@ Sebenarnya ada banyak cara untuk mengakali trik ini, namun yg saya gunakan disin
 1\. Buat sebuah *<span class="pl-k">abstract</span> <span class="pl-k">class </span>*<span class="pl-k">yang mengimplements <span class="pl-e">View</span>.<span class="pl-e">OnClickListener.</span></span>
 
 ```
-<pre class="lang:java decode:true">package com.hangga.research;
+package com.hangga.research;
 
 import android.os.SystemClock;
 import android.view.View;

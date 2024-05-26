@@ -44,7 +44,7 @@ Cara bodoh untuk mengakali issue ini bisa dilakukan dengan cara membandingkan ju
 ```
 
 ```
-<pre class="lang:java decode:true">@Override
+@Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
