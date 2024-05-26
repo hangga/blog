@@ -444,15 +444,17 @@ kbd {
     font-weight: 700; }
 
 pre {    
-    background: #f2f3f5;
-    padding: 5px;
-    font-size:14px;
+  /* background: #f2f3f5; */
+  padding: 5px;
+  font-size:14px;
   display: block;
-  color: #252525; }
-  pre code {
-    font-size: inherit;
-    color: inherit;
-    word-break: normal; }
+  /* color: #252525;  */
+}
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal; 
+}
 
 .pre-scrollable {
   max-height: 340px;

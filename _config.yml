@@ -60,10 +60,9 @@ defaults:
     values:
       layout: page
       
-# Syntax
+# Syntax or Markdown settings
 markdown: kramdown
-# highlighter: rouge
-
+highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
 
