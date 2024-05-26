@@ -23,20 +23,20 @@ Postingan ini hanyalah sekedar catatan agar mudah untuk diingat dan dilihat kemb
 1. Buat *Repository*nya dulu jika belum punya![repo-create](http://hangga.github.io/blog/wp-content/uploads/2016/01/repo-create.png).
 2. Masuk ke *local project directory,* via *terminal* tentunya.
 3. Inisialisasikan direktori tersebut sebagai **local repository**```
-    <pre class="lang:sh decode:true">$ git init<em>.</em>
+    $ git init<em>.</em>
     ```
 4. *Add* semua file yg ada di *local repository,* lalu **commit.**```
-    <pre class="lang:default decode:true">$ git add .
+    $ git add .
     ```
     
     ```
-    <pre class="lang:default decode:true">$ git commit -m "First commit"
+    $ git commit -m "First commit"
     ```
 5. Tambahkan *URL repository* yg akan di **push.** ```
-    <pre class="lang:default decode:true ">$ git remote add origin https://github.com/hangga/ObservableSample.git
+    $ git remote add origin https://github.com/hangga/ObservableSample.git
     ```
 6. *Push* ke *remote repository*. Jangan lupa nge-*pull* dulu. ```
-    <pre class="lang:default decode:true">$ git pull origin master
+    $ git pull origin master
     $ git push origin master
     ```
 

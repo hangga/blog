@@ -141,7 +141,7 @@ public class FlowLayout extends ViewGroup {
 ### How to use
 
 ```
-<pre class="lang:xhtml decode:true"><?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"

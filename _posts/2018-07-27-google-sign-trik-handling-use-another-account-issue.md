@@ -36,7 +36,7 @@ Nah, yang terjadi adalah tidak didapatkannya *response* *data* pada *onActivityR
 Cara bodoh untuk mengakali issue ini bisa dilakukan dengan cara membandingkan jumlah akun *google* dalam *device* **sebelum** dan **sesudah** repro. Jika jumlah akun bertambah, maka *doSomething();*
 
 ```
-<pre class="lang:java decode:true" title="Method/function untuk menghitung jumlah akun dalam device">public static int getGoogleAccountCount(Context context){
+public static int getGoogleAccountCount(Context context){
         AccountManager accMan = AccountManager.get(context);
         Account[] accArray = accMan.getAccountsByType("com.google");
         return accArray.length;
@@ -55,7 +55,7 @@ Cara bodoh untuk mengakali issue ini bisa dilakukan dengan cara membandingkan ju
 ```
 
 ```
-<pre class="lang:java decode:true " title="Cek kembali jumlah akun google pada onActivityResult">@Override
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RC_SIGN_IN) {

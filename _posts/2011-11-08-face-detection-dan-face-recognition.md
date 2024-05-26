@@ -51,7 +51,7 @@ kemudian kalau folder facedetection dibuka, isinya sbb :
 Sisipkan semua file di dalam folder js tadi di dalam tag &lt;head&gt;…&lt;/head&gt;.
 
 ```
-<pre class="lang:js decode:1 ">
+
 &lt;script src=&quot;js/jquery-1.6.2.min.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;js/facedetection/ccv.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;js/facedetection/face.js&quot;&gt;&lt;/script&gt;
@@ -61,7 +61,7 @@ Sisipkan semua file di dalam folder js tadi di dalam tag &lt;head&gt;…&lt;/hea
 Lalu buat fungsi untuk event onclicknya
 
 ```
-<pre class="lang:js decode:1 ">
+
 $(function() {
 $('#tombol').click(function() {
 		var $this = $(this);
@@ -93,13 +93,13 @@ $('#tombol').click(function() {
 ```
 
 ```
-<pre class="lang:html decode:1 ">&lt;a href=&quot;#&quot; id=&quot;tombol&quot;&gt;Klik Disini&lt;/a&gt;
+&lt;a href=&quot;#&quot; id=&quot;tombol&quot;&gt;Klik Disini&lt;/a&gt;
 ```
 
 Kemudian image atau file gambar yang akan di deteksi
 
 ```
-<pre class="lang:html decode:1 ">&lt;img src=&quot;img/faces.jpg&quot; id=&quot;myPicture&quot;/&gt;
+&lt;img src=&quot;img/faces.jpg&quot; id=&quot;myPicture&quot;/&gt;
 ```
 
 Adapun contoh aplikasi yang telah saya buat dengan menggunakan *plugin face detection jquery* dapat teman2 lihat di [sini](http://hangga.github.io/blog/deteksiwajah).  

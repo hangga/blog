@@ -24,7 +24,7 @@ Iseng-seng ni, ingin mengubah tulisan teks menjadi suara..
 Haloo teman-teman, pernah kepikir ngga, mbuat aplikasi yang bs ngubah tulisan menjadi suara. He2x ternyata mudah dan berikut ini *sourcecode* nya
 
 ```
-<pre class="lang:pascal decode:1 ">
+
 uses
 Comobj;
 

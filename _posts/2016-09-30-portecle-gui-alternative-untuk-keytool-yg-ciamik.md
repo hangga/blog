@@ -32,7 +32,7 @@ Lihat saja [Keytool](http://docs.oracle.com/javase/6/docs/technotes/tools/solari
 Setelah berhasil *download* langsung masuk direktori *portecle-1.9*(saat sy download versinya masih 1.9) di terminal.
 
 ```
-<pre class="lang:default decode:true">$ java -jar portecle.jar
+$ java -jar portecle.jar
 ```
 
 Langsung ***Open Keystore file*** atau bisa ***Ctrl+O***
@@ -68,7 +68,7 @@ Tinggal klik **Copy**, lalu paste di editor dsb.
 Hasilnya seperti ini.
 
 ```
-<pre class="lang:default decode:true ">Type: JKS
+Type: JKS
 Provider: SUN
 Entries: 1
 

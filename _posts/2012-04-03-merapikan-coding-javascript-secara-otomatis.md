@@ -24,7 +24,7 @@ tags:
 Alangkah sialnya ketika kita membuka file .js yg berisi script seperti ini
 
 ```
-<pre class="lang:js decode:1 ">
+
 &lt;pre&gt;(function(i){var l,t,r,q,a,p,h,o,j,w,b={boxId:&quot;superbox&quot;,boxClasses:&quot;&quot;,overlayOpacity:0.8,boxWidth:&quot;600&quot;,boxHeight:&quot;400&quot;,loadTxt:&quot;Loading...&quot;,closeTxt:&quot;Close&quot;,prevTxt:&quot;Previous&quot;,nextTxt:&quot;Next&quot;,beforeShow:function(){}},x={},m=false,s=i([]);
 i.superbox=function(){w=i.extend({},b,i.superbox.settings);if(i.browser.msie&amp;&amp;i.browser.version&lt;7){s=s.add(&quot;select&quot;)
 }n();z()};function z(){i(&quot;a[rel^=superbox],area[rel^=superbox]&quot;).each(function(){var D=i(this),F=D.attr(&quot;rel&quot;),B=F.match(/^superbox[([^#.]]+)/)[1],E=F.replace(&quot;superbox&quot;,&quot;&quot;).match(/([#.][^#.]]+)/g)||[],C=w.boxId,A=w.boxClasses;

@@ -58,7 +58,7 @@ Cara termudah dalam membuat aplikasi OCR adalah dengan menggunakan API atau libr
 Seperti biasa, buka gradle lalu tambahkan pada dependency
 
 ```
-<pre class="lang:default decode:true">implementation 'com.google.android.gms:play-services-vision:11.8.0'
+implementation 'com.google.android.gms:play-services-vision:11.8.0'
 ```
 
 Kita buat *attach camera*, kemudian *convert* menjadi *bitmap*.  
@@ -69,7 +69,7 @@ Sederhana sekali bukan.
 Main *logic*nya ada disini:
 
 ```
-<pre class="lang:default decode:true">    private void goProcess() {
+    private void goProcess() {
         TextRecognizer txtRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
         if (!txtRecognizer.isOperational()) {
             txtView.setText(R.string.error_prompt);

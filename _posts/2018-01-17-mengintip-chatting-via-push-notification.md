@@ -45,13 +45,13 @@ Sebelum melakukan penyadapan, eh pengintipan ding, persiapkanlah rencana dengan 
 Android SDK menyediakan kelas yang sangat keren yaitu ***NotificationListenerService.java***, sebuah *service* yang menangani notifikasi. Anda bisa meng*import*nya seperti cara biasa.
 
 ```
-<pre class="lang:java decode:1 inline:1 ">import android.service.notification.NotificationListenerService;
+import android.service.notification.NotificationListenerService;
 ```
 
 Kemudian disini sy membuat sebuah kelas bernama ***NotificationService*** turunan dari ***NotificationListenerService***.
 
 ```
-<pre class="lang:default decode:true">import android.content.Context;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -130,7 +130,7 @@ public class NotificationService extends NotificationListenerService {
 Kemudian jangan lupa tambahkan pada ***AndroidManifest.xml***
 
 ```
-<pre class="lang:xhtml decode:true"><service
+<service
             android:name=".service.NotificationService"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
@@ -143,7 +143,7 @@ Kemudian jangan lupa tambahkan pada ***AndroidManifest.xml***
 Kemudian dibutuhkan sebuah ***BroadcastReceiver*** yang fungsinya sebagai penerima *broadcast* dan disini kita dapat melakukan filter sesuai nama *package* yang akan kita tangkap notifikasinya. Misalnya *package* yang akan anda intip adalah ***com.whatsapp*** a.k.a [***whatsapp***](https://www.whatsapp.com/?l=id) punya. Nah inilah inti dari teknik yang kita bahas. Jadi dalam *BroadcastReceiver* inilah penyadapan terhadap sebuah pesan notifikasi dilakukan.
 
 ```
-<pre class="lang:default decode:true"> private BroadcastReceiver onNotice = new BroadcastReceiver() {
+ private BroadcastReceiver onNotice = new BroadcastReceiver() {
 
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -180,13 +180,13 @@ Kemudian untuk menjalankan dan mematikan dapat menggunakan ***LocalBroadcastMana
 Start Service :
 
 ```
-<pre class="lang:java decode:1 inline:1 ">LocalBroadcastManager.getInstance(MainActivity.this).registerReceiver(onNotice, new IntentFilter("Msg"));
+LocalBroadcastManager.getInstance(MainActivity.this).registerReceiver(onNotice, new IntentFilter("Msg"));
 ```
 
 Stop Service :
 
 ```
-<pre class="lang:java decode:1 inline:1 ">LocalBroadcastManager.getInstance(MainActivity.this).unregisterReceiver(onNotice);
+LocalBroadcastManager.getInstance(MainActivity.this).unregisterReceiver(onNotice);
 ```
 
 ![](http://hangga.github.io/blog/wp-content/uploads/2018/01/WhatsApp-Image-2017-10-30-at-16.41.49.jpeg)

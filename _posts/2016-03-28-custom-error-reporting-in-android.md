@@ -26,7 +26,7 @@ Hal terpenting yang harus dilakukan dalam pengembangan *mobile apps* ketika mema
 *Error* yang relatif mudah di tangani secara teknis adalah *error* yang masuk ke dalam *Exception,* bukan *logic error* atau *flow error* sehingga kita dapat melihatnya dengan memasang *Log.e()*. Tapi masalahnya adalah*Exception* yang tidak tertangkap oleh blok *try catch* dan terlebih ketika *apk* sudah berada ditangan *Tester* dan terjadi *error* yang berbeda dengan *device* yang kita gunakan. Sehingga jalan terbaiknya adalah menampilkan *Log.error* ke dalam *Activity*. Nah, itu yang akan kita bahas.
 
 1. Setiap *exception* yang tidak tertangkap, akan dilarikan ke dalam method UncaughtExceptionHandler. Jika ingin membuat behaviour yg berbeda, maka kita tinggal meng-implements darinya. ```
-    <pre class="lang:default decode:true ">package com.research.hangga.simplecrashreport;
+    package com.research.hangga.simplecrashreport;
     
     import android.app.Activity;
     import android.content.Intent;
@@ -94,7 +94,7 @@ Hal terpenting yang harus dilakukan dalam pengembangan *mobile apps* ketika mema
     }
     ```
 2. Siapkan Activity untuk menampilkan error. ```
-    <pre class="lang:default decode:true">package com.research.hangga.simplecrashreport;
+    package com.research.hangga.simplecrashreport;
     
     import android.os.Bundle;
     import android.support.v7.app.AppCompatActivity;
@@ -115,7 +115,7 @@ Hal terpenting yang harus dilakukan dalam pengembangan *mobile apps* ketika mema
     }
     ```
 3. Pasang di setiap Activity, atau akan lebih mudah jika anda memiliki parent class Activity, tinggal pasang disana. ```
-    <pre class="lang:default decode:true">    private int mNotifCount = 0;
+        private int mNotifCount = 0;
         private LayerDrawable icon;
     
         private GoogleApiClient client;

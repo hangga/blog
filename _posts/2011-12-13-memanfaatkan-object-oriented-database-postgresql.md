@@ -32,7 +32,7 @@ Tapi, yang paling saya suka dari <span style="color: #008080;">***PostgreSQL*** 
 Berikut ini contohnya :
 
 ```
-<pre class="lang:sql decode:1 ">
+
 CREATE TABLE "public"."customer" (
 "id" INTEGER NOT NULL,
 "nama" VARCHAR(300),
@@ -47,7 +47,7 @@ Kemudian misalkan kita akan membuat turunan dari tabel “customer”, caranya s
 Kita beri nama misalnya “special\_customer”
 
 ```
-<pre class="lang:sql decode:1 ">
+
 CREATE TABLE "public"."special_customer" (
 "level" INTEGER
 ) INHERITS ("public"."customer")
@@ -57,7 +57,7 @@ WITHOUT OIDS;
 Jika kita query tabel “special\_customer”
 
 ```
-<pre class="lang:sql decode:1 ">
+
 
 select * from special_customer
 
@@ -70,7 +70,7 @@ Hasilnya sebagai berikut :
 Sedangkan jika kita query tabel “customer” maka hasilnya sebagai berikut :
 
 ```
-<pre class="lang:sql decode:1 ">
+
 
 select * from customer
 

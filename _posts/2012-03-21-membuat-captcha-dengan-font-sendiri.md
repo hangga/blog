@@ -22,13 +22,13 @@ tags:
 [![](http://hangga.github.io/blog/wp-content/uploads/2012/03/Untitled-1.jpg "Untitled-1")](http://hangga.github.io/blog/wp-content/uploads/2012/03/Untitled-1.jpg)Teman2 tahu *Captcha* kan.. yup gambar yang di create dari sebuah teks secara random yang bertujuan untuk melindungi form php kita dari aksi *flooding.* Di php kita dapat membuat teks menjadi gambar dengan fungsi
 
 ```
-<pre class="lang:php decode:1 ">imagestring( resource $image , int $font , int $x, int $y, string $string, int $color);
+imagestring( resource $image , int $font , int $x, int $y, string $string, int $color);
 ```
 
 Tetapi sayangnya kita tidak dapat merubah ukuran font nya. Untuk dapat men-*custom* fontnya, kita harus meload font sendiri, yup pake fungsi
 
 ```
-<pre class="lang:php decode:1 ">int imageloadfont( string $file)
+int imageloadfont( string $file)
 ```
 
 Akan tetapi sy sudah mencoba berbagai cara, *browsing* sana-sini dan hasilnya masih belum memuaskan.
@@ -38,7 +38,7 @@ Akhirnya pada suatu ketika malah nemuin thread bagus di kaskus <http://www.kasku
 Setelah itu barulah mari kita beraksi
 
 ```
-<pre class="lang:php decode:1 ">$font = imageloadfont('./fontku.gdf');
+$font = imageloadfont('./fontku.gdf');
 ```
 
 Akhirnya *captcha*ku jadi juga

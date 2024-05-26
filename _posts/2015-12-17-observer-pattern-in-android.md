@@ -49,7 +49,7 @@ Object-object yg dibutuhkan antara lain:
 
 1. *Observable object*  
     Bertindak sebagai object Observable adalah kelas ****Notif.java**** ```
-    <pre class="lang:default decode:true">package com.research.hangga.myresearch.Objects;
+    package com.research.hangga.myresearch.Objects;
     
     import android.util.Log;
     
@@ -86,7 +86,7 @@ Object-object yg dibutuhkan antara lain:
     }
     ```
 2. Observers object dalam hal ini adalah *ActivityMain, ActivitySecond* dan *ActivityThird* sehingga ketiganya harus meng*implements* **Observer.** ```
-    <pre class="lang:default decode:true">package com.research.hangga.myresearch;
+    package com.research.hangga.myresearch;
     
     import android.content.Intent;
     import android.os.Bundle;

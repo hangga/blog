@@ -36,7 +36,7 @@ compile 'com.google.android.gms:play-services-analytics:7.3.0'
 Error ini juga menyebabkan project anda tidak dapat di build. Penyebab error ini adalah adanya duplikasi nama *file* di dalam *project* Anda entah di dalam *package* anda sendiri, atau dalam *library* yang Anda gunakan. Sehingga anda harus rajin *metani* ha3x.. rasain..
 
 ```
-<pre class="lang:default decode:true">Note: there were 110 duplicate class definitions.
+Note: there were 110 duplicate class definitions.
       (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
 Warning:can't write resource [.readme] (Duplicate zip entry [classes.jar:.readme])
 Warning:can't write resource [META-INF/LICENSE.txt] (Duplicate zip entry [commons-lang3-3.2.1.jar:META-INF/LICENSE.txt])
@@ -52,7 +52,7 @@ Error:Execution failed for task ':app:proguardAppRelease'.
 Saya pernah mengalaminya dan Alhamdulillah *solved* dengan cara meng-*exclude* file2 yang terindikasi terjadi duplikasi:
 
 ```
-<pre class="lang:default decode:true">android {
+android {
      packagingOptions { 
          exclude 'META-INF/LICENSE.txt' 
          exclude 'META-INF/NOTICE.txt' 

@@ -72,7 +72,7 @@ Total methods count: 15598
 ### 3. Setiap *Button* memanggil satu *object onClicklistener* dengan pengkondisian
 
 ```
-<pre class="lang:default decode:true ">@Override
+@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

@@ -27,17 +27,17 @@ Nah untuk menampilakan format mata uang Rupiah, ternyata kita bisa menggunakan b
 
 1. Menggunakan fungsi *formatfloat().* Misalnya sbb : 
     - ```
-        <pre class="lang:pascal decode:1 ">
+        
         EdtHarga.text := formatfloat('Rp. ##,###,###',sHarga);
         ```
 2. Menggunakan fungsi *AnsiReplaceStr().* Misalnya sbb 
     - ```
-        <pre class="lang:pascal decode:1 ">
+        
         EdtHarga.text := AnsiReplaceStr(FormatFloat('#,###',sHarga),',','.');
         ```
 3. Dengan memodifikasi fungsi yang sudah ada di *delphi.* Misalnya sbb : 
     - ```
-        <pre class="lang:pascal decode:1 ">function sMataUangRP(nHarga:  Currency) : String;
+        function sMataUangRP(nHarga:  Currency) : String;
         var
         n: String;
         begin
@@ -48,7 +48,7 @@ Nah untuk menampilakan format mata uang Rupiah, ternyata kita bisa menggunakan b
         ```
 4. Dengan membuat fungsi sendiri. Misalnya sbb : 
     - ```
-        <pre class="lang:pascal decode:1 ">function rupiah(sNilai : string): string;
+        function rupiah(sNilai : string): string;
         var
         i, j, p : Integer;
         sHasil, sKi : string;
@@ -81,7 +81,7 @@ Contoh penggunaan fungsi pada program
 [![](http://hangga.github.io/blog/wp-content/uploads/2011/12/2011-12-02_104945.png "2011-12-02_104945")](http://hangga.github.io/blog/wp-content/uploads/2011/12/2011-12-02_104945.png)
 
 ```
-<pre class="lang:pascal decode:1 ">
+
 unit Unit1;
 
 interface

@@ -33,7 +33,7 @@ Buat file **skrip-ku.js** dan **index.html**
 Berikut ini isi file **index.html**
 
 ```
-<pre class="lang:html decode:1 ">
+
 
 &lt;script type="text/javascript" src="skrip-ku.js"&gt;&lt;/script&gt;
 
@@ -45,7 +45,7 @@ Berikut ini isi file **index.html**
 Coba kita lihat, bagaimana di HTML 5 kita bisa membuat canvas.
 
 ```
-<pre class="lang:html decode:1 ">
+
 &lt;canvas id="kanvasku" width="400" height="300" style="border: 1px solid #000000; background: #000;"&gt;
 &lt;/canvas&gt;
 ```
@@ -53,7 +53,7 @@ Coba kita lihat, bagaimana di HTML 5 kita bisa membuat canvas.
 Mari kita lihat isi *file* skrip-ku.js
 
 ```
-<pre class="lang:js decode:1 ">
+
 var mykontek;
 var x = 1; step = 1;
 var lebar = 400;

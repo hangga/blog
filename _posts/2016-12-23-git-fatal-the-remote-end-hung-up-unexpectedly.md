@@ -21,7 +21,7 @@ tags:
 Beberapa waktu lalu pernah mengalami hal ini, yaitu ketika membuat *project* baru kemudian *push request*.
 
 ```
-<pre class="lang:default decode:true ">error: RPC failed; result=55, HTTP code = 200
+error: RPC failed; result=55, HTTP code = 200
 fatal: The remote end hung up unexpectedly
 Writing objects: 100% (54/54), 13.45 MiB | 35.00 KiB/s, done.
 Total 54 (delta 2), reused 0 (delta 0)
@@ -36,7 +36,7 @@ Rupanya penyebabnya adalah berikut ini
 Sehingga kita harus mengubah ukuran *http.postBuffer*-nya
 
 ```
-<pre class="lang:default decode:true ">git config --global http.postBuffer 157286400
+git config --global http.postBuffer 157286400
 ```
 
 Sumber : <https://confluence.atlassian.com/stashkb/git-push-fails-fatal-the-remote-end-hung-up-unexpectedly-282988530.html>

@@ -48,7 +48,7 @@ Karena penasaran, sehingga sayapun mencoba mengidentifikasi apa penyebabnya.
 Terpantau *url* yang ditembak untuk mengambil data kurir berdasarkan kota tinggal saya adalah sebagai berukut:
 
 ```
-<pre class="lang:default decode:true ">https://gw.tokopedia.com/v2/rates?callback=jQuery19108977403708117607_1539919319473&service=sameday&names=gojek,grab&origin=1603|15211|-6.096146500000001,106.6889122&weight=7&from=client&token=Tokopedia+Kero:TYnvROYwESCmZuhClHAchPXdhmg=&ut=1539919319&insurance=1&product_insurance=0&order_value=60000&cat_id=2083&lang=id&destination=3613|55173|-7.824337850304216,110.40123481303452&_=1539919319475
+https://gw.tokopedia.com/v2/rates?callback=jQuery19108977403708117607_1539919319473&service=sameday&names=gojek,grab&origin=1603|15211|-6.096146500000001,106.6889122&weight=7&from=client&token=Tokopedia+Kero:TYnvROYwESCmZuhClHAchPXdhmg=&ut=1539919319&insurance=1&product_insurance=0&order_value=60000&cat_id=2083&lang=id&destination=3613|55173|-7.824337850304216,110.40123481303452&_=1539919319475
 ```
 
 Sedangkan *response json*-nya sebagai berikut:
@@ -56,7 +56,7 @@ Sedangkan *response json*-nya sebagai berikut:
 ![](http://hangga.github.io/blog/wp-content/uploads/2018/10/response-wagu-700x394.png)
 
 ```
-<pre class="lang:js decode:true ">{"errors":[{"id":"541","status":"400","title":"No data found."}]}
+{"errors":[{"id":"541","status":"400","title":"No data found."}]}
 ```
 
 Yes, kode status 400 biasanya seputar kesalahan *request* dari *user.* Tapi aaapaa yaa, sudah coba *clear cookies browser* pada browser, jangan-jangan ada *param* yang nyangkut. Ternyata masih 400, ealah.

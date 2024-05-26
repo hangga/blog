@@ -143,7 +143,7 @@ child.startAnimation(anim);
 ### Swipe Left
 
 ```
-<pre class="lang:default decode:true">DeleteRowAnimation anim = new DeleteRowAnimation(child);
+DeleteRowAnimation anim = new DeleteRowAnimation(child);
 anim.setAnimType(DeleteRowAnimation.SWIPE_LEFT);
 anim.setDuration(1000);
 child.startAnimation(anim);

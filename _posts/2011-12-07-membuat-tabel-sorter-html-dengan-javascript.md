@@ -58,7 +58,7 @@ Contoh sederhananya adalah seperti di bawah ini :
 sourcenya sebagai berikut :
 
 ```
-<pre class="lang:js decode:1 ">
+
 &lt;link rel="stylesheet" href="http://hangga.github.io/blog/sorting/style.css" /&gt;
 &lt;/head&gt;
 &lt;body&gt;
