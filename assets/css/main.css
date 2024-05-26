@@ -449,8 +449,8 @@ pre {
   font-size:14px;
   display: block;
   color: #580243;
-  border-radius: 10px;
-  border: 0.5px solid #afafaf; 
+  border-radius: 6px;
+  border: 0.5px solid #c5be93; 
 }
 
 pre code {
