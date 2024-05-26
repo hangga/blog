@@ -62,7 +62,11 @@ defaults:
       
 # Syntax
 markdown: kramdown
-highlighter: rouge
+# highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge
+
 
 # Paginate
 paginate: 12
