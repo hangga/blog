@@ -41,7 +41,7 @@ inSampleSize == 4 mengembalikan gambar berukuran 1/4 ukuran(width x height) asli
 Code:
 
 ```
-<pre class="lang:java decode:true ">BitmapFactory.Options options = new BitmapFactory.Options();
+BitmapFactory.Options options = new BitmapFactory.Options();
 options.inSampleSize = 2;
 Bitmap bitmap = BitmapFactory.decodeStream(stream, null, options);
 ```
@@ -49,7 +49,7 @@ Bitmap bitmap = BitmapFactory.decodeStream(stream, null, options);
 #### 2. Atau bisa juga dengan inisiasi ukuran secara manual:
 
 ```
-<pre class="lang:java decode:true ">BitmapFactory.Options options = new BitmapFactory.Options();
+BitmapFactory.Options options = new BitmapFactory.Options();
 options.inJustDecodeBounds = true;
 bitmap = BitmapFactory.decodeStream(stream, null, options);
 int imageHeight = options.outHeight;
@@ -91,7 +91,7 @@ Konfigurasi ini sangat fleksibel dan menawarkan kualitas terbaik. Ini harus digu
 Code:
 
 ```
-<pre class="lang:java decode:true ">BitmapFactory.Options options = new BitmapFactory.Options();
+BitmapFactory.Options options = new BitmapFactory.Options();
 options.inPreferredConfig = Config.RGB_565;
 Bitmap bitmap = BitmapFactory.decodeStream(stream, null, options);
 ```

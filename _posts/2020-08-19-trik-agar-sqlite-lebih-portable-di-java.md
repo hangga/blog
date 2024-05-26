@@ -56,7 +56,7 @@ Pada kelas [*System Utilities*](https://docs.oracle.com/javase/tutorial/essentia
 Nah, ini bisa kita manfaatkan.
 
 ```
-<pre class="lang:java decode:true ">Connection getSqlite() {
+Connection getSqlite() {
 
 String dbdir = "file:" + System.getProperty("user.dir") + "/data/db/data.sqlite";
 

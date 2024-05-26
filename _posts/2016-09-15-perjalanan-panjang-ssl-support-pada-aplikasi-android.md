@@ -51,7 +51,7 @@ Kemudian untuk menggenerate *certificate* menjadi sebuah *keystore* dapat dilaku
 Jika menggunakan OkHttp bisa lebih mudah lagi karena dapat menggunakan CertificatePinner.
 
 ```
-<pre class="lang:java decode:true ">CertificatePinner certificatePinner = new CertificatePinner.Builder()
+CertificatePinner certificatePinner = new CertificatePinner.Builder()
                 .add("domainkamu.com", "sha256/0mOSBPV1PLalshashahsaB/iYTuP/Cj+Qrw=").build();
         OkHttpClient.Builder b = new OkHttpClient.Builder().certificatePinner(certificatePinner);
 ```
@@ -61,7 +61,7 @@ Jika menggunakan OkHttp bisa lebih mudah lagi karena dapat menggunakan Certifica
 Boleh dibilang ini adalah metode yg tidak aman, karena langsung percaya saja tanpa identifikasi.
 
 ```
-<pre class="lang:java decode:true ">@SuppressWarnings("null")
+@SuppressWarnings("null")
     public static OkHttpClient configureClient(final OkHttpClient client) {
         final TrustManager[] certs = new TrustManager[]{new X509TrustManager() {
 

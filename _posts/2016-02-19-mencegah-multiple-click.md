@@ -76,7 +76,7 @@ public abstract class SingleClickListener implements View.OnClickListener {
 2\. How to use
 
 ```
-<pre class="lang:java decode:true ">txtEdan.setOnClickListener(new SingleClickListener() {
+txtEdan.setOnClickListener(new SingleClickListener() {
         @Override
         public void onSingleClick(View v) {
         	Intent intent;

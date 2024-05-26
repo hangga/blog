@@ -26,7 +26,7 @@ tags:
 <figure aria-describedby="caption-attachment-2736" class="wp-caption aligncenter" id="attachment_2736" style="width: 500px">![https://en.wikipedia.org/wiki/Observer_pattern#Structure](http://hangga.github.io/blog/wp-content/uploads/2015/12/500px-Observer.svg_.png)<figcaption class="wp-caption-text" id="caption-attachment-2736">https://en.wikipedia.org/wiki/Observer\_pattern#Structure</figcaption></figure>Sedangkan di Android, Observable pattern sudah di *handle* oleh kelas bawaan *Java* yg sangat keren pada kelas ***java.util.Observable.*** Sehingga untuk dapat menggunakan fitur-fitur Observable dapat dilakukan dengan cara mengimport kelas ***java.util.Observable***.
 
 ```
-<pre class="lang:java decode:true ">import java.util.Observable;
+import java.util.Observable;
 ```
 
 ### Contoh kasus

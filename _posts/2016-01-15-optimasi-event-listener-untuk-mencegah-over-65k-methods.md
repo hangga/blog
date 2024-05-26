@@ -24,7 +24,7 @@ Mari perhatikan perbandingan berikut ini:
 ### 1. Tanpa memanggil object ***new** OnClickListener().*
 
 ```
-<pre class="lang:java decode:true ">btnFirst = (Button) findViewById(R.id.btnFirst);
+btnFirst = (Button) findViewById(R.id.btnFirst);
 btnSecond = (Button) findViewById(R.id.btnSecond);
 btnThird = (Button) findViewById(R.id.btnThird);
 ```
@@ -50,7 +50,7 @@ Total methods count: 15596
 ### 2. Memanggil 2 object ***new** OnClickListener().*
 
 ```
-<pre class="lang:java decode:true ">btnFirst = (Button) findViewById(R.id.btnFirst);
+btnFirst = (Button) findViewById(R.id.btnFirst);
 btnFirst.setOnClickListener(new View.OnClickListener() {
 	@Override
     public void onClick(View v) {

@@ -37,7 +37,7 @@ Lebih jelasnya seperti gambar dibawah.
 Kelas *FlowLayout* bisa diturunkan dari *ViewGroup,* kemudian ditambahkan *custom behaviour* pada beberapa Override methodnya.
 
 ```
-<pre class="lang:java decode:true ">package com.research.hangga.autoalign;
+package com.research.hangga.autoalign;
 
 import android.content.Context;
 import android.util.AttributeSet;
