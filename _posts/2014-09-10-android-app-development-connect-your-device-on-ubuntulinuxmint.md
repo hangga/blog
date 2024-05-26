@@ -40,7 +40,7 @@ Login sebagai administrator, lalu buat file di <span style="color: #008000;">/et
 <span style="color: #000000;"></span>
 
 ```
-<pre class="inline:true decode:1 ">SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", MODE="0666", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", MODE="0666", GROUP="plugdev"
 ```
 
 Kemudian *edit* pake *nano*, seperti ini.
