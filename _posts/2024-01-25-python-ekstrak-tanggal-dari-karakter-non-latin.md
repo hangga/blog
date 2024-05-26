@@ -410,7 +410,7 @@ Nah, tantangannya begini manteman. Bagaimana caranya mengambil data tanggal dari
 
 Berikut fungsi yang sudah kita buat. Tentu saja hasil *trial* &amp; *error*, comot sana-sini, *googling*, *stackoverflow* dll:
 
-```
+```python
 import re
 from datetime import datetime
 
@@ -447,7 +447,7 @@ Mari kita bahas alurnya.
 
 **Pattern Format Tanggal**
 
-```
+```python
 date_formats = [
     r'\b(?:\d{4}[-/]\d{1,2}[-/]\d{1,2}|\d{1,2}[-/]\d{1,2}[-/]\d{4})\b',
     r'\b(?:\d{4}[-/]\d{1,2}|\d{1,2}[-/]\d{4})\b',
@@ -459,7 +459,7 @@ Ini adalah beberapa format tanggal yang mungkin ditemui dalam teks. Format terse
 
 **Pengecekan dan Konversi Tanggal**
 
-```
+```python
 try:
     if len(match) == 4:
         date_obj = datetime(int(match), 1, 1).date()
@@ -477,7 +477,7 @@ except ValueError:
 
 **Pengecekan Hasil Ekstraksi:**
 
-```
+```python
 if extracted_dates:
     return extracted_dates[0]
 else:
@@ -487,7 +487,7 @@ else:
 Ini akan mengembalikan tanggal pertama yang berhasil diekstrak jika ada, atau None jika tidak ada tanggal yang ditemukan.  
 Sekarang mari kita uji coba.
 
-```
+```python
 sample_inputs = sample.split()
 
 for date in sample_inputs:

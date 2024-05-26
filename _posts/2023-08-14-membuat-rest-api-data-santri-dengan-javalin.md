@@ -61,7 +61,7 @@ Buka Intellij IDEA dan buat proyek baru seperti biasa:
 1\. Buka file `build.gradle` dalam proyek Anda.  
 2\. Tambahkan dependensi Javalin ke dalam blok `dependencies`:
 
-```
+```java
 dependencies {
     implementation 'io.javalin:javalin:3.15.0'
 }
@@ -74,7 +74,7 @@ dependencies {
 1. Buat package baru dalam direktori `src/main/java` dengan nama `com.example.santriapi`.
 2. Dalam package tersebut, buat file bernama `SantriApp.java`.
 
-```
+```java
 package com.example.santriapi;
 
 import io.javalin.Javalin;
@@ -94,7 +94,7 @@ public class SantriApp {
 
 Tambahkan dependensi JDBC MySQL ke file `build.gradle`:
 
-```
+```java
 dependencies {
     implementation 'io.javalin:javalin:3.15.0'
     implementation 'mysql:mysql-connector-java:8.0.26'
@@ -103,7 +103,7 @@ dependencies {
 
 Kemudian, buat file Database.java dalam package yang sama dengan SantriApp.java:
 
-```
+```java
 package com.example.santriapi;
 
 import java.sql.Connection;
@@ -131,7 +131,7 @@ public class Database {
 
 **Langkah 6: Membuat Endpoints CRUD**
 
-```
+```java
 package com.example.santriapi;
 
 import io.javalin.Javalin;
@@ -289,7 +289,7 @@ Berikut adalah contoh pengujian endpoint-endpoint yang telah kita buat menggunak
 - URL: <http://localhost:7000/santri>
 - Body (JSON):
 
-```
+```json
 {
     "nama": "Ahmad",
     "alamatAsal": "Bandung",
@@ -303,7 +303,7 @@ Berikut adalah contoh pengujian endpoint-endpoint yang telah kita buat menggunak
 - URL: <http://localhost:7000/santri/1>
 - Body (JSON):
 
-```
+```json
 {
     "nama": "Ali",
     "alamatAsal": "Jakarta",
