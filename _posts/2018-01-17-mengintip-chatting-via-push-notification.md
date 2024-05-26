@@ -4,7 +4,7 @@ title: 'Menyadap aktivitas Chatting via Push Notification'
 date: '2018-01-17T05:38:46+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-guid: 'http://hangga.github.io/blog/?p=3729'
+guid: 'https://hangga.github.io/blog/?p=3729'
 permalink: /2018/01/17/mengintip-chatting-via-push-notification/
 image: /wp-content/uploads/2018/01/lebanon-army-spyware-700.png
 categories:
@@ -25,19 +25,27 @@ Nah, terlepas dari semua bahasan yang *njelehi* tersebut, mari kita mbahas ini s
 
 Namun perlu diketahui bahwa dalam hal ini ada dua kemungkinan, bisa berhasil bisa juga tidak. Bisa berhasil jika pemilik *device* meng-*enable* setelan *notification settings*. Jika tidak, yasudah anda tidak dapat pamer ke calon mertua. Yang jelas tak se-*keren* aksi *hacker* di filem-filem. *He3x..*
 
-<figure aria-describedby="caption-attachment-3737" class="wp-caption aligncenter" id="attachment_3737" style="width: 650px">![](http://hangga.github.io/blog/wp-content/uploads/2018/01/4-hacker-paling-berbahaya-di-dunia-nomor-3-mampu-jebol-pertahanan-nasa-ODh3g0SCLQ-700x367.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3737">sumber: https://img.okezone.com</figcaption></figure>## Apa itu Push Notification?
+<figure aria-describedby="caption-attachment-3737" class="wp-caption aligncenter" id="attachment_3737" style="width: 650px">
+
+![](https://hangga.github.io/blog/wp-content/uploads/2018/01/4-hacker-paling-berbahaya-di-dunia-nomor-3-mampu-jebol-pertahanan-nasa-ODh3g0SCLQ-700x367.jpg)<figcaption class="wp-caption-text" id="caption-attachment-3737">sumber: https://img.okezone.com</figcaption></figure>## Apa itu Push Notification?
 
 *Push Notification* adalah sebuah notifikasi atau pemberitahuan instan yang di *push* langsung dari *server/back end* ke antarmuka pengguna aplikasi (desktop/mobile).
 
-<figure aria-describedby="caption-attachment-3764" class="wp-caption aligncenter" id="attachment_3764" style="width: 650px">![](http://hangga.github.io/blog/wp-content/uploads/2018/01/push-notifications-network-diagram-700x395.png)<figcaption class="wp-caption-text" id="caption-attachment-3764">Skema alur Push Notification, Sumber : http://docs.pivotal.io/push/1-9/assets/push-notifications-network-diagram.png</figcaption></figure>Notifikasi biasanya memiliki *title* berisi judul notifikasi, *package name* berisi nama *package* aplikasi penerima notifikasi, dan *text* yang berisi pesan isi notifikasi. Nah ketiga *property* inilah yang akan kita ambil informasinya.
+<figure aria-describedby="caption-attachment-3764" class="wp-caption aligncenter" id="attachment_3764" style="width: 650px">
 
-<figure aria-describedby="caption-attachment-3756" class="wp-caption aligncenter" id="attachment_3756" style="width: 600px">![](http://hangga.github.io/blog/wp-content/uploads/2018/01/push-notification-1-contoh.png)<figcaption class="wp-caption-text" id="caption-attachment-3756">Contoh Push Notification dari sisi antar muka pengguna pada aplikasi mobile.</figcaption></figure>## Skenario penyadapan
+![](https://hangga.github.io/blog/wp-content/uploads/2018/01/push-notifications-network-diagram-700x395.png)<figcaption class="wp-caption-text" id="caption-attachment-3764">Skema alur Push Notification, Sumber : https://docs.pivotal.io/push/1-9/assets/push-notifications-network-diagram.png</figcaption></figure>Notifikasi biasanya memiliki *title* berisi judul notifikasi, *package name* berisi nama *package* aplikasi penerima notifikasi, dan *text* yang berisi pesan isi notifikasi. Nah ketiga *property* inilah yang akan kita ambil informasinya.
+
+<figure aria-describedby="caption-attachment-3756" class="wp-caption aligncenter" id="attachment_3756" style="width: 600px">
+
+![](https://hangga.github.io/blog/wp-content/uploads/2018/01/push-notification-1-contoh.png)<figcaption class="wp-caption-text" id="caption-attachment-3756">Contoh Push Notification dari sisi antar muka pengguna pada aplikasi mobile.</figcaption></figure>## Skenario penyadapan
 
 Sebelum melakukan penyadapan, eh pengintipan ding, persiapkanlah rencana dengan matang. Luruskan niat semata-mata untuk ber*experimen* dan menambah ilmu. he3x.. Bukan untuk menebar fitnah dan kejahatan. Pikirkan juga dosanya he3x.
 
 1. **Membuat aplikasi penyadap** atau apalah istilahnya, yang penting berupa file .apk, dapat berupa aplikasi menarik atau game namun di dalamnya terdapat *script* penyadap. Ha3x. Silahkan gunakan ide kreatif anda masing-masing.
 2. **Gunakan *icon* yang menarik dan tidak mencurigakan**. Ini penting, agar user tidak curiga akan niat busuk Anda. Ha3x..
-3. **Paksa user untuk mengaktifkan** ***notification access**.* Ini hukumnya wajib. Pokoknya bagaimana caranya, user harus mengaktifkan *permission* ini.![](http://hangga.github.io/blog/wp-content/uploads/2018/01/settings-700-700x949.png)
+3. **Paksa user untuk mengaktifkan** ***notification access**.* Ini hukumnya wajib. Pokoknya bagaimana caranya, user harus mengaktifkan *permission* ini.
+
+![](https://hangga.github.io/blog/wp-content/uploads/2018/01/settings-700-700x949.png)
 
 ## *Script* penyadap  
 
@@ -189,11 +197,11 @@ Stop Service :
 LocalBroadcastManager.getInstance(MainActivity.this).unregisterReceiver(onNotice);
 ```
 
-![](http://hangga.github.io/blog/wp-content/uploads/2018/01/WhatsApp-Image-2017-10-30-at-16.41.49.jpeg)
+![](https://hangga.github.io/blog/wp-content/uploads/2018/01/WhatsApp-Image-2017-10-30-at-16.41.49.jpeg)
 
 *Log* pada *IDE Android Studio*
 
-![](http://hangga.github.io/blog/wp-content/uploads/2018/01/WhatsApp-Image-2017-10-30-at-16.39.14-700x1244.jpeg)
+![](https://hangga.github.io/blog/wp-content/uploads/2018/01/WhatsApp-Image-2017-10-30-at-16.39.14-700x1244.jpeg)
 
 Contoh tampilan aplikasi *WaSpy*
 
