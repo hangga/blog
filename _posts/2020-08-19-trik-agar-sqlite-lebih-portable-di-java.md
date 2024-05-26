@@ -22,26 +22,26 @@ Untuk membuat sebuah aplikasi ***desktop – Java***, dengan kebutuhan transaksi
 Ketika menghubungkan aplikasi dengan SQLite umumnya pada tutorial-tutorial yang ada adalah dengan cara seperti ini.
 
 ```
-<pre class="lang:default decode:true">Connection conn = DriverManager.getConnection( "jdbc:sqlite::resource:database/test.db" );
+Connection conn = DriverManager.getConnection( "jdbc:sqlite::resource:database/test.db" );
 ```
 
 atau, seperti ini (tergantung nama file-nya).
 
 ```
-<pre class="lang:default decode:true">Connection conn = DriverManager.getConnection( "jdbc:sqlite::resource:database/data.sqlite" );
+Connection conn = DriverManager.getConnection( "jdbc:sqlite::resource:database/data.sqlite" );
 ```
 
 Dalam kasus ini, sy menggunakan IDE faforit sy yaitu Intellij IDEA Community Edition.
 
-Ketika project di *Run* dari IDE berjalan dengan lancar. Namun ketika di build menjadi *app.jar*, kemudian dijalankan, terjadi *error* kurang lebih semacam ini:
+Ketika project di `Run` dari IDE berjalan dengan lancar. Namun ketika di build menjadi `app.jar`, kemudian dijalankan, terjadi `error` kurang lebih semacam ini:
 
 ![](http://hangga.github.io/blog/wp-content/uploads/2020/08/err.png)
 
 # Mengapa terjadi?
 
-Ketika kita ***run*** dengan meng-klik tombol ***run*** dari IDE, ***working directory***-nya berada pada **direktori *project*** atau sesuai konfig anda saat create project.
+Ketika kita `run` dengan meng-klik tombol `run` dari IDE, `working directory`-nya berada pada direktori `project` atau sesuai konfig anda saat create project.
 
-Namun ketika project sudah di build menjadi *app.jar*, *working directory*-nya bukan lagi di dalam *project directory*. Tapi berada di direktori dimana ***app.jar*** itu berada. Biasanya di &lt;*project name*&gt;/out/artifacts/project\_name\_jar/
+Namun ketika project sudah di build menjadi `app.jar`, `working directory`-nya bukan lagi di dalam `project directory`. Tapi berada di direktori dimana ***app.jar*** itu berada. Biasanya di `<project name>/out/artifacts/project\_name\_jar/`
 
 Saya terbiasa mengatur *app* direktori seperti ini.
 
@@ -76,7 +76,7 @@ Eiits, tapi urusanya belum selesai. Ternyata test di *Windows 7* masih ***error 
 Saya ubah jadi seperti ini:
 
 ```
-<pre class="lang:default decode:true">String dbdir = new File(Utils.getDbPath()).toURI().toString(); // Stable on Windows & Linux
+String dbdir = new File(Utils.getDbPath()).toURI().toString(); // Stable on Windows & Linux
 ```
 
 Wal hamdulillah, lantjar djaja. Nanti malam sudah bisa tidur nyenyak.
