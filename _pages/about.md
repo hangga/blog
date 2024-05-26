@@ -1,14 +1,16 @@
 ---
 title: "About"
 # layout: page-sidebar
-permalink: "/about.html"
-image: "/wp-content/uploads/2023/05/nabawi-768x480.jpeg"
+permalink: /about.html
+image: /wp-content/uploads/2023/05/nabawi-768x480.jpeg
 comments: true
 ---
 ### Hi there 👋
 I’m a passionate Software Engineer from Indonesia with experience since 2008. 
 
-Has a bachelor's degree in Mathematics and loves Science and Computers. 
+Has a bachelor's degree in Mathematics
+
+Loves Science and Computers. 
 
 Working on Java and Kotlin to develop Liveness Detection SDK.
 
