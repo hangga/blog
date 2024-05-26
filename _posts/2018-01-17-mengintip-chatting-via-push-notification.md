@@ -32,9 +32,11 @@ Namun perlu diketahui bahwa dalam hal ini ada dua kemungkinan, bisa berhasil bis
 ![](https://hangga.github.io/blog/wp-content/uploads/2018/01/push-notifications-network-diagram-700x395.png)
 
 Skema alur Push Notification, Sumber : https://docs.pivotal.io/push/1-9/assets/push-notifications-network-diagram.png
+
 Notifikasi biasanya memiliki *title* berisi judul notifikasi, *package name* berisi nama *package* aplikasi penerima notifikasi, dan *text* yang berisi pesan isi notifikasi. Nah ketiga *property* inilah yang akan kita ambil informasinya.
 
 ![](https://hangga.github.io/blog/wp-content/uploads/2018/01/push-notification-1-contoh.png)
+
 Contoh Push Notification dari sisi antar muka pengguna pada aplikasi mobile.
 ## Skenario penyadapan
 
