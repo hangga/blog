@@ -46,7 +46,7 @@ Kemudian gambaran betapa ngiritnya ViewStub ini dapat kita lihat pada gambar ber
 Dengan ViewStub ini kita dapat melakukan inflating ketika dibutuhkan saja.
 
 ```
-<pre class="brush:java">ViewStub stub = (ViewStub) findViewById(R.id.stub);
+ViewStub stub = (ViewStub) findViewById(R.id.stub);
 View inflated = stub.inflate();
 ```
 

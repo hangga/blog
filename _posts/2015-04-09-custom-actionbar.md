@@ -67,7 +67,7 @@ Disini saya mebuat sebuah layout bernama *layout\_custom\_bar* untuk inflatingny
 ### 3. Customasi di Class CustomBar
 
 ```
-<pre class="brush:java">package com.hangga.linearanak;
+package com.hangga.linearanak;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -122,7 +122,7 @@ public class CustomBar extends RelativeLayout{
 Tinggal pake di onCreate milik kelas Activity
 
 ```
-<pre class="brush:java">@Override
+@Override
  protected void onCreate(Bundle savedInstanceState) {
  super.onCreate(savedInstanceState);
 android.app.ActionBar actionBar = getActionBar();
@@ -149,7 +149,7 @@ Nah, kemudian untuk membuat action back nya, kita dapat menambahkan script berik
 ![actionbar_backpress](http://hangga.github.io/blog/wp-content/uploads/2015/04/actionbar_backpress-300x276.png)
 
 ```
-<pre class="brush:java">customBar.getImgBack().setOnClickListener(new View.OnClickListener() {
+customBar.getImgBack().setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {

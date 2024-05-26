@@ -48,7 +48,7 @@ Salah satu kegunaan *Fragment* adalah untuk menangani *Activity* dengan multi ko
 ```
 
 ```
-<pre class="brush:java">package com.hangga.ikifragment.fragment;
+package com.hangga.ikifragment.fragment;
 
 import com.hangga.ikifragment.R;
 
@@ -88,7 +88,7 @@ public class FragmentSatu extends Fragment {
 ```
 
 ```
-<pre class="brush:java">package com.hangga.ikifragment.fragment;
+package com.hangga.ikifragment.fragment;
 
 import com.hangga.ikifragment.R;
 
@@ -113,7 +113,7 @@ public class FragmentDua extends Fragment{
 3\. Kemudian membuat *Fragment Adapter*.
 
 ```
-<pre class="brush:java">package com.hangga.ikifragment.fragment;
+package com.hangga.ikifragment.fragment;
 
 import android.support.v13.app.FragmentPagerAdapter; 
 
@@ -173,7 +173,7 @@ public class FragmentAdapter extends FragmentPagerAdapter{
 ```
 
 ```
-<pre class="brush:java">package com.hangga.ikifragment;
+package com.hangga.ikifragment;
 
 import com.hangga.ikifragment.fragment.FragmentAdapter;
 

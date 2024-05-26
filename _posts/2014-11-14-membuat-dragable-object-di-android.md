@@ -45,7 +45,7 @@ Banyak cara, tapi yg saya lakukan cukup sederhana. Intinya tinggal ng*ekstends* 
 2\. *Extends* *RelativeLayout*
 
 ```
-<pre class="brush:java">public class Dragable extends RelativeLayout{
+public class Dragable extends RelativeLayout{
         public Dragable(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 	}
@@ -63,7 +63,7 @@ Banyak cara, tapi yg saya lakukan cukup sederhana. Intinya tinggal ng*ekstends* 
 3\. Variabel yg dibutuhkan beserta method *getter*-nya
 
 ```
-<pre class="brush:java">private int delta_x;
+private int delta_x;
 	private int delta_y;
 	private int px;
 	private int py;
@@ -80,7 +80,7 @@ Banyak cara, tapi yg saya lakukan cukup sederhana. Intinya tinggal ng*ekstends* 
 4\. Tambahkan *behaviour Drag* pada *OnTouchListener.* Inisiasi delta\_x dan delta\_y pada ***MotionEvent.ACTION\_DOWN***, kemudian memindah posisi *object* saat ***MotionEvent.ACTION\_MOVE.***
 
 ```
-<pre class="brush:java">OnTouchListener onTouchListener = new OnTouchListener() {
+OnTouchListener onTouchListener = new OnTouchListener() {
 
 		@Override
 		public boolean onTouch(View v, MotionEvent event) {
@@ -118,7 +118,7 @@ Banyak cara, tapi yg saya lakukan cukup sederhana. Intinya tinggal ng*ekstends* 
 5\. Source lengkap
 
 ```
-<pre class="brush:java">package com.qiya.dragdrop;
+package com.qiya.dragdrop;
 
 import android.content.Context;
 import android.util.AttributeSet;

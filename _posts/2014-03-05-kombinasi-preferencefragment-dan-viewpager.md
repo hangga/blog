@@ -38,7 +38,7 @@ dan *android-support-v13.jar*
 2\. Kita perlu membuat kelas *PreferenceFragment* di abstract dari *PreferenceFragment* milik Android. Lalu simpan di *package* kita.
 
 ```
-<pre class="brush:java">package com.hangga.slidepreffdemo;
+package com.hangga.slidepreffdemo;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationHandler;
@@ -555,7 +555,7 @@ public abstract class PreferenceFragment extends Fragment {
 ```
 
 ```
-<pre class="brush:java">package com.hangga.slidepreffdemo;
+package com.hangga.slidepreffdemo;
 
 import android.os.Bundle;
 
@@ -573,7 +573,7 @@ public class PaijoFragment extends PreferenceFragment{
 3\. Kemudian *FragmentAdapter*nya.
 
 ```
-<pre class="brush:java">package com.hangga.slidepreffdemo;
+package com.hangga.slidepreffdemo;
 
 import android.support.v13.app.FragmentPagerAdapter; 
 
@@ -630,7 +630,7 @@ public class PaijoFragmentAdapter extends FragmentPagerAdapter{
 ```
 
 ```
-<pre class="brush:java">package com.hangga.slidepreffdemo;
+package com.hangga.slidepreffdemo;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.viewpagerindicator.CirclePageIndicator;

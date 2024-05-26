@@ -33,7 +33,7 @@ Trik yg saya gunakan kali ini adalah dengan menggunakan ***Spannable String.*** 
 **1 Mendefinisikan kode-kode *EmotIcon***
 
 ```
-<pre class="brush:java">private static final String KODE_SMILLE = "[:)]";
+private static final String KODE_SMILLE = "[:)]";
 private static final String KODE_SWEET = "[:3]";
 private static final String KODE_SURPRISE = "[:/]";
 private static final String KODE_SPOOK = "[:(]";
@@ -47,7 +47,7 @@ private static final String KODE_FIRE = "[==]";
 **2. Mendefinisikan Icon-icon bertipe *Drawable*,** yang akan kita sisipkan ke dalam *EditText.*
 
 ```
-<pre class="brush:java">icSmille = getResources().getDrawable(R.drawable.smile);
+icSmille = getResources().getDrawable(R.drawable.smile);
 icSmille.setBounds(5,5,60,60);
 
 icSweet = getResources().getDrawable(R.drawable.sweat);
@@ -78,7 +78,7 @@ icFire.setBounds(5,5,60,60);
 **3. Membuat *method* untuk meng*handling* *SpannableString***. Method ini saya beri nama *emotSpannable.*
 
 ```
-<pre class="brush:java">private void emotSpannable(Spannable spannable) {
+private void emotSpannable(Spannable spannable) {
         int length = spannable.length();
         int position = 0;
         int tagStartPosition = 0;
@@ -158,7 +158,7 @@ icFire.setBounds(5,5,60,60);
 **4. EmotIcon Dialog**, Adalah *Custom Layout Dialog* yg saya gunakan untuk menampilkan *EmotIcon2* yang akan di sisipkan ke dalam *EditText*.
 
 ```
-<pre class="brush:java">private void emotDialog(){
+private void emotDialog(){
 		final Dialog dia = new Dialog(this);
 		dia.setContentView(R.layout.emot_dialog);
 		dia.setTitle("Pick");
@@ -259,7 +259,7 @@ icFire.setBounds(5,5,60,60);
 **5. Handling *TextWatcher* pada *EditText*.** Menerapkan *emotSpannable()* di *EditText* pada *Event* *TextWatcher*.
 
 ```
-<pre class="brush:java">textPost.addTextChangedListener(new TextWatcher() {
+textPost.addTextChangedListener(new TextWatcher() {
 
 			@Override
 			public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {

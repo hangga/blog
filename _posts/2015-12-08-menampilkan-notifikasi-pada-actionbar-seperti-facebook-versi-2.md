@@ -108,7 +108,7 @@ Mari menuju tekape sodara2…
 ```
 
 ```
-<pre class="brush:java">package com.research.hangga.dynamicnotifinflate;
+package com.research.hangga.dynamicnotifinflate;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -157,7 +157,7 @@ notifView = new NotifView(MainActivity.this);
 ```
 
 ```
-<pre class="brush:java">@Override public boolean onCreateOptionsMenu(Menu menu) {   getMenuInflater().inflate(R.menu.menu_main, menu); 
+@Override public boolean onCreateOptionsMenu(Menu menu) {   getMenuInflater().inflate(R.menu.menu_main, menu); 
 MenuItem itemNotif = menu.findItem(R.id.action_notif); itemNotif.setActionView(notifView); return true; 
 }
 ```
@@ -165,7 +165,7 @@ MenuItem itemNotif = menu.findItem(R.id.action_notif); itemNotif.setActionView(n
 Simulasi updating jumlah notifikasi
 
 ```
-<pre class="brush:java">@Override
+@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

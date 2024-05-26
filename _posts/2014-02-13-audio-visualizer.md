@@ -27,7 +27,7 @@ Pada kasus berikut ini, yg menjadi bahan bahasan adalah bagaimana mebuat aplikas
 Saya memanfaatkan kelas *RecorderTask* yang meng*extends* dari kelas *TimerTask.* Kemudian dikelas inilah proses perubahan tinggi *RelativeLayout* selama proses *record* berlangsung dimana tinggi *Relativelayout* sesuai dengan nilai *amplitudo*nya.
 
 ```
-<pre class="brush:java">private class RecorderTask extends TimerTask{
+private class RecorderTask extends TimerTask{
         private MediaRecorder recorder;
         public RecorderTask(MediaRecorder recorder){
             this.recorder = recorder;
@@ -104,7 +104,7 @@ Berikut kode selengkapnya. Silahkan Anda bisa mengembangkannya sendiri.
 2\. Kemudian *source* lengkap nya.
 
 ```
-<pre class="brush:java">package com.hangga.amplitudometer;
+package com.hangga.amplitudometer;
 
 import java.io.IOException;
 import java.math.BigInteger;

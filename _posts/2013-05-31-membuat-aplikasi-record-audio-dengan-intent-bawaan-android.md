@@ -49,20 +49,20 @@ android:text="Record"
 3\. Kita hanya perlu memanggil intent RECORD\_SOUND\_ACTION bawaan Android.
 
 ```
-<pre class="brush:java">Intent intent = new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION);
+Intent intent = new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION);
 startActivityForResult(intent, RECORD_REQUEST);
 ```
 
 <span style="line-height: 1.5;">Oh ya, jangan lupa buat variabel konstanta</span>
 
 ```
-<pre class="brush:java">final static int RECORD_REQUEST = 1;
+final static int RECORD_REQUEST = 1;
 ```
 
 4\. Kemudian di tangkap melalui onActivityResult.
 
 ```
-<pre class="brush:java">@Override
+@Override
 protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 if(requestCode == RECORD_REQUEST){
 if (resultCode == RESULT_OK){
@@ -76,7 +76,7 @@ Toast.makeText(MainActivity.this,"Saved: " + savedUri.getPath(), Toast.LENGTH_LO
 <span style="line-height: 1.5;">5. Kalau mau liha source lengkapnya.</span>
 
 ```
-<pre class="brush:java">package com.hangga.audiorecordtest;
+package com.hangga.audiorecordtest;
 
 import android.app.Activity;
 import android.content.Intent;

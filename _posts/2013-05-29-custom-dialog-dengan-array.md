@@ -24,7 +24,7 @@ Di Android, kita juga dapat membuat alert dialog yang bentuknya seperti pada gam
 ![custom-dialog](http://hangga.github.io/blog/wp-content/uploads/2013/05/custom-dialog.png)
 
 ```
-<pre class="brush:java">import android.app.AlertDialog;
+import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 ```
@@ -32,7 +32,7 @@ import android.content.DialogInterface.OnCancelListener;
 <span style="line-height: 1.5em;">Kemudian saya membuat method baru yg saya beri nama </span>***ShowCustomDialog()***
 
 ```
-<pre class="brush:java">private void ShowCustomDialog(){
+private void ShowCustomDialog(){
 final CharSequence[] pilihChar = {"Satu", "Dua", "Tiga"};
 
 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);

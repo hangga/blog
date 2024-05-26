@@ -30,7 +30,7 @@ Yak, langsung menjuju tekape..
 1\. Membuat kelas ***BadgeDrawable.***
 
 ```
-<pre class="brush:java">package Objects;
+package Objects;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -167,11 +167,11 @@ Kemudian isilah ***icon*** \[*attribute value\]* pada menu dengan ***ic\_menu\_n
 <menu></menu>Buka kelas MainActivity.java, kemudian ***override*** method *onCreateOptionsMenu()*;
 
 ```
-<pre class="brush:java">private LayerDrawable icon;
+private LayerDrawable icon;
 ```
 
 ```
-<pre class="brush:java">@Override
+@Override
 public boolean onCreateOptionsMenu(Menu menu) {
  // Inflate the menu; this adds items to the action bar if it is present.
  getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -184,7 +184,7 @@ public boolean onCreateOptionsMenu(Menu menu) {
 3\. Simulasi, update jumlah notifikasi.
 
 ```
-<pre class="brush:java">FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 fab.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {

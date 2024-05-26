@@ -32,7 +32,7 @@ Tapi jika permasalahan ini dapat tertangani dengan baik, maka *swipe* ke kanan d
 ***Step by step***
 
 1. Salah satu *method* yg dapat *mencerahkan* saya adalah ```
-    <pre class="brush:java">getParent().requestDisallowInterceptTouchEvent();
+    getParent().requestDisallowInterceptTouchEvent();
     ```
     
     yang berfungsi untuk mencegah aksi *scroll* pada *ScrollView*.
@@ -40,7 +40,7 @@ Tapi jika permasalahan ini dapat tertangani dengan baik, maka *swipe* ke kanan d
 3. Selain 2, aksi *scroll* di allow kembali.
 
 ```
-<pre class="brush:java">			viewPager.setOnTouchListener(new OnTouchListener() {
+			viewPager.setOnTouchListener(new OnTouchListener() {
 
 			    int dragthreshold = 30;
 			    int downX;
