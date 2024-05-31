@@ -445,12 +445,15 @@ kbd {
 
 pre {    
   background: #404145;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-size:14px;
   display: block;
   color: #ffffff;
   border-radius: 6px;
-  border: 0.5px solid rgb(119, 7, 7); 
+  /* border: 0.5px solid rgb(119, 7, 7);  */
 }
 
 pre code {
