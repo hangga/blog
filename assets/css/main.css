@@ -444,13 +444,13 @@ kbd {
     font-weight: 700; }
 
 pre {    
-  background: #fcfff0;
+  background: #404145;
   padding: 10px;
   font-size:14px;
   display: block;
-  color: #580243;
+  color: #ffffff;
   border-radius: 6px;
-  border: 0.5px solid #ebd85c; 
+  border: 0.5px solid rgb(119, 7, 7); 
 }
 
 pre code {
