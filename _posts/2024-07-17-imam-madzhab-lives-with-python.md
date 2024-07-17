@@ -1,6 +1,6 @@
 ---
 id: 20240717
-title: 'Visualisasi Data Dengan Matplotlib'
+title: 'Matplotlib : Visualisasi Sederhana Riwayat Hidup 4 Imam Madzhab'
 date: '2024-07-17T00:32:24+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
@@ -85,6 +85,9 @@ Kemudian untuk menampikan plot, kita panggil fungsi `plt.show()`:
 ```Python
 plt.show()
 ```
+<img src="https://github.com/hangga/imam-madzhab-lives/raw/main/Figure_1.png?raw=true"/>
 ## Kesimpulan
 Matplotlib adalah alat yang sangat kuat untuk visualisasi data dalam Python. Dengan Matplotlib, kita dapat dengan mudah 
 membuat grafik yang informatif dan menarik, yang sangat berguna dalam analisis data, presentasi, dan publikasi ilmiah.
+
+Seperti biasa, kode lengkap bisa dilihat [disini](https://github.com/hangga/imam-madzhab-lives).
