@@ -1,8 +1,10 @@
 ---
+id: 7787976876
 title: 'Visualisasi Data Dengan Matplotlib'
 date: '2024-07-17T00:32:24+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
+guid: 'https://hangga.github.io/blog/?p=7787976876'
 permalink: /2024/07/22/imam-madzhab-lives-with-python/
 image: /wp-content/uploads/2024/05/arch-neofetch.jpg
 categories:
