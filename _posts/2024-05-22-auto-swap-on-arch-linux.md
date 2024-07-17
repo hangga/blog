@@ -17,9 +17,15 @@ tags:
 ---
 
 Kali ini cuma ingin sedikit berbagi catatan kecil tentang bagaimana caranya agar Arch Linux menjadi Auto Swap-On a.k.a secara otomatis mengaktifkan swap saat boot. 
-
+## Qodarullah Tiba-tiba Ram Mati
 Kebetulan ini saya perlukan untuk membackup 1 RAM saya yang mati. 
-Jadi ceritanya saya punya pc cadangan (dulunya laptop yang dioprek menjadi pc) untuk kerja sehari-hari dengan OS Arch Linux. 
+Jadi ceritanya saya punya pc cadangan (dulunya laptop yang dioprek menjadi pc. Tentu saja minta bantuan teman lah. 
+Ndak berani sy oprek sendiri) untuk kerja sehari-hari dengan OS Arch Linux. 
+
+Nah, tiba-tiba saya nyalakan ndak mau nyala dia. Mau bongkar sendiri juga ndak berani, karena bukan ahlinya.
+Ketahuan kalo Ram 1 
+mati setelah saya bawa ke Monster
+Laptop(Jasa Service Laptop punya teman).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/hangga/blog/gh-pages/wp-content/uploads/2024/05/arch-linux-lenovo.jpeg" width="550"/>
