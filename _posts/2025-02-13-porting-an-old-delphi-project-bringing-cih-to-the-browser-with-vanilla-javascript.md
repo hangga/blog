@@ -54,7 +54,7 @@ Before the “heuristic magic,” we need the basics: measuring the distance bet
 
 And here’s the joke: you already know this. Yep, it’s just the good old **Pythagorean theorem**. Remember sitting in class thinking, *“When will I ever use this in real life?”* Well… this is one of those times.
 
-![formulas](../wp-content/uploads/2025/two-distance-formulas.png)
+![formulas](https://hangga.github.io/blog/wp-content/uploads/2025/two-distance-formulas.png)
 
 In code:
 
