@@ -20,6 +20,9 @@ tags:
 
 A while ago, I worked on a fun little project in **Delphi** that implemented the **CIH algorithm**. It was something I built to explore how to solve the *Traveling Salesman Problem (TSP)* using a constructive heuristic approach.
 
+![cih delphi](https://github.com/hangga/CIH/blob/master/doc/cih_new.jpg?raw=true)
+![cih delphi-2](https://github.com/hangga/CIH/blob/master/doc/cih_real.jpg?raw=true)
+
 Recently, I decided to revisit that old project and give it new life on the web. Instead of dusty old Delphi code, I wanted to make it interactive, visual, and easy to share — so I ported the logic into **vanilla JavaScript**, added some canvas drawing, and wrapped it all up in a simple web demo. The full original Delphi code is still on GitHub here: [CIH Delphi Project](https://github.com/hangga/CIH).
 
 ---
