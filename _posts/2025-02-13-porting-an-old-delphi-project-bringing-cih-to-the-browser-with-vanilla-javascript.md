@@ -16,7 +16,130 @@ tags:
 - 'Linux'
 ---
 
-# Porting an Old Delphi Project: Bringing CIH to the Browser with Vanilla JavaScript
+
+# From Delphi to JavaScript Today: Reviving My Old CIH Project
+
+Back in **2009**, I wrote a little side project in **Delphi**. The idea? Implement the **Cheapest Insertion Heuristic (CIH)** — a constructive algorithm to approximate solutions to the **Traveling Salesman Problem (TSP)**.
+
+At the time, it was mostly a coding experiment, tucked away in a folder, and later uploaded here: [CIH on GitHub](https://github.com/hangga/CIH).
+
+![cih delphi](https://github.com/hangga/CIH/blob/master/doc/cih_new.jpg?raw=true)
+![cih delphi-2](https://github.com/hangga/CIH/blob/master/doc/cih_real.jpg?raw=true)
+
+Fast forward more than a decade, I thought: *“Why not bring this old project back to life, but in the browser?”* No installers, no legacy IDEs, just a simple **vanilla JavaScript + canvas** demo that anyone can click and play with.
+
+👉 Demo: [CIH-JS Visualization](https://hangga.github.io/cih-js/)
+
+---
+
+## What is CIH Anyway?
+
+**CIH** stands for **Cheapest Insertion Heuristic**. It’s one of those “good enough, fast enough” strategies for tackling the classic **Traveling Salesman Problem (TSP)**:
+
+👉 *Given a set of cities and distances between them, what’s the shortest route that visits each city exactly once and returns home?*
+
+Solving TSP exactly can be painfully slow, but CIH takes a more pragmatic approach:
+
+1. Start with a small tour (two connected nodes).
+2. Insert new nodes one by one.
+3. At each step, choose the insertion spot that **increases the total distance the least**.
+
+It’s not guaranteed to be the *absolute* best route, but it’s often very close, and super fast.
+
+---
+
+## Calculating Distances (Yes, That Formula From School)
+
+Before the “heuristic magic,” we need the basics: measuring the distance between two nodes.
+
+And here’s the joke: you already know this. Yep, it’s just the good old **Pythagorean theorem**. Remember sitting in class thinking, *“When will I ever use this in real life?”* Well… this is one of those times.
+
+![formulas](/wp-content/uploads/2025/two-distance-formulas.png)
+
+In code:
+
+```js
+function calculateDistance(node1, node2) {
+    const dx = node2.x - node1.x;
+    const dy = node2.y - node1.y;
+    return Math.sqrt(dx * dx + dy * dy);
+}
+```
+
+Here’s how it looks visually after adding two nodes:
+
+![Two nodes with a connecting line](https://hangga.github.io/cih-js/img/screenshot-2nodes.png)
+
+---
+
+## Insertion Cost (Like Inviting a New Friend Into the Group Chat)
+
+The essence of CIH is finding the **cheapest place to add a new node** into the tour.
+
+Think of it like a group chat with your friends. A new buddy wants in. You don’t just drop them randomly — you place them where they’ll “fit in” without messing up the flow of conversation.
+
+That’s what the algorithm does: it tests all possible spots and picks the least disruptive one.
+
+```js
+function calculateInsertionCost(tour, newNodeId) {
+    let minCost = Infinity;
+    let bestInsertion = null;
+
+    for (let i = 0; i < tour.length; i++) {
+        const current = tour[i];
+        const distanceCurrent = getDistance(current.from, current.to);
+        const distanceNewFrom = getDistance(current.from, newNodeId);
+        const distanceNewTo = getDistance(newNodeId, current.to);
+        const insertionCost = distanceNewFrom + distanceNewTo - distanceCurrent;
+
+        if (insertionCost < minCost) {
+            minCost = insertionCost;
+            bestInsertion = { from: current.from, to: current.to, newNodeId };
+        }
+    }
+    return bestInsertion;
+}
+```
+
+On the canvas, when a third node is added, the algorithm tries different positions before settling on the cheapest insertion:
+
+![Third node inserted into the tour](https://hangga.github.io/cih-js/img/screenshot-3nodes.png)
+
+---
+
+## Visualizing the Tour
+
+This is where the JavaScript port really shines:
+
+* **Click on the canvas** → a new node is added.
+* **Distance table updates** → showing all pairwise distances.
+* **Sub-tours are logged** → step-by-step narration of how the algorithm chooses.
+* **Canvas highlights**:
+
+  * All possible connections = light purple-gray.
+  * Current shortest path = bright green.
+  * Nodes = red circles with white IDs.
+
+Here’s a shot after several nodes have been placed:
+
+![CIH tour with multiple nodes](https://hangga.github.io/cih-js/img/screenshot-tour.png)
+
+Notice the **lime-green path**? That’s the current “cheapest insertion” tour chosen by the algorithm.
+
+---
+
+## Looking Back, Moving Forward
+
+What started as a **Delphi project in 2010** has now been reimagined in JavaScript, complete with visual feedback and a friendlier explanation.
+
+It’s a reminder that sometimes, old code doesn’t have to stay in the past — it can evolve, adapt, and even become more fun than before.
+
+So if you’re curious about optimization, algorithms, or just want to see high school math doing something cool: give CIH a try.
+
+👉 Live demo: [CIH-JS](https://hangga.github.io/cih-js/)
+
+
+<!-- # Porting an Old Delphi Project: Bringing CIH to the Browser with Vanilla JavaScript
 
 A while ago, I worked on a fun little project in **Delphi** that implemented the **CIH algorithm**. It was something I built to explore how to solve the *Traveling Salesman Problem (TSP)* using a constructive heuristic approach.
 
@@ -149,4 +272,4 @@ It’s a nice bridge between **algorithm theory** and **visual intuition**.
 
 This JavaScript port of my old Delphi CIH project is more than just code translation — it’s a way of revisiting an old idea and making it accessible, visual, and interactive for anyone curious about TSP and heuristics.
 
-If you’re into algorithms, optimization, or just love seeing math come to life in the browser, give CIH a try. Who knew an old Delphi project could find new purpose in the age of JavaScript?
+If you’re into algorithms, optimization, or just love seeing math come to life in the browser, give CIH a try. Who knew an old Delphi project could find new purpose in the age of JavaScript? -->
