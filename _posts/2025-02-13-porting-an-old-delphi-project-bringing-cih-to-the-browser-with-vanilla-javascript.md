@@ -82,15 +82,36 @@ The ported JavaScript version follows the same CIH idea but adds interactive vis
 
   Each click on the canvas creates a new node, updates the distance table, and triggers a redraw.
 
-* **Distance calculation**
+<!-- * **Distance calculation** -->
 
-  ```js
-  function calculateDistance(node1, node2) {
-      const dx = node2.x - node1.x;
-      const dy = node2.y - node1.y;
-      return Math.sqrt(dx * dx + dy * dy);
-  }
-  ```
+  <!-- ![formulas](/wp-content/uploads/2025/two-distance-formulas.png) -->
+
+
+
+#### Calculating Distances (Yes, That Old Formula You Learned in School)
+
+Before we dive into the “smart” part of the algorithm, we need something very basic: a way to measure the distance between two points.
+
+And here’s the fun part: you already know this formula. Seriously. Remember back in school when you were wondering, *“When am I ever going to use the Pythagorean theorem in real life?”* — well, congratulations, you’re using it now.
+
+The distance between two nodes `(x1, y1)` and `(x2, y2)` is:
+
+$$
+d = \sqrt{(x2 - x1)^2 + (y2 - y1)^2}
+$$
+
+In code, it looks like this:
+
+```js
+function calculateDistance(node1, node2) {
+    const dx = node2.x - node1.x;
+    const dy = node2.y - node1.y;
+    return Math.sqrt(dx * dx + dy * dy);
+}
+```
+
+That’s it. The same old Pythagoras you once doodled in math class is now helping us solve the Traveling Salesman Problem. Who would’ve thought?
+
 
 * **The CIH logic**
 
