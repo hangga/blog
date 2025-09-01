@@ -112,10 +112,10 @@ On the canvas, when a third node is added, the algorithm tries different positio
 
 This is where the JavaScript port really shines:
 
-1 **Click on the canvas** → a new node is added.
-2 **Distance table updates** → showing all pairwise distances.
-3 **Sub-tours are logged** → step-by-step narration of how the algorithm chooses.
-4 **Canvas highlights**:
+1. **Click on the canvas** → a new node is added.
+2. **Distance table updates** → showing all pairwise distances.
+3. **Sub-tours are logged** → step-by-step narration of how the algorithm chooses.
+4. **Canvas highlights**:
 
   * All possible connections = light purple-gray.
   * Current shortest path = bright green.
