@@ -23,10 +23,11 @@ Back in **2009**, I wrote a little side project in **Delphi**. The idea? Impleme
 
 At the time, it was mostly a coding experiment, tucked away in a folder, and later uploaded here: [CIH on GitHub](https://github.com/hangga/CIH).
 
-![cih delphi](https://github.com/hangga/CIH/blob/master/doc/cih_new.jpg?raw=true)
-![cih delphi-2](https://github.com/hangga/CIH/blob/master/doc/cih_real.jpg?raw=true)
-
+<!-- ![cih delphi](https://github.com/hangga/CIH/blob/master/doc/cih_new.jpg?raw=true)
+![cih delphi-2](https://github.com/hangga/CIH/blob/master/doc/cih_real.jpg?raw=true) -->
 Fast forward more than a decade, I thought: *“Why not bring this old project back to life, but in the browser?”* No installers, no legacy IDEs, just a simple **vanilla JavaScript + canvas** demo that anyone can click and play with.
+
+![cih-js](https://hangga.github.io/blog/wp-content/uploads/2025/Screenshot-cih-js.png)
 
 👉 Demo: [CIH-JS Visualization](https://hangga.github.io/cih-js/)
 
@@ -68,7 +69,7 @@ function calculateDistance(node1, node2) {
 
 Here’s how it looks visually after adding two nodes:
 
-![Two nodes with a connecting line](https://hangga.github.io/cih-js/img/screenshot-2nodes.png)
+![Two nodes with a connecting line](https://hangga.github.io/blog/wp-content/uploads/2025/connecting-line.png)
 
 ---
 
@@ -103,7 +104,7 @@ function calculateInsertionCost(tour, newNodeId) {
 
 On the canvas, when a third node is added, the algorithm tries different positions before settling on the cheapest insertion:
 
-![Third node inserted into the tour](https://hangga.github.io/blog/wp-content/uploads/2025/connecting-line.png)
+![Third node inserted into the tour](https://hangga.github.io/blog/wp-content/uploads/2025/connecting-three.png)
 
 ---
 
@@ -126,11 +127,67 @@ Here’s a shot after several nodes have been placed:
 
 Notice the **lime-green path**? That’s the current “cheapest insertion” tour chosen by the algorithm.
 
+
+## Log – Step-by-Step Flow
+
+The **log panel** is basically a running commentary of how the CIH (Cheapest Insertion Heuristic) algorithm works behind the scenes.
+
+![log detil](https://hangga.github.io/blog/wp-content/uploads/2025/log-detil-1.png)
+
+* **Step 0–3** → Nodes are added with their coordinates (e.g., node 1 at `(238,161)`, node 2 at `(370,155)`).
+* **Step 4–5** → The algorithm starts generating possible sub-tours.
+* **Step 6** → First sub-tour `(1 → 2), (2 → 1)` with a total distance of **264.27**.
+* **Step 7** → That sub-tour is chosen as the temporary best route.
+* **Step 8–15** → A new node is inserted, insertion costs are calculated, and the cheapest option is picked.
+* The final chosen route for 3 nodes becomes: **(2 → 1), (1 → 3), (3 → 2)** with a total of **510.41**.
+
+For a larger example (7 nodes, third screenshot):
+
+* The algorithm generates **multiple candidate sub-tours** (Step 80–95), each with its own total distance.
+* Example:
+
+  * Step 83: `(2 → 1), (1 → 3), (3 → 4), (4 → 5), (5 → 2)` → **752.79**
+  * Step 90: `(1 → 3), (4 → 5), (5 → 2), (3 → 6), (6 → 4), (2 → 7), (7 → 1)` → **1048.52**
+* **Step 96** → The sub-tour with total distance **820.10** is selected.
+* **Step 97 (Final chosen)** → The final optimal tour:
+
+  ```
+  (2 → 1), (1 → 3), (3 → 6), (6 → 4), (4 → 7), (7 → 5), (5 → 2)
+  ```
+
+  with total distance **820.10**.
+
+👉 In short, the log shows the **trial-and-error journey** as the algorithm compares insertion options and narrows down to the shortest tour.
+
+---
+
+## Distance Table
+
+![Table Distance](https://hangga.github.io/blog/wp-content/uploads/2025/table-distance.png)
+
+The **distance table** is the raw data behind all those calculations. It lists pairwise distances between every node.
+
+Example:
+
+* From **1 → 2** = **132.14**
+* From **2 → 3** = **124.72**
+* From **3 → 1** = **253.55**
+
+The CIH algorithm keeps referring back to this table to evaluate insertion costs and compute total route distances.
+
+---
+
+## Takeaway
+
+* The **log** = step-by-step narration of the CIH process.
+* The **distance table** = the foundation data that powers those calculations.
+* The **final chosen route** = the best tour selected with the shortest overall distance.
+
 ---
 
 ## Looking Back, Moving Forward
 
-What started as a **Delphi project in 2010** has now been reimagined in JavaScript, complete with visual feedback and a friendlier explanation.
+What started as a **Delphi project in 2009** has now been reimagined in JavaScript, complete with visual feedback and a friendlier explanation.
 
 It’s a reminder that sometimes, old code doesn’t have to stay in the past — it can evolve, adapt, and even become more fun than before.
 
