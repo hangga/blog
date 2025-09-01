@@ -103,7 +103,7 @@ function calculateInsertionCost(tour, newNodeId) {
 
 On the canvas, when a third node is added, the algorithm tries different positions before settling on the cheapest insertion:
 
-![Third node inserted into the tour](https://hangga.github.io/cih-js/img/screenshot-3nodes.png)
+![Third node inserted into the tour](https://hangga.github.io/blog/wp-content/uploads/2025/connecting-line.png)
 
 ---
 
@@ -122,7 +122,7 @@ This is where the JavaScript port really shines:
 
 Here’s a shot after several nodes have been placed:
 
-![CIH tour with multiple nodes](https://hangga.github.io/cih-js/img/screenshot-tour.png)
+![CIH tour with multiple nodes](https://hangga.github.io/blog/wp-content/uploads/2025/multiple-nodes.png)
 
 Notice the **lime-green path**? That’s the current “cheapest insertion” tour chosen by the algorithm.
 
