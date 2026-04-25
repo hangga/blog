@@ -4,7 +4,7 @@ title: 'Reducing Cold Starts for a Kotlin API Running on DigitalOcean App Platfo
 date: '2026-04-25T00:32:24+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-permalink: /2026/04/25/reducing-cold-starts-for-a-kotlin-api-running-on-digitalocean-app-platform 
+# permalink: /2026/04/25/reducing-cold-starts-for-a-kotlin-api-running-on-digitalocean-app-platform 
 image: /wp-content/uploads/2026/04/digitalocean/image8.png
 categories:
 - DevOps
@@ -105,7 +105,7 @@ Although the architecture is simple, it is sufficient to demonstrate how depende
 We measured startup time from the moment the JVM process started until the server reported it was ready to accept requests. Since the API is built with Ktor, we can observe this moment directly in the startup logs.
 
 Test Run 1
-![Image](../../blog/wp-content/uploads/2026/04/digitalocean/image5.png)
+![Image](/wp-content/uploads/2026/04/digitalocean/image5.png)
 
 Test Run 2
 ![Image](../../blog/wp-content/uploads/2026/04/digitalocean/image20.png)
