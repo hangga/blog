@@ -105,19 +105,15 @@ Although the architecture is simple, it is sufficient to demonstrate how depende
 We measured startup time from the moment the JVM process started until the server reported it was ready to accept requests. Since the API is built with Ktor, we can observe this moment directly in the startup logs.
 
 Test Run 1
-
 ![Image](../../blog/wp-content/uploads/2026/04/digitalocean/image5.png)
 
 Test Run 2
-
 ![Image](../../blog/wp-content/uploads/2026/04/digitalocean/image20.png)
 
 Test Run 3
-
 ![Image](../../blog/wp-content/uploads/2026/04/digitalocean/image17.png)
 
 Test Run 4
-
 ![Image](../../blog/wp-content/uploads/2026/04/digitalocean/image14.png)
 
 I ran the startup **four times**. This number of runs was enough to reliably represent the typical behavior of cold starts while keeping the measurements practical and manageable.
@@ -340,19 +336,15 @@ With the optimized build in place, the next step was measuring the startup time 
 The following results were collected from four startup runs.
 
 Test Run 1
-
 ![Image](/../../../blog/wp-content/uploads/2026/04/digitalocean/image19.png)
 
 Test Run 2
-
 ![Image](/../../../blog/wp-content/uploads/2026/04/digitalocean/image21.png)
 
 Test Run 3
-
 ![Image](/../../../blog/wp-content/uploads/2026/04/digitalocean/image1.png)
 
 Test Run 4
-
 ![Image](/../../../blog/wp-content/uploads/2026/04/digitalocean/image18.png)
 
 <!-- | Test Run | Before (s) | After (s) |
