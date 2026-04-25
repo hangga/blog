@@ -124,6 +124,8 @@ I ran the startup **four times**. This number of runs was enough to reliably rep
 
 **Summary**
 
+<!-- ---
+
 | Test Run | Startup Time (s) |
 | :--- | :--- |
 | 1 | 0.519 |
@@ -131,6 +133,33 @@ I ran the startup **four times**. This number of runs was enough to reliably rep
 | 3 | 0.389 |
 | 4 | 0.361 |
 
+--- -->
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #000; padding: 6px;">Test Run</th>
+      <th style="border: 1px solid #000; padding: 6px;">Startup Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">1</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.519</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">2</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.373</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">3</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.389</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">4</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.361</td>
+    </tr>
+  </tbody>
+</table>
 
 Fast enough to sip a coffee, yet just slow enough to make you twitch impatiently, silently wondering why the JVM can't be ready instantly.
 
