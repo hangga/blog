@@ -123,7 +123,6 @@ Test Run 4
 I ran the startup **four times**. This number of runs was enough to reliably represent the typical behavior of cold starts while keeping the measurements practical and manageable.
 
 **Summary**
-
 <!-- ---
 
 | Test Run | Startup Time (s) |
@@ -160,7 +159,7 @@ I ran the startup **four times**. This number of runs was enough to reliably rep
     </tr>
   </tbody>
 </table>
-
+<br />
 
 Fast enough to sip a coffee, yet just slow enough to make you twitch impatiently, silently wondering why the JVM can't be ready instantly.
 
@@ -341,7 +340,7 @@ After enabling dependency minimization and removing several unnecessary transiti
     </tr>
   </tbody>
 </table>
-
+<br />
 
 While reducing the artifact size does not automatically guarantee faster startup, it can reduce the amount of bytecode the JVM needs to scan and load during initialization.
 
@@ -409,6 +408,7 @@ Test Run 4
   </tbody>
 </table>
 
+<br />
 
 The difference was noticeable right away.
 
