@@ -161,6 +161,7 @@ I ran the startup **four times**. This number of runs was enough to reliably rep
   </tbody>
 </table>
 
+
 Fast enough to sip a coffee, yet just slow enough to make you twitch impatiently, silently wondering why the JVM can't be ready instantly.
 
 Even small delays like these can be noticeable for tiny services that are meant to respond immediately, which is exactly why cold start becomes such a nagging little problem.
@@ -318,10 +319,28 @@ After
 
 After enabling dependency minimization and removing several unnecessary transitive dependencies, the size of the executable JAR decreased from 17 MB to 13 MB.
 
-| Build Configuration | JAR Size |
+<!-- | Build Configuration | JAR Size |
 | :--- | :--- |
 | Baseline build | 17 MB |
-| After dependency minimization | 13 MB |
+| After dependency minimization | 13 MB | -->
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #000; padding: 6px;">Build Configuration</th>
+      <th style="border: 1px solid #000; padding: 6px;">JAR Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Baseline build</td>
+      <td style="border: 1px solid #000; padding: 6px;">17 MB</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">After dependency minimization</td>
+      <td style="border: 1px solid #000; padding: 6px;">13 MB</td>
+    </tr>
+  </tbody>
+</table>
 
 
 While reducing the artifact size does not automatically guarantee faster startup, it can reduce the amount of bytecode the JVM needs to scan and load during initialization.
@@ -346,13 +365,49 @@ Test Run 4
 
 ![Image](/../../../blog/wp-content/uploads/2026/04/digitalocean/image18.png)
 
-| Test Run | Before (s) | After (s) |
+<!-- | Test Run | Before (s) | After (s) |
 | :--- | :--- | :--- |
 | 1 | 0.519 | 0.083 |
 | 2 | 0.373 | 0.094 |
 | 3 | 0.389 | 0.073 |
 | 4 | 0.361 | 0.077 |
-| **Average** | **0.410** | **0.082** |
+| **Average** | **0.410** | **0.082** | -->
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #000; padding: 6px;">Test Run</th>
+      <th style="border: 1px solid #000; padding: 6px;">Before (s)</th>
+      <th style="border: 1px solid #000; padding: 6px;">After (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">1</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.519</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.083</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">2</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.373</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.094</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">3</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.389</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.073</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">4</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.361</td>
+      <td style="border: 1px solid #000; padding: 6px;">0.077</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;"><strong>Average</strong></td>
+      <td style="border: 1px solid #000; padding: 6px;"><strong>0.410</strong></td>
+      <td style="border: 1px solid #000; padding: 6px;"><strong>0.082</strong></td>
+    </tr>
+  </tbody>
+</table>
 
 
 The difference was noticeable right away.
