@@ -14,7 +14,7 @@ tags:
 - 'Linux'
 ---
 
-![Image](/wp-content/uploads/2026/04/digitalocean/image8.png)
+![Image](../../wp-content/uploads/2026/04/digitalocean/image8.png)
 
 I first got into Android development back when Java was the only way to build apps. Super boilerplate-heavy. Every little thing required so much code just to get it working. Then Kotlin came along as an official option, and I started experimenting with it. Honestly, at first it didn't feel like a big deal. But over time, I realized I was reaching for it more and more. The syntax just made sense. Less clutter, easier to read, and going back to fix stuff later didn't feel like punishment.
 
@@ -296,19 +296,19 @@ The following results were collected from four startup runs.
 
 Test Run 1
 
-![Image](wp-content/uploads/2026/04/digitalocean/image19.png)
+![Image](/../wp-content/uploads/2026/04/digitalocean/image19.png)
 
 Test Run 2
 
-![Image](wp-content/uploads/2026/04/digitalocean/image21.png)
+![Image](/../wp-content/uploads/2026/04/digitalocean/image21.png)
 
 Test Run 3
 
-![Image](wp-content/uploads/2026/04/digitalocean/image1.png)
+![Image](/../wp-content/uploads/2026/04/digitalocean/image1.png)
 
 Test Run 4
 
-![Image](wp-content/uploads/2026/04/digitalocean/image18.png)
+![Image](/../wp-content/uploads/2026/04/digitalocean/image18.png)
 
 | Test Run | Before (s) | After (s) |
 | :--- | :--- | :--- |
