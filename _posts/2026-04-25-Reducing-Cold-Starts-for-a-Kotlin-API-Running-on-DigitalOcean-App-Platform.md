@@ -123,16 +123,7 @@ Test Run 4
 I ran the startup **four times**. This number of runs was enough to reliably represent the typical behavior of cold starts while keeping the measurements practical and manageable.
 
 **Summary**
-<!-- ---
 
-| Test Run | Startup Time (s) |
-| :--- | :--- |
-| 1 | 0.519 |
-| 2 | 0.373 |
-| 3 | 0.389 |
-| 4 | 0.361 |
-
---- -->
 <table style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
