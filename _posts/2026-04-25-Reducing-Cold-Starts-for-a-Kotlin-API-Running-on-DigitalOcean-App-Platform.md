@@ -4,7 +4,7 @@ title: 'Reducing Cold Starts for a Kotlin API Running on DigitalOcean App Platfo
 date: '2026-04-25T00:32:24+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-permalink: /2026/04/25/reducing-cold-starts-for-a-kotlin-api-running-on-digitalocean-app-platform
+permalink: /2026/04/25/reducing-cold-starts-for-a-kotlin-api-running-on-digitalocean-app-platform 
 image: /wp-content/uploads/2026/04/digitalocean/image8.png
 categories:
 - DevOps
@@ -14,7 +14,6 @@ tags:
 - 'Coding'
 - 'Server'
 - 'Backend'
-tags: [sticky]
 ---
 
 
