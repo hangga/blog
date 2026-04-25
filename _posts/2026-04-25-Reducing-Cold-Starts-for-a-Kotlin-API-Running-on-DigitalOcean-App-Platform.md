@@ -119,12 +119,19 @@ I ran the startup **four times**. This number of runs was enough to reliably rep
 
 Summary
 
-| Test Run | Startup Time (s) |
+<!-- | Test Run | Startup Time (s) |
 | :--- | :--- |
 | 1 | 0.519 |
 | 2 | 0.373 |
 | 3 | 0.389 |
-| 4 | 0.361 |
+| 4 | 0.361 | -->
+
+| Test Run | Startup Time (s) |
+|----------|------------------|
+| 1        | 0.519            |
+| 2        | 0.373            |
+| 3        | 0.389            |
+| 4        | 0.361            |
 
 Fast enough to sip a coffee, yet just slow enough to make you twitch impatiently, silently wondering why the JVM can't be ready instantly.
 
@@ -255,14 +262,14 @@ Switching between the two turned out to be surprisingly simple and only required
 
 Before (Netty):
 
-```
+```Kotlin
 embeddedServer(Netty, port = port, module = Application::module)
     .start(wait = true)
 ```
 
 After (CIO):
 
-```
+```Kotlin
 embeddedServer(CIO, port = port, module = Application::module)
     .start(wait = true)
 ```
@@ -283,10 +290,14 @@ After
 
 After enabling dependency minimization and removing several unnecessary transitive dependencies, the size of the executable JAR decreased from 17 MB to 13 MB.
 
-| Build Configuration | JAR Size |
+<!-- | Build Configuration | JAR Size |
 | :--- | :--- |
 | Baseline build | 17 MB |
-| After dependency minimization | 13 MB |
+| After dependency minimization | 13 MB | -->
+| Build Configuration              | JAR Size |
+|----------------------------------|----------|
+| Baseline build                   | 17 MB    |
+| After dependency minimization    | 13 MB    |
 
 While reducing the artifact size does not automatically guarantee faster startup, it can reduce the amount of bytecode the JVM needs to scan and load during initialization.
 
@@ -310,12 +321,19 @@ Test Run 4
 
 ![Image](/../../../blog/wp-content/uploads/2026/04/digitalocean/image18.png)
 
-| Test Run | Before (s) | After (s) |
+<!-- | Test Run | Before (s) | After (s) |
 | :--- | :--- | :--- |
 | 1 | 0.519 | 0.083 |
 | 2 | 0.373 | 0.094 |
 | 3 | 0.389 | 0.073 |
 | 4 | 0.361 | 0.077 |
+| **Average** | **0.410** | **0.082** | -->
+| Test Run  | Before (s) | After (s) |
+|-----------|------------|-----------|
+| 1         | 0.519      | 0.083     |
+| 2         | 0.373      | 0.094     |
+| 3         | 0.389      | 0.073     |
+| 4         | 0.361      | 0.077     |
 | **Average** | **0.410** | **0.082** |
 
 The difference was noticeable right away.
@@ -348,7 +366,7 @@ To run the application on App Platform, it must first be packaged as a container
 
 In this project, a multi-stage Docker build is used. The first stage compiles the application and produces a fat JAR file, while the second stage contains only the runtime needed to execute it. This approach keeps the final image smaller and reduces unnecessary build tools in production.
 
-```
+```bash
 # =========================
 # Stage 1: Build
 # =========================
@@ -403,7 +421,7 @@ With the Dockerfile in place, the container image can then be built locally.
 
 Once the Dockerfile is ready, the container image can be built locally.
 
-```
+```bash
 docker build -t crypto-monitor .
 ```
 
@@ -415,7 +433,7 @@ The resulting image packages the application into a portable runtime environment
 
 To make the image available to App Platform, it was uploaded to Docker Hub.
 
-```
+```bash
 docker tag crypto-monitor bazeniancode/crypto-monitor:0.1
 docker push bazeniancode/crypto-monitor:0.1
 ```
