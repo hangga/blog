@@ -6,13 +6,16 @@ author: 'Hangga Aji Sayekti'
 layout: post
 image: /wp-content/uploads/2026/04/digitalocean/image8.png
 categories:
-- Linux
+- DevOps
 tags:
-- 'Python'
-- 'Py'
+- 'Kotlin'
+- 'DigitalOcean'
 - 'Coding'
-- 'Linux'
+- 'Server'
+- 'Backend'
+tags: [sticky]
 ---
+
 
 <!-- ![Image](../../blog/wp-content/uploads/2026/04/digitalocean/image8.png) -->
 
