@@ -4,7 +4,7 @@ title: 'Reducing Cold Starts For A Kotlin Api Running On Digitalocean App Platfo
 date: '2026-04-25T00:32:24+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-image: wp-content/uploads/2026/04/digitalocean/image8.png
+image: /wp-content/2026/04/digitalocean/image8.png
 categories:
 - Linux
 tags:
@@ -14,7 +14,7 @@ tags:
 - 'Linux'
 ---
 
-![Image](../../wp-content/uploads/2026/04/digitalocean/image8.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image8.png)
 
 I first got into Android development back when Java was the only way to build apps. Super boilerplate-heavy. Every little thing required so much code just to get it working. Then Kotlin came along as an official option, and I started experimenting with it. Honestly, at first it didn't feel like a big deal. But over time, I realized I was reaching for it more and more. The syntax just made sense. Less clutter, easier to read, and going back to fix stuff later didn't feel like punishment.
 
@@ -91,7 +91,7 @@ Each optimization discussed later in this article is implemented as a separate v
 
 The simplified architecture of the sample service is illustrated below:
 
-![Image](wp-content/uploads/2026/04/digitalocean/image11.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image11.png)
 
 Although the architecture is simple, it is sufficient to demonstrate how dependency footprint, runtime configuration, and server engine choices influence the cold start behavior of a Kotlin API.
 
@@ -101,19 +101,19 @@ We measured startup time from the moment the JVM process started until the serve
 
 Test Run 1
 
-![Image](wp-content/uploads/2026/04/digitalocean/image5.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image5.png)
 
 Test Run 2
 
-![Image](wp-content/uploads/2026/04/digitalocean/image20.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image20.png)
 
 Test Run 3
 
-![Image](wp-content/uploads/2026/04/digitalocean/image17.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image17.png)
 
 Test Run 4
 
-![Image](wp-content/uploads/2026/04/digitalocean/image14.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image14.png)
 
 I ran the startup **four times**. This number of runs was enough to reliably represent the typical behavior of cold starts while keeping the measurements practical and manageable.
 
@@ -132,7 +132,7 @@ Even small delays like these can be noticeable for tiny services that are meant 
 
 # Optimizing the Cold Start
 
-![Image](wp-content/uploads/2026/04/digitalocean/image12.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image12.png)
 
 Before touching frameworks or runtime settings, I wanted to see how much work the JVM was actually doing during startup.
 
@@ -235,7 +235,7 @@ To understand what the application was loading at runtime, I inspected the depen
 
 The output revealed the full set of libraries included in the runtime classpath.
 
-![Image](wp-content/uploads/2026/04/digitalocean/image10.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image10.png)
 
 One component stood out immediately: the Netty server engine used by Ktor.
 
@@ -245,7 +245,7 @@ What if a lighter server engine could start faster?
 
 ## Switching the Server Engine
 
-![Image](wp-content/uploads/2026/04/digitalocean/image22.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image22.png)
 
 Ktor supports multiple server engines, including Netty and [CIO](https://www.google.com/url?q=https://klibs.io/package/io.ktor/ktor-server-cio&sa=D&source=editors&ust=1777095271858501&usg=AOvVaw32u_vskPSFxRNGDqUinlUc) (Coroutine-based I/O).
 
@@ -275,11 +275,11 @@ Before looking at startup performance, it's worth checking how the earlier optim
 
 Before
 
-![Image](wp-content/uploads/2026/04/digitalocean/image4.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image4.png)
 
 After
 
-![Image](wp-content/uploads/2026/04/digitalocean/image9.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image9.png)
 
 After enabling dependency minimization and removing several unnecessary transitive dependencies, the size of the executable JAR decreased from 17 MB to 13 MB.
 
@@ -296,19 +296,19 @@ The following results were collected from four startup runs.
 
 Test Run 1
 
-![Image](/../wp-content/uploads/2026/04/digitalocean/image19.png)
+![Image](/../../../blog/wp-content/2026/04/digitalocean/image19.png)
 
 Test Run 2
 
-![Image](/../wp-content/uploads/2026/04/digitalocean/image21.png)
+![Image](/../../../blog/wp-content/2026/04/digitalocean/image21.png)
 
 Test Run 3
 
-![Image](/../wp-content/uploads/2026/04/digitalocean/image1.png)
+![Image](/../../../blog/wp-content/2026/04/digitalocean/image1.png)
 
 Test Run 4
 
-![Image](/../wp-content/uploads/2026/04/digitalocean/image18.png)
+![Image](/../../../blog/wp-content/2026/04/digitalocean/image18.png)
 
 | Test Run | Before (s) | After (s) |
 | :--- | :--- | :--- |
@@ -328,13 +328,13 @@ Another interesting observation is that the application code itself did not chan
 
 Visual Comparison
 
-![Image](wp-content/uploads/2026/04/digitalocean/image3.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image3.png)
 
 Seeing the results was genuinely satisfying. Reducing the **JAR from 17 MB to 13 MB** and cutting **startup time from 410 ms to 82 ms** made the API feel instantly snappier. Those small wins, like a lighter dependency footprint and a faster server engine, make working on Kotlin services really rewarding. Now we can approach **deployment with much more confidence**, knowing the API starts quickly and efficiently.
 
 # Deploying to DigitalOcean App Platform
 
-![Image](wp-content/uploads/2026/04/digitalocean/image6.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image6.png)
 
 Once the startup optimizations looked good locally, it was time to see how the service behaved in the cloud. The API was packaged into a Docker container and deployed to DigitalOcean App Platform.
 
@@ -407,7 +407,7 @@ Once the Dockerfile is ready, the container image can be built locally.
 docker build -t crypto-monitor .
 ```
 
-![Image](wp-content/uploads/2026/04/digitalocean/image26.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image26.png)
 
 The resulting image packages the application into a portable runtime environment that can be deployed anywhere Docker containers are supported.
 
@@ -420,9 +420,9 @@ docker tag crypto-monitor bazeniancode/crypto-monitor:0.1
 docker push bazeniancode/crypto-monitor:0.1
 ```
 
-![Image](wp-content/uploads/2026/04/digitalocean/image16.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image16.png)
 
-![Image](wp-content/uploads/2026/04/digitalocean/image13.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image13.png)
 
 After the upload completes, the image can be referenced directly during deployment.
 
@@ -430,7 +430,7 @@ After the upload completes, the image can be referenced directly during deployme
 
 DigitalOcean App Platform supports several deployment sources, including Git repositories, container images, and templates.
 
-![Image](wp-content/uploads/2026/04/digitalocean/image27.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image27.png)
 
 For this setup, the Container Image option was used. The platform pulls the image from Docker Hub and runs it as a managed service.
 
@@ -440,17 +440,17 @@ In general, the chosen region does not significantly affect the internal startup
 
 However, the region can still influence overall network performance. Applications deployed closer to their users usually experience lower latency because requests travel a shorter physical distance between the client and the server.
 
-![Image](wp-content/uploads/2026/04/digitalocean/image24.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image24.png)
 
 Since this experiment was conducted from Indonesia, the Singapore region was selected as the deployment location. This region hosts the closest DigitalOcean data center to most locations in Southeast Asia, which typically results in lower network latency compared to regions located farther away.
 
 Selecting this region primarily ensures that the deployed service can be accessed with minimal network delay while allowing the experiment to observe the application's behavior within a cloud environment.
 
-![Image](wp-content/uploads/2026/04/digitalocean/image2.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image2.png)
 
 Once deployed, App Platform automatically provisions networking, assigns a public URL, and manages the runtime environment.
 
-![Image](wp-content/uploads/2026/04/digitalocean/image25.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image25.png)
 
 The API is live! Everything is running smoothly and ready for action.
 
@@ -464,7 +464,7 @@ These tools are especially useful when evaluating startup behavior and runtime p
 
 The Insights panel provides basic runtime metrics such as CPU usage and memory consumption.
 
-![Image](wp-content/uploads/2026/04/digitalocean/image15.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image15.png)
 
 While not a full monitoring system, it offers a quick overview of how the application behaves under normal operation.
 
@@ -472,7 +472,7 @@ While not a full monitoring system, it offers a quick overview of how the applic
 
 The Runtime Logs view shows logs generated by the running container.
 
-![Image](wp-content/uploads/2026/04/digitalocean/image23.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image23.png)
 
 This helps confirm when the application starts and whether the initialization process completes successfully.
 
@@ -480,7 +480,7 @@ This helps confirm when the application starts and whether the initialization pr
 
 The Activity tab records deployment events and configuration changes.
 
-![Image](wp-content/uploads/2026/04/digitalocean/image7.png)
+![Image](../../blog/wp-content/2026/04/digitalocean/image7.png)
 
 This timeline helps track when redeployments occur during testing.
 
