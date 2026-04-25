@@ -608,14 +608,14 @@ For latency-sensitive services, especially those running in containerized or ser
 
 # Resources
 
-- Ktor Documentation: [https://ktor.io/](https://www.google.com/url?q=https://ktor.io/&sa=D&source=editors&ust=1777095271908846&usg=AOvVaw3CNK0AG1HfZN-S5L_dkD4i)
-- Ktor CIO Engine: [https://klibs.io/package/io.ktor/ktor-server-cio](https://www.google.com/url?q=https://klibs.io/package/io.ktor/ktor-server-cio&sa=D&source=editors&ust=1777095271909332&usg=AOvVaw2IN_oywScoueoZtu50WXFx)
-- Netty: [https://netty.io/](https://www.google.com/url?q=https://netty.io/&sa=D&source=editors&ust=1777095271909705&usg=AOvVaw3VIcTySeqOWzGHL-341Oh_)
-- SLF4J: [https://www.slf4j.org/](https://www.google.com/url?q=https://www.slf4j.org/&sa=D&source=editors&ust=1777095271909961&usg=AOvVaw2yR3xmWgO1eudihkqLPJsz)
-- DigitalOcean App Platform: [https://www.digitalocean.com/products/app-platform](https://www.google.com/url?q=https://www.digitalocean.com/products/app-platform&sa=D&source=editors&ust=1777095271910373&usg=AOvVaw0haHRHf05yJ7TpGcCUhcj2)
-- Gradle Shadow Plugin: [https://gradleup.com/shadow/](https://www.google.com/url?q=https://gradleup.com/shadow/&sa=D&source=editors&ust=1777095271910664&usg=AOvVaw2M5iLkpXnpvaZ0oPWBb03e)
-- OpenJDK Class Data Sharing (CDS): [https://docs.oracle.com/en/java/javase/17/vm/class-data-sharing.html](https://www.google.com/url?q=https://docs.oracle.com/en/java/javase/17/vm/class-data-sharing.html&sa=D&source=editors&ust=1777095271911040&usg=AOvVaw252qEVDt1wMjPVgyz9ALmF)
-- Resilience4j: [https://resilience4j.readme.io/](https://www.google.com/url?q=https://resilience4j.readme.io/&sa=D&source=editors&ust=1777095271911451&usg=AOvVaw2f2AyHtI_kKcMXWyxs7LKw)
+- Ktor Documentation: [ktor.io](https://www.google.com/url?q=https://ktor.io/&sa=D&source=editors&ust=1777095271908846&usg=AOvVaw3CNK0AG1HfZN-S5L_dkD4i)
+- Ktor CIO Engine: [klibs.io/package/io.ktor/ktor-server-cio](https://www.google.com/url?q=https://klibs.io/package/io.ktor/ktor-server-cio&sa=D&source=editors&ust=1777095271909332&usg=AOvVaw2IN_oywScoueoZtu50WXFx)
+- Netty: [netty.io](https://www.google.com/url?q=https://netty.io/&sa=D&source=editors&ust=1777095271909705&usg=AOvVaw3VIcTySeqOWzGHL-341Oh_)
+- SLF4J: [slf4j.org](https://www.google.com/url?q=https://www.slf4j.org/&sa=D&source=editors&ust=1777095271909961&usg=AOvVaw2yR3xmWgO1eudihkqLPJsz)
+- DigitalOcean App Platform: [digitalocean.com/products/app-platform](https://www.google.com/url?q=https://www.digitalocean.com/products/app-platform&sa=D&source=editors&ust=1777095271910373&usg=AOvVaw0haHRHf05yJ7TpGcCUhcj2)
+- Gradle Shadow Plugin: [gradleup.com/shadow](https://www.google.com/url?q=https://gradleup.com/shadow/&sa=D&source=editors&ust=1777095271910664&usg=AOvVaw2M5iLkpXnpvaZ0oPWBb03e)
+- OpenJDK Class Data Sharing (CDS): [docs.oracle.com/en/java/javase/17/vm/class-data-sharing.html](https://www.google.com/url?q=https://docs.oracle.com/en/java/javase/17/vm/class-data-sharing.html&sa=D&source=editors&ust=1777095271911040&usg=AOvVaw252qEVDt1wMjPVgyz9ALmF)
+- Resilience4j: [resilience4j.readme.io](https://www.google.com/url?q=https://resilience4j.readme.io/&sa=D&source=editors&ust=1777095271911451&usg=AOvVaw2f2AyHtI_kKcMXWyxs7LKw)
 
 # Disclosure
 
