@@ -6,7 +6,7 @@ author: 'Hangga Aji Sayekti'
 layout: post
 guid: 'https://hangga.github.io/blog/?p=20240718'
 permalink: /2025/02/13/porting-an-old-delphi-project-bringing-cih-to-the-browser-with-vanilla-javascript/
-image: wp-content/uploads/2025/js-cih-screenshot.png
+image: /wp-content/uploads/2025/js-cih-screenshot.png
 categories:
 - Linux
 tags:
