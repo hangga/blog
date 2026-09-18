@@ -7,6 +7,7 @@ layout: post
 image: /wp-content/uploads/2026/04/digitalocean/image8.png
 categories:
 - DevOps
+- Backend
 tags:
 - 'Kotlin'
 - 'DigitalOcean'

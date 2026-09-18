@@ -6,10 +6,9 @@ author: 'Hangga Aji Sayekti'
 layout: post
 image: /wp-content/uploads/2026/09/cyber-security-thumbnail.jpeg
 categories:
-- DevOps
+- Security
 tags:
 - 'Pentest'
-- 'AI'
 - 'Application Security'
 - 'Penetration Testing'
 ---
