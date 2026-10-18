@@ -3,6 +3,8 @@ id: 20240720
 title: 'Kisi-Kisi Lengkap Technical Interview Application Security Engineer'
 date: '2026-09-17T00:32:24+00:00'
 author: 'Hangga Aji Sayekti'
+descriptions: 'Pelajari 100+ pertanyaan technical interview Application Security Engineer beserta jawabannya. Mulai dari OWASP, web pentesting, API security, secure coding, DevSecOps, hingga AI security dan LLM security'
+slug: 'kisi-kisi-interview-application-security-engineer'
 layout: post
 image: /wp-content/uploads/2026/09/cyber-security-concept-digital-art.jpg
 categories:
@@ -15,15 +17,9 @@ tags:
 
 # Kisi-Kisi Technical Interview Application Security Engineer: 100+ Pertanyaan dan Jawaban Lengkap, dari Web Security hingga AI Security
 
-**Meta description:** Pelajari 100+ pertanyaan technical interview Application Security Engineer beserta jawabannya. Mulai dari OWASP, web pentesting, API security, secure coding, DevSecOps, hingga AI security dan LLM security.
-
-**Slug:** `kisi-kisi-interview-application-security-engineer`
-
 Mau melamar sebagai Application Security Engineer dan sedang mempersiapkan technical interview?
 
 Ada banyak materi yang mungkin ditanyakan saat interview, mulai dari SQL Injection dan XSS sampai keamanan API, cloud, pipeline CI/CD, bahkan keamanan aplikasi berbasis AI. Kalau semua istilah itu dipelajari sekaligus tanpa memahami dasarnya, persiapan interview bisa terasa membingungkan.
-
-Kabar baiknya, kamu tidak harus menghafal semua definisi. Kamu perlu memahami bagaimana aplikasi bekerja, bagaimana penyerang bisa menyalahgunakannya, apa dampaknya, dan bagaimana cara memperbaikinya.
 
 Artikel ini membahas berbagai pertanyaan yang relevan untuk persiapan interview Application Security Engineer, lengkap dengan contoh jawaban yang mudah dipahami. Materinya mencakup keamanan aplikasi web, API, autentikasi, secure coding, pengujian keamanan, DevSecOps, cloud, dan AI security.
 
