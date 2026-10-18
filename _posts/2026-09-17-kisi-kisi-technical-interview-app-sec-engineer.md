@@ -4,2225 +4,1216 @@ title: 'Kisi-Kisi Lengkap Technical Interview Application Security Engineer'
 date: '2026-09-17T00:32:24+00:00'
 author: 'Hangga Aji Sayekti'
 layout: post
-image: /wp-content/uploads/2026/09/cyber-security-thumbnail.jpeg
+image: /wp-content/uploads/2026/09/cyber-security-concept-digital-art.jpg
 categories:
 - Security
 tags:
-- 'Pentest'
+- 'Cybersecurity'
 - 'Application Security'
-- 'Penetration Testing'
+- 'Career Development'
 ---
 
-Technical interview untuk posisi **Application Security Engineer (AppSec)** biasanya tidak hanya menguji apakah kita hafal OWASP Top 10. Interviewer ingin melihat apakah kita mampu:
+# Kisi-Kisi Technical Interview Application Security Engineer: 100+ Pertanyaan dan Jawaban Lengkap, dari Web Security hingga AI Security
 
-* memahami cara kerja aplikasi dari frontend sampai backend,
-* menemukan dan menjelaskan vulnerability,
-* menilai risiko dan severity,
-* membaca source code,
-* memahami authentication dan authorization,
-* mengamankan API,
-* melakukan threat modeling,
-* menggunakan security tooling,
-* bekerja dengan developer,
-* dan menerjemahkan temuan security menjadi perbaikan yang realistis.
+**Meta description:** Pelajari 100+ pertanyaan technical interview Application Security Engineer beserta jawabannya. Mulai dari OWASP, web pentesting, API security, secure coding, DevSecOps, hingga AI security dan LLM security.
 
-Artikel ini dapat digunakan sebagai **roadmap belajar, checklist, sekaligus bank pertanyaan interview**.
+**Slug:** `kisi-kisi-interview-application-security-engineer`
 
----
-
-# 1. Application Security Fundamentals
-
-### Pertanyaan dasar
-
-**1. Apa yang dimaksud dengan Application Security?**
-
-Jawaban ideal harus mencakup perlindungan aplikasi dari vulnerability dan abuse sepanjang lifecycle aplikasi, mulai dari design, development, testing, deployment, sampai maintenance.
-
----
-
-**2. Apa perbedaan Application Security, Cybersecurity, dan Network Security?**
-
-Pahami scope masing-masing.
-
-* Network Security → jaringan dan komunikasi
-* Cybersecurity → cakupan keamanan sistem secara luas
-* Application Security → keamanan aplikasi, kode, API, dependency, architecture, dan proses development
-
----
-
-**3. Apa itu vulnerability, threat, risk, exploit, dan impact?**
-
-Jangan mencampur istilah.
-
-Contoh:
-
-> SQL Injection adalah vulnerability.
-> Attacker yang mengeksploitasinya merupakan threat actor.
-> SQL injection dapat dieksploitasi menggunakan payload tertentu.
-> Dampaknya dapat berupa unauthorized database access.
-
----
-
-**4. Apa perbedaan vulnerability dan security misconfiguration?**
-
-Misalnya:
-
-* vulnerability pada logic authorization,
-* tetapi konfigurasi endpoint admin yang terbuka juga dapat menjadi security misconfiguration.
-
----
-
-**5. Apa prinsip CIA Triad?**
-
-* Confidentiality
-* Integrity
-* Availability
-
-Berikan contoh dampak masing-masing pada aplikasi.
-
----
-
-**6. Apa itu defense in depth?**
-
-Jangan hanya mengandalkan satu security control.
-
-Contoh:
-
-```text
-Authentication
-      ↓
-Authorization
-      ↓
-Input validation
-      ↓
-Business rule validation
-      ↓
-Database access control
-      ↓
-Monitoring
-```
-
----
-
-# 2. Secure SDLC
-
-### Pertanyaan
-
-**7. Apa itu Secure SDLC?**
-
-Jelaskan bagaimana security dimasukkan ke setiap tahap development.
-
-```text
-Requirement
-    ↓
-Design
-    ↓
-Development
-    ↓
-Testing
-    ↓
-Deployment
-    ↓
-Monitoring
-```
-
----
-
-**8. Apa perbedaan Shift Left Security dan DevSecOps?**
-
-Shift Left berarti security dipertimbangkan lebih awal.
-
-DevSecOps lebih luas: security diintegrasikan ke workflow development dan operations.
-
----
-
-**9. Bagaimana cara memasukkan security ke CI/CD?**
-
-Contoh:
-
-```text
-Developer
-   ↓
-Pull Request
-   ↓
-SAST
-   ↓
-Dependency Scan
-   ↓
-Secret Scan
-   ↓
-Unit/Security Tests
-   ↓
-Build
-   ↓
-DAST
-   ↓
-Deploy
-```
-
----
-
-**10. Apakah semua vulnerability harus membuat pipeline gagal?**
-
-Ini pertanyaan yang bagus untuk menguji maturity.
-
-Jawaban tidak seharusnya:
-
-> "Ya, semua vulnerability harus fail."
-
-Pertimbangkan:
-
-* severity,
-* exploitability,
-* confidence,
-* environment,
-* business context,
-* false positive,
-* compensating controls.
-
----
-
-# 3. OWASP
-
-Kuasai **OWASP Top 10**, tetapi jangan berhenti pada definisinya.
-
-Untuk setiap kategori pahami:
-
-1. cara kerja,
-2. contoh vulnerability,
-3. cara menemukan,
-4. impact,
-5. remediation,
-6. contoh kode vulnerable,
-7. contoh kode secure.
-
-Kategori yang perlu dikuasai antara lain:
-
-* Broken Access Control
-* Cryptographic Failures
-* Injection
-* Insecure Design
-* Security Misconfiguration
-* Vulnerable and Outdated Components
-* Identification and Authentication Failures
-* Software and Data Integrity Failures
-* Security Logging and Monitoring Failures
-* SSRF
-
----
-
-# 4. Authentication
-
-### Pertanyaan interview
-
-**11. Apa perbedaan authentication dan authorization?**
-
-Authentication:
-
-> Who are you?
+Mau melamar sebagai Application Security Engineer dan sedang mempersiapkan technical interview?
 
-Authorization:
+Ada banyak materi yang mungkin ditanyakan saat interview, mulai dari SQL Injection dan XSS sampai keamanan API, cloud, pipeline CI/CD, bahkan keamanan aplikasi berbasis AI. Kalau semua istilah itu dipelajari sekaligus tanpa memahami dasarnya, persiapan interview bisa terasa membingungkan.
 
-> What are you allowed to do?
+Kabar baiknya, kamu tidak harus menghafal semua definisi. Kamu perlu memahami bagaimana aplikasi bekerja, bagaimana penyerang bisa menyalahgunakannya, apa dampaknya, dan bagaimana cara memperbaikinya.
 
----
-
-**12. Bagaimana cara mendesain authentication yang aman?**
+Artikel ini membahas berbagai pertanyaan yang relevan untuk persiapan interview Application Security Engineer, lengkap dengan contoh jawaban yang mudah dipahami. Materinya mencakup keamanan aplikasi web, API, autentikasi, secure coding, pengujian keamanan, DevSecOps, cloud, dan AI security.
 
-Bahas:
+Perlu diingat, pertanyaan interview berbeda-beda di setiap perusahaan. Tidak semua perusahaan akan menanyakan seluruh topik dalam artikel ini. Gunakan materi berikut sebagai panduan belajar, lalu prioritaskan topik yang sesuai dengan deskripsi pekerjaan yang kamu lamar.
 
-* password hashing,
-* session/token,
-* MFA,
-* rate limiting,
-* account recovery,
-* session expiration,
-* secure cookies,
-* login protection.
+# Bagian 1: Dasar-Dasar Application Security
 
----
+## 1. Apa itu Application Security Engineer?
 
-**13. Apa perbedaan hashing, encryption, dan encoding?**
+**Contoh jawaban:**
 
-Ini pertanyaan fundamental.
+Application Security Engineer adalah orang yang membantu memastikan aplikasi aman sejak proses pembuatannya hingga digunakan oleh pengguna.
 
-### Hashing
+Misalnya, perusahaan memiliki aplikasi perbankan. Developer bertugas membangun fitur login, transfer uang, dan riwayat transaksi. AppSec Engineer membantu memeriksa apakah fitur-fitur tersebut memiliki kelemahan yang bisa dimanfaatkan penyerang.
 
-One-way transformation.
+Pekerjaannya bisa mencakup memeriksa kode program, menguji keamanan aplikasi, meninjau desain sistem, membantu developer memperbaiki celah, dan memastikan pengujian keamanan menjadi bagian dari proses pengembangan.
 
-```text
-password → hash
-```
+Jadi, tugasnya bukan hanya menemukan celah, tetapi juga membantu mencegah masalah serupa muncul kembali.
 
-### Encryption
+## 2. Apa bedanya Application Security Engineer dan Penetration Tester?
 
-Reversible menggunakan key.
+**Contoh jawaban:**
 
-```text
-plaintext → ciphertext → plaintext
-```
+Penetration Tester biasanya berfokus pada pengujian sistem untuk menemukan dan membuktikan kelemahan keamanan. Application Security Engineer memiliki cakupan yang lebih luas dalam proses pengembangan aplikasi.
 
-### Encoding
+Contohnya, Penetration Tester menemukan bahwa pengguna bisa melihat data milik pengguna lain. AppSec Engineer dapat membantu memperbaiki pemeriksaan hak akses, memeriksa bagian kode lain yang memiliki pola serupa, dan memastikan ada pengujian otomatis untuk mencegah masalah tersebut terulang.
 
-Representasi data.
+Namun, kedua pekerjaan ini bisa saling tumpang tindih. AppSec Engineer juga dapat melakukan penetration testing, sedangkan Penetration Tester dapat memberikan rekomendasi perbaikan yang mendalam.
 
-```text
-"hello" → Base64
-```
+## 3. Apa bedanya vulnerability, threat, dan risk?
 
-Base64 bukan encryption.
-
----
+**Contoh jawaban:**
 
-**14. Bagaimana password seharusnya disimpan?**
+Ketiganya saling berhubungan, tetapi memiliki arti berbeda.
 
-Jangan:
+- **Vulnerability:** kelemahan yang dapat dimanfaatkan untuk menyerang sistem.
+- **Threat:** pihak, kejadian, atau kondisi yang berpotensi menimbulkan masalah.
+- **Risk:** kemungkinan terjadinya masalah dan seberapa besar dampaknya.
 
-```text
-SHA256(password)
-```
+Bayangkan sebuah rumah memiliki jendela yang tidak bisa dikunci. Jendela tersebut adalah vulnerability. Pencuri merupakan threat. Sementara itu, kemungkinan pencurian dan kerugian yang bisa terjadi merupakan bagian dari risk.
 
-Gunakan password hashing algorithm yang memang dirancang untuk password, seperti:
+Dalam aplikasi, contohnya adalah endpoint yang tidak memeriksa hak akses. Kelemahan tersebut bisa dimanfaatkan pengguna untuk mengakses data yang bukan miliknya.
 
-* Argon2id
-* bcrypt
-* scrypt
+## 4. Apa perbedaan authentication dan authorization?
 
-Dengan konfigurasi yang sesuai.
+**Contoh jawaban:**
 
----
+Authentication adalah proses memastikan identitas seseorang. Authorization adalah proses menentukan apa yang boleh dilakukan oleh orang tersebut.
 
-**15. Apa itu salt?**
+Misalnya, ketika kamu login ke aplikasi perusahaan menggunakan akun pribadi, sistem sedang memeriksa identitasmu. Setelah login, sistem masih harus memastikan bahwa kamu hanya dapat melihat dokumen yang memang menjadi hakmu.
 
-Random value yang digunakan bersama password sebelum hashing sehingga password yang sama tidak menghasilkan hash yang sama.
+Jadi, berhasil login tidak berarti pengguna otomatis boleh mengakses seluruh data.
 
----
+## 5. Apa yang dimaksud dengan CIA Triad?
 
-**16. Apa itu password pepper?**
+**Contoh jawaban:**
 
-Secret tambahan yang tidak disimpan bersama database password.
+CIA Triad adalah tiga prinsip dasar keamanan informasi:
 
----
+- **Confidentiality:** data hanya boleh dilihat oleh pihak yang berhak.
+- **Integrity:** data tidak boleh diubah secara tidak sah.
+- **Availability:** sistem dan data harus tersedia ketika dibutuhkan.
 
-# 5. Session Security
+Contohnya, aplikasi kesehatan harus menjaga agar rekam medis pasien tidak dibaca sembarang orang, tidak diubah tanpa izin, dan tetap bisa diakses oleh tenaga medis yang berwenang.
 
-**17. Apa itu session fixation?**
+Ketiga prinsip ini membantu AppSec Engineer memahami dampak sebuah celah keamanan.
 
-Attacker membuat korban menggunakan session ID yang sudah diketahui attacker.
+## 6. Apa itu attack surface?
 
----
+**Contoh jawaban:**
 
-**18. Apa itu session hijacking?**
+Attack surface adalah seluruh bagian sistem yang bisa menjadi titik masuk serangan.
 
-Attacker memperoleh session credential korban dan menggunakannya untuk impersonation.
+Contohnya, sebuah aplikasi memiliki halaman login, fitur upload dokumen, API untuk mengambil data pengguna, dan dashboard administrator. Semua bagian tersebut bisa menjadi attack surface karena berinteraksi dengan pengguna atau sistem lain.
 
----
+Semakin banyak fitur, endpoint, dan integrasi yang tersedia, semakin banyak bagian yang perlu diperiksa keamanannya.
 
-**19. Apa atribut cookie yang perlu diperhatikan?**
+## 7. Apa itu threat modeling?
 
-Minimal pahami:
+**Contoh jawaban:**
 
-```text
-Secure
-HttpOnly
-SameSite
-Domain
-Path
-```
+Threat modeling adalah proses memikirkan cara sebuah sistem bisa diserang sebelum atau selama sistem tersebut dibangun.
 
----
+Misalnya, perusahaan sedang membuat fitur transfer uang. AppSec Engineer perlu memikirkan beberapa pertanyaan: bisakah pengguna mengirim uang dari rekening orang lain? Apa yang terjadi jika permintaan transfer dikirim dua kali? Bisakah pengguna mengubah jumlah transfer melalui API?
 
-**20. Apa fungsi HttpOnly?**
+Dengan mengidentifikasi kemungkinan serangan sejak awal, tim bisa merancang kontrol keamanan sebelum masalah ditemukan di lingkungan produksi.
 
-Mencegah JavaScript mengakses cookie melalui mekanisme seperti:
+## 8. Apa itu security by design?
 
-```javascript
-document.cookie
-```
+**Contoh jawaban:**
 
-Tetapi HttpOnly **tidak mencegah semua bentuk XSS**.
+Security by design berarti keamanan dipertimbangkan sejak aplikasi dirancang, bukan baru diperiksa setelah aplikasi selesai dibuat.
 
----
+Contohnya, saat merancang fitur berbagi dokumen, tim langsung menentukan siapa yang boleh melihat, mengunduh, atau mengubah dokumen tersebut.
 
-# 6. JWT
+Pendekatan ini biasanya lebih efektif daripada menunggu sampai aplikasi dirilis, lalu memperbaiki banyak bagian karena desain awalnya tidak mempertimbangkan keamanan.
 
-**21. Apa itu JWT?**
+# Bagian 2: OWASP dan Kerentanan Aplikasi Web
 
-Pahami struktur:
+## 9. Apa itu OWASP Top 10?
 
-```text
-Header.Payload.Signature
-```
+**Contoh jawaban:**
 
----
+OWASP Top 10 adalah daftar risiko keamanan aplikasi web yang penting untuk dipahami oleh developer dan profesional keamanan.
 
-**22. Apakah JWT terenkripsi?**
+Daftar ini membantu tim mengenali masalah umum, seperti kesalahan kontrol akses, kelemahan konfigurasi, dan berbagai jenis injeksi.
 
-Tidak secara default.
+Namun, OWASP Top 10 bukan daftar lengkap semua celah keamanan dan bukan pengganti pengujian keamanan. Sebuah aplikasi tetap bisa memiliki kerentanan yang tidak tercakup secara langsung dalam daftar tersebut.
 
-JWT biasanya encoded, bukan encrypted.
+## 10. Apa itu SQL Injection?
 
----
+**Contoh jawaban:**
 
-**23. Apa vulnerability umum JWT?**
+SQL Injection terjadi ketika input pengguna memengaruhi perintah SQL secara tidak aman.
 
-Pahami:
+Misalnya, sebuah halaman login menggunakan input username dan password untuk mencari akun di database. Jika aplikasi menyusun query dengan menggabungkan input mentah pengguna ke dalam teks SQL, penyerang mungkin bisa mengubah arti query tersebut.
 
-* algorithm confusion,
-* weak signing secret,
-* improper signature verification,
-* accepting unsigned tokens,
-* excessive token lifetime,
-* token leakage,
-* insufficient authorization checks.
+Akibatnya, aplikasi dapat mengembalikan data yang tidak semestinya atau menjalankan operasi yang tidak diinginkan, tergantung pada kondisi dan hak akses database.
 
----
+Pencegahan utamanya adalah menggunakan parameterized queries atau prepared statements. Dengan cara ini, database membedakan input sebagai data dari struktur perintah SQL.
 
-**24. Apakah JWT selalu lebih baik daripada session?**
+## 11. Apa itu Cross-Site Scripting (XSS)?
 
-Tidak.
+**Contoh jawaban:**
 
-Pemilihan tergantung architecture dan kebutuhan.
+XSS terjadi ketika aplikasi membuat browser pengguna menjalankan JavaScript yang tidak seharusnya dijalankan.
 
----
+Misalnya, forum menyediakan kolom komentar. Jika komentar ditampilkan tanpa penanganan yang aman, penyerang mungkin bisa memasukkan konten yang menyebabkan browser pengguna lain menjalankan kode berbahaya.
 
-# 7. Authorization dan Access Control
+Dampaknya bisa berupa manipulasi halaman atau tindakan yang dilakukan atas nama pengguna, bergantung pada konteks dan perlindungan yang tersedia.
 
-Ini merupakan area yang sangat penting untuk AppSec.
+Pencegahannya antara lain menggunakan output encoding sesuai konteks, menghindari API browser yang berbahaya tanpa kebutuhan yang jelas, dan menerapkan Content Security Policy sebagai lapisan pertahanan tambahan.
 
-**25. Apa itu Broken Access Control?**
+## 12. Apa bedanya reflected, stored, dan DOM-based XSS?
 
-User dapat melakukan action atau mengakses resource yang seharusnya tidak boleh dilakukan.
+**Contoh jawaban:**
 
----
+Ketiganya merupakan bentuk XSS, tetapi berbeda dalam cara kode berbahaya mencapai browser.
 
-**26. Apa itu IDOR?**
+- **Reflected XSS:** input berbahaya dikembalikan oleh server dalam respons, misalnya melalui parameter pencarian.
+- **Stored XSS:** input berbahaya disimpan, misalnya sebagai komentar, lalu ditampilkan kepada pengguna lain.
+- **DOM-based XSS:** masalah terjadi pada pemrosesan data oleh JavaScript di browser, ketika data yang tidak aman digunakan dalam operasi DOM yang berbahaya.
 
-Contoh:
+Cara mengujinya berbeda karena sumber data dan bagian aplikasi yang bermasalah bisa berbeda. Namun, prinsip pencegahannya tetap berpusat pada penanganan data yang aman sesuai konteks penggunaannya.
 
-```http
-GET /api/users/1001/profile
-```
+## 13. Apa itu Cross-Site Request Forgery (CSRF)?
 
-User A mengganti:
+**Contoh jawaban:**
 
-```text
-1001 → 1002
-```
+CSRF terjadi ketika penyerang mencoba membuat browser pengguna yang sudah login mengirimkan permintaan yang tidak mereka inginkan.
 
-dan dapat melihat data User B.
+Misalnya, pengguna sedang login ke aplikasi keuangan. Penyerang membuat halaman yang mencoba memicu permintaan ke aplikasi tersebut. Jika aplikasi hanya mengandalkan cookie sesi tanpa perlindungan yang memadai, permintaan itu mungkin diproses seolah-olah berasal dari pengguna.
 
-Masalah sebenarnya bukan sekadar parameter ID.
+Pencegahannya dapat mencakup CSRF token, pemeriksaan asal permintaan, penggunaan cookie `SameSite` yang sesuai, dan memastikan operasi sensitif tidak bisa dilakukan hanya melalui permintaan yang tidak terlindungi.
 
-Masalahnya adalah:
+## 14. Apa itu Server-Side Request Forgery (SSRF)?
 
-> server tidak memastikan bahwa requester memiliki authorization terhadap resource tersebut.
+**Contoh jawaban:**
 
----
+SSRF terjadi ketika penyerang bisa memengaruhi server agar mengirimkan permintaan ke alamat yang seharusnya tidak dapat diaksesnya.
 
-**27. Bagaimana mencegah IDOR?**
-
-Authorization harus dilakukan server-side.
-
-```text
-request
-   ↓
-authenticate user
-   ↓
-identify resource
-   ↓
-check authorization
-   ↓
-allow / deny
-```
-
-Jangan hanya mengandalkan:
-
-* hidden field,
-* frontend validation,
-* disabled button,
-* UUID,
-* obfuscation.
+Contohnya, sebuah aplikasi menerima URL untuk mengambil gambar dari internet. Jika aplikasi tidak membatasi alamat tujuan dengan benar, penyerang mungkin bisa membuat server mencoba mengakses layanan internal yang tidak ditujukan untuk publik.
 
----
+Pencegahannya antara lain membatasi tujuan permintaan, memvalidasi URL dan alamat IP setelah resolusi DNS, mengendalikan redirect, serta menerapkan pembatasan jaringan agar server tidak bisa mengakses semua layanan internal.
 
-**28. Apakah UUID mencegah IDOR?**
+## 15. Apa itu path traversal?
 
-Tidak.
+**Contoh jawaban:**
 
-UUID membuat enumeration lebih sulit, tetapi bukan authorization control.
+Path traversal adalah kelemahan yang memungkinkan pengguna mengakses file di luar direktori yang seharusnya diperbolehkan.
 
----
+Misalnya, aplikasi hanya bermaksud mengizinkan pengguna mengunduh dokumen dari folder tertentu. Jika nama file bisa dimanipulasi tanpa validasi yang benar, aplikasi mungkin membaca file lain di sistem.
 
-**29. Apa perbedaan horizontal dan vertical privilege escalation?**
+Pencegahannya meliputi penggunaan identifier file yang terkontrol, pembatasan direktori, canonicalization path, dan pemeriksaan otorisasi sebelum file disajikan.
 
-Horizontal:
+## 16. Apa itu insecure deserialization?
 
-```text
-User A → User B
-```
+**Contoh jawaban:**
 
-Vertical:
+Deserialization adalah proses mengubah data yang disimpan atau dikirim dalam format tertentu menjadi objek yang bisa digunakan program.
 
-```text
-User → Admin
-```
+Masalah muncul ketika aplikasi memercayai data yang tidak tepercaya dan mengubahnya menjadi objek tanpa kontrol yang memadai. Dalam kondisi tertentu, hal ini dapat menyebabkan manipulasi data, penyalahgunaan fungsi, atau bahkan eksekusi kode.
 
----
+Pencegahannya adalah tidak memproses objek kompleks dari sumber yang tidak tepercaya jika tidak diperlukan, menggunakan format data yang lebih sederhana, dan menerapkan validasi serta pembatasan tipe yang ketat.
 
-**30. Apakah frontend authorization cukup?**
+## 17. Apa itu security misconfiguration?
 
-Tidak.
+**Contoh jawaban:**
 
-Frontend authorization terutama untuk UX.
+Security misconfiguration adalah kesalahan pengaturan yang membuat aplikasi lebih mudah diserang.
 
-Security boundary harus berada di backend.
+Contohnya, dashboard administrator bisa diakses dari internet tanpa perlindungan yang memadai, pesan error menampilkan detail internal, atau layanan debug dibiarkan aktif di production.
 
----
+Cara mencegahnya adalah menggunakan konfigurasi yang aman secara default, memisahkan lingkungan development dan production, menonaktifkan fitur yang tidak diperlukan, serta memeriksa konfigurasi secara berkala.
 
-# 8. API Security
+## 18. Apa itu IDOR atau Broken Access Control?
 
-Pahami REST API secara mendalam.
+**Contoh jawaban:**
 
-### Pertanyaan
+IDOR adalah kondisi ketika pengguna dapat mengakses objek milik orang lain karena aplikasi tidak memeriksa hak akses dengan benar. Istilah ini sering digunakan untuk menggambarkan salah satu bentuk Broken Access Control.
 
-**31. Apa security issue yang umum pada REST API?**
+Misalnya, aplikasi menampilkan data pesanan melalui endpoint seperti `/orders/1001`. Jika pengguna bisa mengganti nomor tersebut menjadi `/orders/1002` dan melihat pesanan milik orang lain, kemungkinan terdapat masalah kontrol akses.
 
-Misalnya:
+Solusinya bukan sekadar menyembunyikan nomor pesanan. Server harus memeriksa apakah pengguna yang sedang login memang berhak mengakses pesanan tersebut pada setiap permintaan.
 
-* broken authorization,
-* excessive data exposure,
-* mass assignment,
-* rate-limit bypass,
-* injection,
-* SSRF,
-* improper authentication,
-* business logic flaws.
+## 19. Apa perbedaan validasi dan sanitasi input?
 
----
+**Contoh jawaban:**
 
-**32. Apa itu mass assignment?**
+Validasi memeriksa apakah data sesuai dengan aturan yang ditetapkan. Sanitasi mengubah atau menghapus bagian data tertentu agar sesuai dengan tujuan penggunaannya.
 
-Contoh:
+Misalnya, kolom nomor telepon hanya boleh menerima format tertentu. Validasi digunakan untuk memeriksa format tersebut. Jika teks akan ditampilkan sebagai HTML, penanganan output yang tepat diperlukan agar teks itu tidak dianggap sebagai kode.
 
-```json
-{
-  "name": "Alice",
-  "role": "admin"
-}
-```
+Keduanya tidak bisa menggantikan kontrol keamanan lain. Untuk mencegah SQL Injection, misalnya, prepared statements tetap menjadi pilihan utama daripada hanya menghapus karakter tertentu dari input.
 
-Jika server secara otomatis menerima semua field dan langsung melakukan binding ke object internal, user mungkin dapat memodifikasi field yang seharusnya tidak boleh diubah.
+## 20. Bagaimana menentukan tingkat keparahan sebuah celah?
 
----
+**Contoh jawaban:**
 
-**33. Bagaimana mencegah mass assignment?**
+Saya akan melihat beberapa hal: apa yang bisa dilakukan penyerang, seberapa mudah celah tersebut dieksploitasi, data atau fungsi apa yang terdampak, dan berapa banyak pengguna atau sistem yang berpotensi terkena dampaknya.
 
-Gunakan explicit allowlist:
+Misalnya, celah yang memungkinkan siapa pun mengambil data pribadi seluruh pelanggan biasanya lebih mendesak daripada masalah yang hanya memengaruhi informasi publik yang tidak sensitif.
 
-```text
-Allowed:
-name
-email
+Saya juga dapat menggunakan CVSS sebagai salah satu alat penilaian, tetapi prioritas perbaikan tetap perlu mempertimbangkan konteks bisnis, paparan sistem, dan kemungkinan eksploitasi di lingkungan nyata.
 
-Not allowed:
-role
-isAdmin
-permissions
-```
+# Bagian 3: API Security
 
----
+## 21. Apa itu API dan mengapa keamanannya penting?
 
-**34. Apakah API harus selalu menggunakan POST untuk data sensitif?**
+**Contoh jawaban:**
 
-Tidak sesederhana itu.
+API adalah cara bagi dua sistem untuk bertukar data atau meminta suatu fungsi dijalankan.
 
-POST sendiri bukan security control.
+Misalnya, aplikasi mobile menggunakan API untuk mengambil riwayat transaksi dari server. Pengguna mungkin tidak pernah melihat endpoint tersebut secara langsung, tetapi aplikasi tetap mengirimkan permintaan melalui API.
 
-Yang penting:
+Karena API sering menyediakan akses langsung ke data dan fungsi, kesalahan pada autentikasi, otorisasi, validasi input, atau pembatasan permintaan dapat berdampak besar.
 
-* HTTPS,
-* authentication,
-* authorization,
-* validation,
-* appropriate caching policy,
-* secure logging,
-* proper handling of sensitive data.
+## 22. Apa perbedaan autentikasi dan otorisasi pada API?
 
----
+**Contoh jawaban:**
 
-# 9. Input Validation
+Autentikasi API memeriksa siapa yang mengirimkan permintaan. Otorisasi memeriksa apakah pihak tersebut berhak melakukan tindakan yang diminta.
 
-**35. Apakah input validation dapat mencegah semua attack?**
+Misalnya, token pengguna berhasil diverifikasi. Itu belum berarti pengguna boleh membaca seluruh data pelanggan. Server masih harus memeriksa hak akses untuk setiap objek dan fungsi.
 
-Tidak.
+Kesalahan yang sering terjadi adalah aplikasi hanya memeriksa apakah token valid, tetapi tidak memeriksa apakah pemilik token berhak mengakses resource yang diminta.
 
-Validation harus disesuaikan dengan konteks.
+## 23. Apa itu Broken Object Level Authorization (BOLA)?
 
----
+**Contoh jawaban:**
 
-**36. Apa perbedaan allowlist dan blocklist?**
+BOLA terjadi ketika API tidak memeriksa dengan benar apakah pengguna berhak mengakses objek tertentu.
 
-Allowlist:
+Contohnya, API menyediakan endpoint untuk membaca profil pelanggan berdasarkan ID. Pengguna A mengirimkan ID milik pengguna B dan ternyata bisa melihat datanya.
 
-```text
-hanya menerima format yang diperbolehkan
-```
+Untuk mencegahnya, server harus memeriksa kepemilikan atau izin akses terhadap objek tersebut. Menggunakan UUID atau ID yang sulit ditebak bukan pengganti pemeriksaan otorisasi.
 
-Blocklist:
+## 24. Apa itu Broken Function Level Authorization (BFLA)?
 
-```text
-menolak beberapa pola yang diketahui berbahaya
-```
+**Contoh jawaban:**
 
-Allowlist biasanya lebih robust ketika memungkinkan.
+BFLA terjadi ketika pengguna dapat menjalankan fungsi yang seharusnya tidak boleh mereka akses.
 
----
+Misalnya, aplikasi memiliki fungsi untuk menghapus akun pelanggan. Fungsi tersebut seharusnya hanya bisa digunakan oleh administrator, tetapi pengguna biasa ternyata juga dapat memanggil endpoint-nya.
 
-**37. Di mana validation harus dilakukan?**
+Pencegahannya adalah menerapkan pemeriksaan hak akses pada setiap fungsi sensitif di sisi server. Menyembunyikan tombol administrator dari tampilan pengguna tidak cukup.
 
-Frontend validation berguna untuk UX.
+## 25. Apa itu rate limiting?
 
-Backend validation wajib karena client tidak trusted.
+**Contoh jawaban:**
 
----
+Rate limiting membatasi seberapa sering sebuah pengguna atau sistem boleh mengirim permintaan dalam periode tertentu.
 
-# 10. SQL Injection
+Misalnya, API login membatasi jumlah percobaan login dalam waktu singkat. Pembatasan ini dapat mengurangi peluang brute-force dan membantu mengendalikan penyalahgunaan layanan.
 
-Pahami:
+Batasnya perlu disesuaikan dengan fungsi API. Sistem juga harus mempertimbangkan identitas pengguna, alamat IP, pola aktivitas, dan risiko memblokir pengguna sah.
 
-```sql
-SELECT * FROM users
-WHERE username = '$username'
-```
+## 26. Apa perbedaan API key dan access token?
 
-Jika input dimasukkan langsung ke query, attacker dapat memanipulasi query.
+**Contoh jawaban:**
 
----
+API key biasanya digunakan untuk mengenali aplikasi atau klien yang memanggil layanan. Access token umumnya mewakili hak akses yang diberikan kepada suatu pengguna atau klien.
 
-**38. Bagaimana mencegah SQL Injection?**
+Namun, penerapannya berbeda-beda antarproduk. API key juga dapat digunakan untuk autentikasi dalam konteks tertentu, dan access token tidak otomatis aman hanya karena namanya berbeda.
 
-Gunakan parameterized query / prepared statement.
+Keduanya perlu dilindungi, dibatasi hak aksesnya, diputar atau dicabut jika bocor, dan tidak boleh ditanamkan di aplikasi publik jika pengguna dapat mengekstraknya.
 
-Bukan:
+## 27. Apa yang perlu diperiksa saat menguji keamanan API?
 
-```text
-string concatenation
-```
+**Contoh jawaban:**
 
----
+Saya akan memeriksa apakah autentikasi dapat dilewati, apakah pengguna bisa mengakses data orang lain, apakah ada fungsi administrator yang dapat dipanggil pengguna biasa, serta apakah input diproses dengan aman.
 
-**39. Apakah ORM otomatis mencegah SQL Injection?**
+Saya juga akan memeriksa rate limiting, pengelolaan token, validasi data, konfigurasi CORS, penanganan error, dan kemungkinan kebocoran informasi.
 
-Tidak selalu.
+Pengujian dilakukan pada sistem yang memang diizinkan untuk diuji, dengan memperhatikan dampak terhadap data dan ketersediaan layanan.
 
-Raw query dan dynamic SQL tetap dapat rentan.
+# Bagian 4: Authentication, Session, dan Identity Security
 
----
+## 28. Bagaimana cara kerja session cookie?
 
-# 11. XSS
+**Contoh jawaban:**
 
-Pahami tiga jenis utama:
+Setelah pengguna login, server biasanya membuat sesi dan mengirimkan cookie yang menjadi penanda sesi tersebut. Browser kemudian mengirimkan cookie saat membuat permintaan yang sesuai ke server.
 
-* Reflected XSS
-* Stored XSS
-* DOM-based XSS
+Jika seseorang berhasil mencuri cookie sesi yang masih berlaku, ia mungkin bisa menggunakannya untuk bertindak sebagai pengguna tersebut.
 
----
+Karena itu, cookie sesi perlu dilindungi menggunakan atribut yang sesuai, seperti `Secure`, `HttpOnly`, dan `SameSite`. Aplikasi juga perlu mengelola masa berlaku sesi dan mengakhiri sesi dengan benar ketika pengguna logout.
 
-**40. Apa perbedaan XSS dan CSRF?**
+## 29. Apa itu JWT dan apa risikonya?
 
-XSS:
+**Contoh jawaban:**
 
-> attacker menjalankan script dalam security context aplikasi.
+JWT adalah format token yang sering digunakan untuk membawa klaim, seperti identitas atau informasi hak akses.
 
-CSRF:
+JWT yang ditandatangani biasanya dapat diverifikasi untuk mengetahui apakah isinya telah diubah. Namun, tanda tangan tidak otomatis membuat isi token menjadi rahasia. Pada JWT yang menggunakan format JWS, payload umumnya dapat dibaca oleh pihak yang memperoleh token.
 
-> attacker memaksa browser korban melakukan request yang korban berwenang lakukan.
+Risiko muncul jika aplikasi menerima token tanpa memverifikasi tanda tangan dan klaim yang diperlukan, atau jika token yang bocor memiliki hak akses luas dan masa berlaku panjang.
 
----
+Pencegahannya mencakup validasi algoritma dan tanda tangan, pemeriksaan issuer, audience, dan expiration, serta penyimpanan token secara aman.
 
-**41. Apakah HttpOnly mencegah XSS?**
+## 30. Apa itu Multi-Factor Authentication (MFA)?
 
-Tidak.
+**Contoh jawaban:**
 
-HttpOnly membantu melindungi cookie dari pembacaan JavaScript, tetapi tidak menghilangkan vulnerability XSS.
+MFA meminta pengguna membuktikan identitas menggunakan lebih dari satu faktor yang berbeda.
 
----
+Contohnya, pengguna memasukkan password dan kemudian melakukan verifikasi melalui security key. Jika password bocor, penyerang masih perlu melewati faktor tambahan.
 
-**42. Bagaimana mencegah XSS?**
+Namun, tidak semua metode MFA memiliki tingkat perlindungan yang sama. Metode yang tahan phishing, seperti FIDO2/WebAuthn, umumnya lebih kuat terhadap phishing dibandingkan kode OTP yang dapat diminta atau dicuri melalui rekayasa sosial.
 
-Tergantung context:
+## 31. Apa itu account enumeration?
 
-* output encoding,
-* contextual escaping,
-* safe DOM APIs,
-* sanitization,
-* Content Security Policy,
-* avoiding dangerous HTML injection.
+**Contoh jawaban:**
 
----
+Account enumeration terjadi ketika seseorang bisa mengetahui apakah suatu akun terdaftar berdasarkan respons aplikasi.
 
-# 12. CSRF
+Contohnya, halaman login menampilkan pesan “email tidak ditemukan” untuk akun yang tidak terdaftar, tetapi “password salah” untuk akun yang terdaftar.
 
-**43. Bagaimana CSRF terjadi?**
+Penyerang dapat memanfaatkan perbedaan ini untuk mengumpulkan daftar akun valid. Aplikasi dapat mengurangi risiko tersebut dengan pesan yang konsisten, pembatasan percobaan, dan pemantauan aktivitas mencurigakan.
 
-Contoh:
+## 32. Bagaimana mengamankan fitur reset password?
 
-```text
-Victim login ke bank
-       ↓
-Victim membuka malicious website
-       ↓
-Browser mengirim request ke bank
-       ↓
-Session cookie ikut terkirim
-```
+**Contoh jawaban:**
 
----
+Fitur reset password harus memastikan bahwa hanya pemilik akun yang sah yang dapat mengganti password.
 
-**44. Cara mencegah CSRF?**
+Token reset sebaiknya sulit ditebak, memiliki masa berlaku terbatas, hanya dapat digunakan sekali, dan tidak bocor melalui log atau URL yang tersebar ke pihak lain.
 
-Pahami:
+Setelah password diubah, aplikasi perlu mempertimbangkan pencabutan sesi lama, memberi tahu pemilik akun, dan menerapkan pembatasan permintaan agar fitur ini tidak disalahgunakan.
 
-* CSRF token,
-* SameSite cookie,
-* Origin checking,
-* Referer validation sebagai defense tertentu.
+# Bagian 5: Secure Coding dan Code Review
 
----
+## 33. Apa itu secure code review?
 
-# 13. SSRF
+**Contoh jawaban:**
 
-**45. Apa itu SSRF?**
+Secure code review adalah proses memeriksa kode program untuk menemukan pola yang dapat menimbulkan masalah keamanan.
 
-Server melakukan request ke destination yang dikontrol attacker.
+Contohnya, saya memeriksa apakah query database menggunakan parameterized queries, apakah endpoint memeriksa hak akses, dan apakah data sensitif masuk ke log.
 
-Contoh:
+Tujuannya bukan hanya menemukan baris kode yang bermasalah, tetapi memahami alur data dan memastikan bahwa perbaikan benar-benar menutup kelemahan tersebut.
 
-```text
-POST /fetch
+## 34. Apa itu taint analysis?
 
-url=https://attacker.example
-```
+**Contoh jawaban:**
 
----
+Taint analysis melacak data yang berasal dari sumber yang tidak tepercaya, seperti input pengguna, hingga data tersebut digunakan oleh bagian aplikasi yang sensitif.
 
-**46. Mengapa SSRF berbahaya?**
+Misalnya, input pengguna masuk ke parameter pencarian, kemudian digunakan untuk membangun query database. Analisis ini membantu melihat apakah data tersebut mencapai query tanpa penanganan yang aman.
 
-Server mungkin memiliki akses ke resource yang tidak dapat diakses attacker secara langsung.
+Taint analysis dapat dilakukan secara manual maupun dibantu alat analisis kode. Hasilnya tetap perlu ditinjau karena alat bisa menghasilkan false positive atau melewatkan masalah tertentu.
 
-Misalnya:
+## 35. Apa itu SAST?
 
-```text
-Internet
-   ↓
-Application Server
-   ↓
-Internal Service
-```
+**Contoh jawaban:**
 
----
+SAST adalah pengujian keamanan yang memeriksa kode sumber atau representasi program tanpa harus menjalankan aplikasi seperti pengguna biasa.
 
-**47. Bagaimana mitigasi SSRF?**
+Contohnya, alat SAST dapat menemukan penggunaan fungsi yang berisiko atau pola query yang berpotensi menyebabkan SQL Injection.
 
-Bahas:
+SAST membantu menemukan masalah lebih awal, tetapi tidak selalu memahami seluruh konfigurasi dan perilaku aplikasi. Hasilnya perlu diverifikasi agar tim tidak menghabiskan waktu pada temuan yang tidak relevan.
 
-* destination allowlist,
-* URL parsing yang benar,
-* IP validation,
-* DNS rebinding protection,
-* network egress controls,
-* metadata endpoint protection,
-* redirect handling.
+## 36. Apa itu DAST?
 
-Jangan hanya mengatakan:
+**Contoh jawaban:**
 
-> "Block localhost."
+DAST menguji aplikasi yang sedang berjalan dengan mengirimkan permintaan dan mengamati responsnya.
 
-Karena SSRF dapat menggunakan representasi IP dan teknik lain.
+Contohnya, alat DAST mencoba berbagai input ke formulir dan endpoint untuk mencari perilaku yang mengindikasikan celah keamanan.
 
----
+Kelebihannya, DAST dapat menemukan masalah yang bergantung pada konfigurasi atau perilaku runtime. Namun, alat ini tidak selalu bisa menjangkau semua alur aplikasi atau membuktikan penyebab masalah di kode.
 
-# 14. Business Logic Vulnerability
+## 37. Apa perbedaan SAST, DAST, dan SCA?
 
-Ini area yang sering membedakan AppSec engineer berpengalaman dengan scanner operator.
+**Contoh jawaban:**
 
-### Pertanyaan
+Ketiganya memeriksa aspek keamanan yang berbeda.
 
-**48. Apa itu business logic vulnerability?**
+- **SAST:** mencari pola kode yang berpotensi tidak aman.
+- **DAST:** menguji aplikasi yang sedang berjalan.
+- **SCA:** memeriksa library dan dependency pihak ketiga, termasuk versi yang diketahui memiliki kerentanan.
 
-Vulnerability yang muncul karena aplikasi mengimplementasikan business rule secara tidak aman.
+Contohnya, sebuah aplikasi bisa memiliki kode buatan sendiri yang rentan SQL Injection, endpoint yang salah konfigurasi, dan library yang memiliki CVE. Ketiga jenis pengujian tersebut dapat membantu menemukan masalah yang berbeda.
 
-Contoh:
+## 38. Apa itu secrets management?
 
-```text
-Harga = 100
-Quantity = -1
+**Contoh jawaban:**
 
-Total = -100
-```
+Secrets management adalah cara menyimpan dan mengelola informasi rahasia, seperti password database, API key, private key, dan credential layanan.
 
-Jika sistem menerima quantity negatif, logic pembayaran dapat disalahgunakan.
+Informasi tersebut sebaiknya tidak ditulis langsung di source code atau dimasukkan ke repository yang bisa diakses banyak orang.
 
----
+Organisasi dapat menggunakan secret manager, membatasi siapa yang bisa mengakses rahasia, melakukan rotasi credential, dan memindai repository untuk menemukan secret yang tidak sengaja terunggah.
 
-**49. Mengapa business logic bug sulit ditemukan SAST/DAST?**
+## 39. Apa itu dependency vulnerability?
 
-Karena scanner tidak selalu memahami:
+**Contoh jawaban:**
 
-* business rules,
-* intended workflow,
-* user roles,
-* state transitions,
-* economic assumptions.
+Aplikasi modern sering menggunakan library yang dibuat pihak lain. Jika salah satu library memiliki celah keamanan, aplikasi yang menggunakannya mungkin ikut terdampak.
 
----
+Misalnya, aplikasi menggunakan versi library yang memiliki kerentanan dalam pemrosesan file. Penyerang bisa memanfaatkan masalah tersebut jika aplikasi memanggil fungsi yang terdampak dalam kondisi yang sesuai.
 
-**50. Bagaimana cara menemukan business logic flaw?**
+Saya akan memeriksa versi dependency, apakah kerentanan benar-benar memengaruhi penggunaan aplikasi, apakah tersedia versi perbaikan, dan apakah pembaruan dapat dilakukan dengan aman.
 
-Pahami workflow.
+# Bagian 6: Security Testing dan Penetration Testing
 
-Contoh:
+## 40. Apa perbedaan vulnerability assessment dan penetration testing?
 
-```text
-Create order
-    ↓
-Apply coupon
-    ↓
-Calculate price
-    ↓
-Pay
-    ↓
-Confirm order
-```
+**Contoh jawaban:**
 
-Kemudian tanyakan:
+Vulnerability assessment berfokus pada mengidentifikasi dan menilai kelemahan. Penetration testing mencoba mengeksploitasi kelemahan secara terkontrol untuk mengetahui sejauh mana dampaknya.
 
-* apakah step dapat dilewati?
-* dapat diulang?
-* dapat dilakukan out of order?
-* dapat dilakukan dengan user berbeda?
-* apakah state dapat dimanipulasi?
+Contohnya, vulnerability assessment menemukan endpoint yang diduga memiliki masalah otorisasi. Penetration testing dapat menguji apakah masalah itu benar-benar memungkinkan akses ke data pengguna lain.
 
----
+Keduanya saling melengkapi. Pengujian harus dilakukan dalam ruang lingkup dan izin yang jelas.
 
-# 15. Race Condition
+## 41. Bagaimana memulai pengujian keamanan aplikasi web?
 
-**51. Apa itu race condition?**
+**Contoh jawaban:**
 
-Dua atau lebih request memproses state yang sama secara bersamaan sehingga menghasilkan keadaan yang tidak semestinya.
+Saya akan memahami ruang lingkup dan fungsi aplikasi terlebih dahulu, lalu memetakan halaman, endpoint, jenis pengguna, dan alur data yang penting.
 
-Contoh:
+Setelah itu, saya mengidentifikasi area berisiko, seperti login, reset password, upload file, pengelolaan akun, dan endpoint yang memproses data sensitif.
 
-```text
-Balance = $100
+Pengujian kemudian dilakukan berdasarkan risiko, dengan menggabungkan pengujian manual dan alat bantu. Temuan perlu divalidasi, didokumentasikan, dan disertai rekomendasi perbaikan.
 
-Request A → withdraw $100
-Request B → withdraw $100
+## 42. Apa fungsi Burp Suite?
 
-Keduanya membaca balance = $100
-```
+**Contoh jawaban:**
 
----
+Burp Suite adalah alat yang banyak digunakan untuk menguji keamanan aplikasi web. Alat ini membantu melihat dan memodifikasi HTTP request serta response sehingga penguji dapat memahami cara aplikasi berkomunikasi.
 
-**52. Bagaimana mencegah race condition?**
+Misalnya, saya bisa memeriksa parameter yang dikirim saat membuka profil pengguna, lalu menguji apakah perubahan parameter dapat menyebabkan akses ke data yang tidak semestinya.
 
-Tergantung sistem:
+Burp Suite membantu proses pengujian, tetapi tidak otomatis memahami seluruh konteks bisnis aplikasi. Penguji tetap perlu menganalisis hasilnya.
 
-* transaction,
-* locking,
-* atomic operation,
-* optimistic concurrency,
-* unique constraint,
-* idempotency.
+## 43. Apa itu false positive dan false negative?
 
----
+**Contoh jawaban:**
 
-# 16. Cryptography
+False positive berarti alat melaporkan masalah yang ternyata bukan kerentanan yang valid dalam konteks tersebut. False negative berarti masalah sebenarnya ada, tetapi tidak terdeteksi.
 
-Pahami konsep:
+Misalnya, scanner melaporkan suatu parameter rentan terhadap XSS, tetapi setelah diperiksa ternyata output sudah ditangani dengan aman. Itu bisa menjadi false positive.
 
-* symmetric encryption,
-* asymmetric encryption,
-* hashing,
-* MAC,
-* digital signature,
-* key management,
-* random number generation.
+Sebaliknya, aplikasi memiliki kelemahan otorisasi yang hanya muncul pada alur tertentu, tetapi scanner tidak menemukannya. Itu bisa menjadi false negative.
 
-### Pertanyaan
+Karena itu, hasil pemindaian perlu diverifikasi dan tidak boleh dianggap sebagai gambaran lengkap keamanan aplikasi.
 
-**53. AES vs RSA?**
+## 44. Bagaimana menulis laporan temuan keamanan yang baik?
 
-AES:
+**Contoh jawaban:**
 
-* symmetric
-* cepat
-* membutuhkan shared secret
+Laporan sebaiknya menjelaskan apa masalahnya, di mana lokasinya, bagaimana masalah dapat direproduksi dalam ruang lingkup yang diizinkan, apa dampaknya, dan bagaimana memperbaikinya.
 
-RSA:
+Saya juga akan menyertakan bukti yang cukup tanpa mengumpulkan atau menyebarkan data sensitif secara tidak perlu.
 
-* asymmetric
-* public/private key
-* relatif lebih mahal
+Tujuannya agar developer dapat memahami masalah dan memperbaikinya tanpa harus menebak-nebak apa yang ditemukan penguji.
 
----
+# Bagian 7: DevSecOps dan Secure SDLC
 
-**54. Apa itu encryption at rest dan encryption in transit?**
+## 45. Apa itu Secure SDLC?
 
-At rest:
+**Contoh jawaban:**
 
-```text
-database / disk / backup
-```
+Secure SDLC adalah proses memasukkan keamanan ke seluruh tahapan pengembangan software, mulai dari perencanaan, desain, coding, testing, sampai deployment dan pemeliharaan.
 
-In transit:
+Contohnya, tim mendiskusikan risiko sebelum membangun fitur baru, melakukan code review, menjalankan pemindaian dependency, dan menguji keamanan sebelum aplikasi dirilis.
 
-```text
-client ↔ server
-```
+Dengan pendekatan ini, keamanan bukan hanya tanggung jawab tim AppSec di akhir proyek. Developer dan tim operasional juga ikut berperan.
 
-Biasanya menggunakan TLS untuk komunikasi jaringan.
+## 46. Apa itu DevSecOps?
 
----
+**Contoh jawaban:**
 
-**55. Apa kesalahan cryptography yang umum?**
+DevSecOps adalah pendekatan yang mengintegrasikan keamanan ke dalam proses pengembangan dan operasi aplikasi.
 
-* hardcoded keys,
-* weak random,
-* obsolete algorithms,
-* improper key management,
-* reuse nonce/IV pada kondisi yang tidak boleh,
-* custom cryptography.
+Misalnya, setiap kali developer mengirim perubahan kode, pipeline dapat menjalankan unit test, pemeriksaan dependency, dan pemindaian keamanan tertentu secara otomatis.
 
----
+Namun, tidak semua temuan harus selalu menghentikan proses build. Organisasi perlu menentukan aturan berdasarkan tingkat risiko, keandalan deteksi, dan konteks sistem.
 
-# 17. Secrets Management
+## 47. Bagaimana menentukan security gate dalam CI/CD?
 
-**56. Apakah API key di frontend selalu secret?**
+**Contoh jawaban:**
 
-Tidak.
+Security gate adalah aturan yang menentukan apakah suatu perubahan boleh melanjutkan proses build atau deployment.
 
-Jika aplikasi memang harus mengirim credential ke browser, credential tersebut pada praktiknya dapat dilihat user.
+Misalnya, organisasi dapat memblokir rilis jika ditemukan secret yang valid di repository atau kerentanan kritis yang telah diverifikasi dan tidak memiliki pengecualian yang disetujui.
 
-Pertanyaan yang lebih penting:
+Saya akan memastikan aturan tersebut jelas, temuan dapat ditindaklanjuti, dan ada mekanisme pengecualian yang terdokumentasi. Jika semua temuan langsung memblokir build tanpa mempertimbangkan kualitas deteksi, tim bisa kehilangan kepercayaan terhadap proses keamanan.
 
-> Apa privilege credential tersebut?
+## 48. Apa itu Software Bill of Materials (SBOM)?
 
----
+**Contoh jawaban:**
 
-**57. Bagaimana mengelola secret?**
+SBOM adalah daftar komponen software yang digunakan oleh suatu aplikasi, seperti library dan dependency.
 
-Hindari:
+Jika muncul kerentanan baru pada sebuah library, SBOM membantu organisasi mengetahui aplikasi mana yang menggunakan komponen tersebut.
 
-```text
-Git repository
-source code
-Docker image
-frontend bundle
-logs
-```
+SBOM bukan jaminan bahwa software aman. Nilainya terletak pada kemampuan organisasi mengetahui isi software dan merespons masalah supply chain dengan lebih cepat.
 
-Gunakan secret-management mechanism yang sesuai.
+# Bagian 8: Cloud dan Infrastructure Security
 
----
+## 49. Apa risiko jika cloud storage salah konfigurasi?
 
-**58. Bagaimana menangani secret yang terlanjur masuk Git?**
+**Contoh jawaban:**
 
-Jangan hanya menghapus file.
+Cloud storage yang salah konfigurasi bisa membuat file sensitif dapat diakses publik atau oleh pihak yang tidak berwenang.
 
-Lakukan:
+Contohnya, perusahaan menyimpan dokumen pelanggan di object storage, tetapi bucket atau kebijakan aksesnya terlalu terbuka. Orang di luar perusahaan mungkin bisa membaca file tersebut.
 
-1. revoke/rotate credential,
-2. remove dari source,
-3. audit usage,
-4. clean history jika diperlukan,
-5. tambahkan secret scanning.
+Pencegahannya mencakup kebijakan akses minimum, blokir akses publik jika tidak dibutuhkan, enkripsi, audit konfigurasi, dan pemantauan akses.
 
----
+## 50. Apa itu least privilege?
 
-# 18. Dependency Security
+**Contoh jawaban:**
 
-**59. Bagaimana menangani vulnerable dependency?**
+Least privilege berarti setiap pengguna, aplikasi, atau layanan hanya diberikan hak akses minimum yang diperlukan untuk menjalankan tugasnya.
 
-Jangan otomatis:
+Misalnya, aplikasi yang hanya perlu membaca data pelanggan tidak seharusnya memiliki izin untuk menghapus seluruh database.
 
-> "Update semuanya."
+Prinsip ini mengurangi dampak jika akun atau layanan berhasil disalahgunakan.
 
-Evaluasi:
+## 51. Apa itu SSRF dalam lingkungan cloud?
 
-* affected version,
-* exploitability,
-* reachable code,
-* application exposure,
-* available patch,
-* breaking changes,
-* compensating controls.
+**Contoh jawaban:**
 
----
+SSRF di lingkungan cloud menjadi berbahaya ketika server yang dapat dipengaruhi penyerang juga memiliki akses ke layanan internal atau metadata cloud.
 
-**60. Apa itu SCA?**
+Jika kontrol jaringan dan validasi tujuan lemah, penyerang mungkin mencoba menggunakan server sebagai perantara untuk menjangkau layanan yang tidak terbuka ke internet.
 
-Software Composition Analysis.
+Mitigasinya perlu berlapis: validasi tujuan, pembatasan egress, kontrol akses metadata, serta identitas layanan dengan izin minimum. Tidak cukup hanya mengandalkan satu filter URL.
 
-Digunakan untuk mendeteksi:
+## 52. Bagaimana mengamankan secret di cloud?
 
-* vulnerable dependencies,
-* license issues,
-* dependency inventory,
-* transitive dependencies.
+**Contoh jawaban:**
 
----
+Saya akan menggunakan layanan pengelolaan secret yang sesuai, membatasi akses menggunakan identity dan policy, serta menghindari penyimpanan credential permanen jika tersedia mekanisme identitas sementara.
 
-# 19. SAST, DAST, IAST
+Secret juga perlu dirotasi, diaudit, dan tidak dicatat ke log. Jika credential bocor, organisasi harus dapat mencabutnya dan menyelidiki apakah sudah disalahgunakan.
 
-Pahami perbedaannya.
+# Bagian 9: AI Security dan LLM Security
 
-| Tool           | Fokus                                 |
-| -------------- | ------------------------------------- |
-| SAST           | Source/code                           |
-| DAST           | Running application                   |
-| IAST           | Application runtime + instrumentation |
-| SCA            | Dependencies                          |
-| Secret Scanner | Credentials/secrets                   |
+Bagian ini penting jika perusahaan menggunakan chatbot, AI assistant, RAG, AI agent, atau layanan yang terhubung ke model bahasa besar (*Large Language Model* atau LLM).
 
----
+AI Security memiliki beberapa persamaan dengan AppSec tradisional, tetapi ada perbedaan penting: model AI dapat menghasilkan respons yang tidak terduga, menerima instruksi dari berbagai sumber, dan dalam beberapa aplikasi diberi kemampuan untuk memanggil tools atau mengakses data.
 
-**61. Apakah SAST dapat menemukan semua vulnerability?**
+Karena itu, mengamankan aplikasi AI bukan hanya soal membuat prompt yang bagus. Sistem di sekeliling model juga harus dirancang dengan kontrol keamanan yang tepat.
 
-Tidak.
+## 53. Apa itu AI Security dan apa hubungannya dengan Application Security?
 
-Terutama sulit untuk:
+**Contoh jawaban:**
 
-* business logic,
-* authorization context,
-* runtime configuration,
-* complex distributed behavior.
+AI Security adalah upaya melindungi sistem AI, model, data, dan komponen yang terhubung dengannya dari penyalahgunaan atau serangan.
 
----
+Application Security berfokus pada keamanan aplikasi. Ketika aplikasi menggunakan AI, kedua bidang ini bertemu.
 
-**62. Apakah DAST dapat menemukan semua vulnerability?**
+Misalnya, perusahaan membuat chatbot yang dapat menjawab pertanyaan berdasarkan dokumen internal. Selain mengamankan login, API, dan database, tim juga harus memastikan chatbot tidak memberikan dokumen rahasia kepada pengguna yang tidak berhak.
 
-Tidak.
+Jadi, AppSec pada aplikasi AI tetap memerlukan kontrol tradisional, ditambah pengujian khusus untuk risiko AI.
 
-DAST memiliki keterbatasan pada:
+## 54. Apa perbedaan AI Security, ML Security, dan LLM Security?
 
-* authenticated flows,
-* business logic,
-* unreachable endpoints,
-* complex workflows,
-* source-level issues.
+**Contoh jawaban:**
 
----
+Ketiganya saling berhubungan, tetapi cakupannya berbeda.
 
-# 20. Threat Modeling
+- **AI Security** mencakup keamanan sistem AI secara luas, termasuk aplikasi, model, data, dan infrastrukturnya.
+- **ML Security** berfokus pada risiko sistem machine learning, misalnya manipulasi data pelatihan atau serangan terhadap model prediksi.
+- **LLM Security** berfokus pada model bahasa besar dan aplikasi yang menggunakannya, termasuk prompt injection, kebocoran informasi, dan penyalahgunaan tools.
 
-**63. Apa itu threat modeling?**
+Contohnya, sistem deteksi penipuan berbasis machine learning dapat menghadapi manipulasi data. Sementara itu, chatbot perusahaan dapat menghadapi prompt injection yang mencoba membuatnya mengungkapkan informasi rahasia.
 
-Proses sistematis untuk mengidentifikasi:
+## 55. Apa itu prompt injection?
 
-* assets,
-* trust boundaries,
-* threats,
-* attack surfaces,
-* mitigations.
+**Contoh jawaban:**
 
----
+Prompt injection terjadi ketika seseorang memberikan instruksi yang mencoba memengaruhi model AI agar bertindak di luar tujuan atau batasan yang seharusnya.
 
-**64. Apa itu STRIDE?**
+Misalnya, chatbot perusahaan dirancang untuk menjawab pertanyaan berdasarkan dokumen internal. Pengguna kemudian mencoba memerintahkannya agar mengabaikan instruksi awal dan menampilkan informasi rahasia.
 
-* Spoofing
-* Tampering
-* Repudiation
-* Information Disclosure
-* Denial of Service
-* Elevation of Privilege
+Masalah ini tidak bisa diselesaikan hanya dengan menambahkan kalimat “jangan membocorkan data” ke system prompt. Model bisa saja tetap mengikuti instruksi yang berbahaya.
 
----
+Pertahanan yang lebih kuat adalah membatasi data yang dapat diakses model, menerapkan pemeriksaan otorisasi di sisi aplikasi, membatasi tools, dan memeriksa tindakan sensitif sebelum dijalankan.
 
-**65. Bagaimana melakukan threat modeling API?**
-
-Mulai dari:
-
-```text
-User
- ↓
-Frontend
- ↓
-API Gateway
- ↓
-Application
- ↓
-Database
- ↓
-Third-party service
-```
-
-Identifikasi:
-
-* trust boundary,
-* authentication,
-* authorization,
-* sensitive data,
-* privileged operations,
-* external dependencies.
+## 56. Apa perbedaan direct dan indirect prompt injection?
 
----
+**Contoh jawaban:**
 
-# 21. Secure Code Review
-
-**66. Apa yang Anda cari ketika melakukan code review security?**
-
-Checklist:
-
-```text
-Authentication
-Authorization
-Input validation
-Output encoding
-Secrets
-Cryptography
-Error handling
-Logging
-File handling
-Database access
-SSRF
-Deserialization
-Concurrency
-Business logic
-```
+Direct prompt injection terjadi ketika pengguna sendiri memasukkan instruksi yang mencoba memanipulasi model.
 
----
+Indirect prompt injection terjadi ketika instruksi berbahaya berasal dari konten lain yang dibaca atau diproses oleh AI, misalnya halaman web, email, atau dokumen.
 
-**67. Bagaimana Anda memprioritaskan code review?**
+Contohnya, AI assistant diminta merangkum sebuah halaman web. Halaman tersebut berisi instruksi tersembunyi yang meminta AI mengirimkan informasi rahasia ke tempat lain.
 
-Fokus dahulu pada:
+Karena itu, sistem tidak boleh menganggap semua konten yang dibaca AI sebagai instruksi yang tepercaya. Konten eksternal harus diperlakukan sebagai data yang tidak tepercaya, sementara tindakan yang dapat mengubah sistem tetap harus dikontrol oleh aplikasi.
 
-* authentication,
-* authorization,
-* sensitive data,
-* privileged operations,
-* external input,
-* cryptographic operations,
-* payment/business logic.
+## 57. Apakah system prompt bisa menjadi mekanisme keamanan utama?
 
----
+**Contoh jawaban:**
 
-# 22. File Upload
+Tidak. System prompt dapat membantu mengarahkan perilaku model, tetapi bukan pengganti kontrol keamanan di tingkat aplikasi.
 
-**68. Apa risiko file upload?**
+Misalnya, system prompt menyatakan bahwa chatbot tidak boleh mengakses data pelanggan lain. Jika backend tetap memberikan akses luas ke database dan tidak memeriksa identitas peminta, chatbot mungkin tetap dapat mengambil data yang tidak seharusnya tersedia.
 
-* malicious file,
-* executable upload,
-* path traversal,
-* MIME confusion,
-* parser vulnerability,
-* stored XSS,
-* oversized file / DoS.
+Karena itu, hak akses harus ditegakkan oleh sistem yang deterministik, seperti backend dan policy enforcement. Model tidak boleh menjadi satu-satunya penjaga akses terhadap data sensitif.
 
----
+## 58. Apa itu sensitive information disclosure pada aplikasi LLM?
 
-**69. Apakah cukup memeriksa extension?**
+**Contoh jawaban:**
 
-Tidak.
+Ini adalah kondisi ketika aplikasi AI mengungkapkan informasi yang seharusnya tidak diberikan kepada pengguna.
 
-Pertimbangkan:
+Informasi tersebut bisa berupa data pribadi, dokumen perusahaan, token akses, detail internal, atau data pengguna lain.
 
-* allowlist extension,
-* MIME/content validation,
-* file signature,
-* filename normalization,
-* storage isolation,
-* size limits,
-* malware scanning sesuai kebutuhan.
+Contohnya, chatbot layanan pelanggan menerima pertanyaan dari dua pengguna, tetapi mekanisme pencarian dokumennya tidak membatasi hasil berdasarkan hak akses masing-masing. Chatbot kemudian dapat memasukkan data pengguna A ke jawaban untuk pengguna B.
 
----
+Pencegahannya mencakup pembatasan akses pada sumber data, pemisahan data antar pengguna, penyaringan informasi sensitif, dan pengujian kebocoran lintas sesi serta lintas pengguna.
 
-# 23. Path Traversal
+## 59. Apa itu RAG dan apa risiko keamanannya?
 
-Contoh:
+**Contoh jawaban:**
 
-```text
-GET /download?file=../../etc/passwd
-```
+RAG adalah singkatan dari *Retrieval-Augmented Generation*. Pendekatan ini membuat AI mengambil informasi dari sumber eksternal, seperti dokumen perusahaan, sebelum menyusun jawaban.
 
-Pahami:
+Misalnya, chatbot internal mencari dokumen kebijakan perusahaan, lalu menggunakan isi dokumen tersebut untuk menjawab pertanyaan karyawan.
 
-* canonicalization,
-* path normalization,
-* allowlist,
-* sandbox/storage boundary.
+Risikonya antara lain dokumen rahasia ikut terambil untuk pengguna yang tidak berhak, dokumen berisi instruksi berbahaya memengaruhi jawaban, atau informasi yang sudah tidak berlaku tetap digunakan.
 
-Jangan hanya melakukan string replacement:
+Untuk mengamankannya, hak akses perlu diperiksa sebelum dokumen diberikan kepada model. Sistem juga perlu mengelola sumber dokumen, metadata, proses pengindeksan, dan penghapusan data secara benar.
 
-```text
-../ → ""
-```
+## 60. Bagaimana cara mengamankan vector database?
 
----
+**Contoh jawaban:**
 
-# 24. Deserialization
+Vector database menyimpan representasi numerik dari data agar sistem dapat mencari konten yang mirip secara semantik. Sistem RAG sering menggunakannya untuk menemukan dokumen yang relevan.
 
-**70. Apa itu insecure deserialization?**
+Keamanan tidak cukup hanya dengan melindungi database dari akses internet. Sistem juga perlu memastikan hasil pencarian hanya mencakup dokumen yang boleh diakses oleh pengguna.
 
-Aplikasi menerima serialized object dari sumber yang tidak dipercaya dan memprosesnya secara unsafe.
+Contohnya, dokumen HR dan dokumen umum perusahaan disimpan dalam sistem yang sama. Ketika karyawan bertanya kepada chatbot, pencarian harus menerapkan pembatasan akses agar dokumen HR tidak ikut diberikan kepada pengguna yang tidak berhak.
 
-Dampak dapat mencakup:
+Metadata dan filter dapat membantu, tetapi pemeriksaan otorisasi harus dirancang agar tidak bisa dilewati melalui manipulasi parameter pencarian.
 
-* privilege manipulation,
-* data tampering,
-* denial of service,
-* bahkan remote code execution pada teknologi tertentu.
+## 61. Apa itu insecure output handling pada aplikasi AI?
 
----
+**Contoh jawaban:**
 
-# 25. Security Headers
+Insecure output handling terjadi ketika hasil dari model AI digunakan oleh aplikasi tanpa pemeriksaan yang sesuai.
 
-Kenali:
+Misalnya, model menghasilkan teks yang kemudian langsung dimasukkan ke halaman web sebagai HTML. Jika hasil tersebut tidak ditangani dengan aman, aplikasi dapat membuka peluang XSS.
 
-```text
-Content-Security-Policy
-Strict-Transport-Security
-X-Content-Type-Options
-Referrer-Policy
-Permissions-Policy
-```
+Contoh lain, model menghasilkan argumen untuk suatu perintah, lalu backend menjalankannya tanpa validasi.
 
-Pahami fungsi dan trade-off masing-masing.
+Solusinya adalah memperlakukan output model sebagai input yang belum tepercaya. Validasi, encoding, pembatasan format, dan kontrol otorisasi tetap harus dilakukan sebelum output digunakan oleh komponen lain.
 
----
+## 62. Apa itu excessive agency pada AI agent?
 
-# 26. TLS
+**Contoh jawaban:**
 
-**71. Apakah HTTPS berarti aplikasi aman?**
+Excessive agency terjadi ketika AI agent diberi kemampuan atau kebebasan bertindak yang terlalu besar dibandingkan kebutuhan tugasnya.
 
-Tidak.
+Misalnya, AI assistant hanya perlu membaca dokumen, tetapi ternyata juga memiliki izin menghapus file dan mengirim email ke pihak luar. Jika model salah memahami instruksi atau termanipulasi, dampaknya bisa lebih besar.
 
-HTTPS terutama melindungi komunikasi dari interception/tampering pada jalur komunikasi.
+Untuk mencegahnya, berikan hanya tools dan izin yang benar-benar diperlukan. Tindakan berisiko tinggi sebaiknya membutuhkan persetujuan manusia atau pemeriksaan kebijakan tambahan.
 
-Aplikasi tetap dapat memiliki:
+AI agent tidak boleh otomatis dipercaya hanya karena terlihat mampu menyelesaikan tugas dengan baik.
 
-* IDOR,
-* SQL Injection,
-* XSS,
-* business logic flaw,
-* authentication flaw.
+## 63. Bagaimana mengamankan tools yang dapat dipanggil oleh AI agent?
 
----
+**Contoh jawaban:**
 
-# 27. Logging dan Monitoring
+Saya akan memperlakukan setiap tool sebagai endpoint aplikasi yang perlu diamankan secara terpisah.
 
-**72. Apa yang harus dicatat?**
+Misalnya, AI agent dapat memanggil tool untuk membaca data pelanggan dan tool lain untuk mengubah status pesanan. Setiap tool harus memeriksa identitas, hak akses, jenis input, dan dampak tindakan yang diminta.
 
-Contohnya:
+Jangan hanya mengandalkan model untuk menentukan apakah suatu tindakan diizinkan. Backend harus menerapkan kebijakan akses sendiri, membatasi parameter yang diterima, dan mencatat tindakan penting.
 
-* authentication events,
-* authorization failures,
-* suspicious requests,
-* privilege changes,
-* sensitive operations,
-* security events.
+Untuk operasi yang sensitif, sistem dapat meminta konfirmasi sebelum menjalankan tindakan.
 
----
+## 64. Apa itu data poisoning pada AI?
 
-**73. Apa yang tidak boleh dimasukkan ke log?**
+**Contoh jawaban:**
 
-Hindari credential dan data sensitif yang tidak diperlukan.
+Data poisoning terjadi ketika data yang digunakan untuk melatih, menyempurnakan, atau membangun komponen AI dimanipulasi sehingga hasilnya menjadi tidak aman atau tidak dapat diandalkan.
 
-Contoh:
+Misalnya, sistem AI menggunakan kumpulan dokumen internal untuk membangun indeks pencarian. Jika seseorang memasukkan dokumen palsu atau berbahaya ke dalam sumber tersebut, sistem mungkin memberikan jawaban yang keliru atau terpengaruh oleh konten tersebut.
 
-```text
-password
-session token
-API secret
-private key
-```
+Pencegahannya meliputi kontrol akses terhadap sumber data, pemeriksaan asal data, proses review, pemantauan perubahan, dan evaluasi hasil model secara berkala.
 
----
+## 65. Apa itu model denial of service?
 
-# 28. Vulnerability Assessment
-
-**74. Bagaimana Anda memvalidasi vulnerability?**
-
-Workflow:
-
-```text
-Finding
- ↓
-Reproduce
- ↓
-Understand root cause
- ↓
-Determine affected scope
- ↓
-Determine impact
- ↓
-Determine exploitability
- ↓
-Assign severity
- ↓
-Recommend remediation
-```
+**Contoh jawaban:**
 
----
+Model denial of service terjadi ketika penyerang membuat layanan AI menghabiskan terlalu banyak sumber daya atau tidak mampu melayani pengguna secara normal.
 
-**75. Apa yang membuat vulnerability menjadi high severity?**
+Contohnya, penyerang mengirimkan permintaan dalam jumlah besar atau meminta pemrosesan yang sangat mahal sehingga biaya layanan meningkat dan pengguna lain mengalami gangguan.
 
-Jangan hanya melihat nama vulnerability.
+Pencegahannya dapat mencakup rate limiting, batas ukuran input, batas penggunaan token, timeout, kuota per pengguna, dan pemantauan biaya serta performa.
 
-Pertimbangkan:
+## 66. Apa itu model inversion dan model extraction?
 
-* impact,
-* exploitability,
-* privileges required,
-* attack complexity,
-* user interaction,
-* exposure,
-* business context.
+**Contoh jawaban:**
 
----
+Model inversion adalah keluarga teknik yang mencoba menyimpulkan informasi tentang data atau karakteristik yang dipelajari model melalui akses terhadap model tersebut.
 
-# 29. CVSS
+Model extraction adalah upaya merekonstruksi atau meniru perilaku model melalui banyak permintaan atau cara lain untuk memperoleh informasi tentang model.
 
-Pahami konsep CVSS:
+Dampaknya bergantung pada jenis model, data yang digunakan, dan tingkat akses penyerang. Tidak semua serangan ini otomatis berhasil mengembalikan data pelatihan secara persis.
 
-* Attack Vector
-* Attack Complexity
-* Attack Requirements
-* Privileges Required
-* User Interaction
-* Confidentiality
-* Integrity
-* Availability
+Mitigasinya dapat mencakup pembatasan akses, pemantauan pola permintaan, perlindungan terhadap model dan endpoint, serta pengelolaan data pelatihan yang tepat.
 
-Jangan menganggap:
+## 67. Apa itu adversarial example dalam machine learning?
 
-```text
-CVSS score = business risk
-```
+**Contoh jawaban:**
 
-CVSS adalah salah satu input dalam risk assessment.
+Adversarial example adalah input yang sengaja dimodifikasi untuk membuat model memberikan prediksi yang salah atau tidak diharapkan.
 
----
+Misalnya, sistem pengenalan gambar salah mengklasifikasikan suatu gambar setelah gambar tersebut dimodifikasi dengan cara tertentu.
 
-# 30. False Positive
+Serangan ini berbeda dari prompt injection. Adversarial example biasanya membahas manipulasi input terhadap perilaku model machine learning, sedangkan prompt injection berfokus pada manipulasi instruksi dalam aplikasi yang menggunakan model bahasa.
 
-**76. Apa itu false positive?**
+Pengujian dan mitigasinya bergantung pada jenis model, data, dan konteks penggunaannya.
 
-Tool melaporkan vulnerability yang sebenarnya tidak exploitable atau tidak berlaku dalam konteks aplikasi.
+## 68. Apa yang perlu diperiksa saat melakukan AI red teaming?
 
----
+**Contoh jawaban:**
 
-**77. Bagaimana menangani false positive?**
+AI red teaming adalah pengujian terencana untuk menemukan cara sistem AI dapat disalahgunakan atau gagal memenuhi batas keamanan yang ditetapkan.
 
-Validasi manual.
+Saya akan menguji apakah sistem dapat membocorkan informasi, mengikuti instruksi berbahaya, melewati kontrol akses, menghasilkan output yang tidak aman, atau menyalahgunakan tools yang tersedia.
 
-Jangan:
+Pengujian juga harus mencakup skenario lintas pengguna, dokumen eksternal, integrasi API, dan tindakan yang mengubah data.
 
-> "Scanner bilang critical, jadi critical."
+Hasilnya perlu dicatat dengan bukti yang dapat direproduksi, tingkat risiko, dan rekomendasi perbaikan. Pengujian dilakukan dalam lingkungan dan ruang lingkup yang diizinkan.
 
----
+## 69. Bagaimana cara menguji prompt injection secara sistematis?
 
-# 31. Incident Response
-
-**78. Apa yang Anda lakukan jika menemukan vulnerability critical di production?**
-
-Contoh pendekatan:
-
-```text
-Validate
- ↓
-Assess exposure
- ↓
-Contain
- ↓
-Notify stakeholders
- ↓
-Remediate
- ↓
-Verify fix
- ↓
-Monitor
- ↓
-Document
-```
+**Contoh jawaban:**
 
----
+Saya akan mulai dengan memetakan sumber instruksi dan data yang diproses aplikasi: input pengguna, system prompt, dokumen RAG, hasil pencarian web, serta respons dari tools.
 
-# 32. Secure Architecture
+Kemudian saya menguji apakah konten yang tidak tepercaya dapat membuat model mengabaikan batasan, mengungkapkan data, atau memicu tindakan yang tidak semestinya.
 
-Interview dapat memberikan skenario:
+Saya juga menguji apakah dampaknya berbeda antara pengguna dengan hak akses berbeda dan apakah backend tetap menolak tindakan yang tidak diizinkan.
 
-> "Kami memiliki frontend, API, database, Redis, dan third-party payment provider. Bagaimana Anda mengamankannya?"
+Pengujian tidak berhenti ketika model menolak satu prompt. Saya perlu memastikan kontrol aplikasi tetap efektif meskipun model memberikan respons yang tidak diharapkan.
 
-Bahas:
+## 70. Bagaimana mencegah kebocoran data antara pengguna dalam chatbot AI?
 
-* trust boundaries,
-* authentication,
-* authorization,
-* network segmentation,
-* secret management,
-* encryption,
-* least privilege,
-* validation,
-* monitoring,
-* failure modes.
+**Contoh jawaban:**
 
----
+Saya akan memastikan setiap permintaan memiliki identitas dan konteks akses yang jelas, lalu membatasi data yang dapat diambil sesuai hak akses pengguna tersebut.
 
-# 33. Cloud Security untuk AppSec
+Saya juga akan memeriksa pengelolaan riwayat percakapan, cache, retrieval, log, dan penyimpanan data agar informasi dari satu pengguna tidak terbawa ke sesi pengguna lain.
 
-Pahami konsep:
+Pengujian perlu mencakup percakapan baru, sesi lama, pengguna dengan peran berbeda, serta perubahan hak akses.
 
-* IAM
-* least privilege
-* security groups
-* object storage permissions
-* metadata services
-* secrets management
-* KMS
-* logging
-* container security
-* serverless security.
+Yang terpenting, pemisahan data harus ditegakkan oleh backend dan sistem penyimpanan, bukan hanya mengandalkan instruksi kepada model agar tidak membocorkan informasi.
 
-Pertanyaan contoh:
+## 71. Bagaimana mengamankan aplikasi AI yang menggunakan data pribadi?
 
-> Bagaimana SSRF pada cloud environment dapat menjadi lebih serius?
+**Contoh jawaban:**
 
-Jawab dengan menjelaskan bahwa server yang berhasil dipaksa melakukan request internal mungkin memiliki akses ke internal services atau metadata service, tergantung konfigurasi platform.
+Saya akan memetakan data pribadi yang dikumpulkan, alasan penggunaannya, lokasi penyimpanan, pihak yang dapat mengaksesnya, dan apakah data tersebut dikirim ke penyedia model eksternal.
 
----
+Setelah itu, saya akan menerapkan minimisasi data, kontrol akses, perlindungan saat penyimpanan dan pengiriman, kebijakan retensi, serta penghapusan data sesuai kebutuhan.
 
-# 34. Container Security
-
-Pahami:
-
-```text
-Dockerfile
- ↓
-Image
- ↓
-Registry
- ↓
-Runtime
-```
-
-Security concern:
-
-* vulnerable base image,
-* running as root,
-* embedded secrets,
-* excessive privileges,
-* unnecessary packages,
-* exposed ports,
-* image provenance.
+Saya juga akan memastikan log dan data evaluasi tidak menyimpan informasi sensitif secara berlebihan. Jika menggunakan layanan AI pihak ketiga, persyaratan pemrosesan data dan konfigurasi privasinya harus diperiksa.
 
----
+## 72. Bagaimana menangani hallucination dari sisi keamanan?
 
-# 35. Kubernetes Security
+**Contoh jawaban:**
 
-Minimal pahami:
+Hallucination terjadi ketika model memberikan informasi yang salah atau tidak didukung sumber yang memadai.
 
-* RBAC,
-* ServiceAccount,
-* Secrets,
-* NetworkPolicy,
-* Pod Security,
-* admission control,
-* container privileges,
-* API server exposure.
+Dalam konteks keamanan, masalahnya bukan hanya jawaban yang keliru. Jika model terhubung dengan tools, jawaban yang salah dapat memicu tindakan yang tidak diinginkan.
 
----
+Misalnya, AI assistant salah mengidentifikasi penerima email dan mencoba mengirimkan dokumen kepada orang yang keliru.
 
-# 36. Security Testing
-
-Interviewer bisa bertanya:
-
-> "Bagaimana Anda menguji endpoint berikut?"
-
-```http
-POST /api/orders
-```
-
-Jawaban jangan hanya:
-
-> "Saya scan dengan Burp Suite."
-
-Buat methodology:
-
-```text
-Understand endpoint
- ↓
-Authentication testing
- ↓
-Authorization testing
- ↓
-Input validation
- ↓
-Business logic
- ↓
-Parameter manipulation
- ↓
-Race condition
- ↓
-Rate limiting
- ↓
-Error handling
- ↓
-Data exposure
-```
+Untuk mengurangi risikonya, tindakan sensitif harus melewati validasi deterministik, pemeriksaan izin, dan konfirmasi bila diperlukan. Informasi penting juga perlu diverifikasi dengan sumber yang dapat dipercaya.
 
----
+## 73. Apakah guardrails cukup untuk mengamankan aplikasi AI?
 
-# 37. Burp Suite
-
-Jika diminta menjelaskan workflow:
-
-```text
-Proxy
- ↓
-Target mapping
- ↓
-Request inspection
- ↓
-Repeater
- ↓
-Intruder
- ↓
-Authorization testing
- ↓
-Automation/scanning
- ↓
-Manual validation
-```
-
-Pahami juga mengapa **Repeater** sering sangat penting untuk AppSec testing manual.
+**Contoh jawaban:**
 
----
+Tidak. Guardrails membantu mengurangi perilaku yang tidak diinginkan, tetapi tidak menjamin bahwa semua serangan akan ditolak.
 
-# 38. Scenario-Based Interview
+Misalnya, filter prompt dapat memblokir beberapa instruksi berbahaya, tetapi penyerang mungkin menemukan variasi input yang tidak dikenali filter tersebut.
 
-Pertanyaan scenario biasanya lebih penting daripada hafalan definisi.
+Karena itu, guardrails perlu dilengkapi kontrol keamanan tradisional, seperti autentikasi, otorisasi, validasi input dan output, pembatasan tools, pemisahan data, serta logging dan monitoring.
 
-### Skenario 1
+Prinsipnya, keamanan tidak boleh bergantung pada satu lapisan saja.
 
-> User biasa dapat mengakses `/admin/users`.
+## 74. Apa itu AI supply chain security?
 
-Apa yang Anda lakukan?
+**Contoh jawaban:**
 
-Jawaban harus membahas:
+AI supply chain security adalah upaya mengamankan seluruh komponen yang digunakan dalam pengembangan dan pengoperasian sistem AI.
 
-1. reproduce,
-2. authentication state,
-3. authorization check,
-4. HTTP method,
-5. object/action,
-6. impact,
-7. remediation.
+Komponennya dapat mencakup model pihak ketiga, dataset, library, framework, plugin, model weights, dan layanan hosting.
 
----
+Misalnya, tim mengunduh model dari sumber eksternal tanpa memeriksa asal-usul atau formatnya. Model atau file yang tidak tepercaya dapat membawa risiko keamanan, tergantung pada format dan cara pemuatannya.
 
-### Skenario 2
+Organisasi perlu memeriksa sumber, integritas, lisensi, dependency, serta mekanisme distribusi komponen AI sebelum menggunakannya.
 
-> API mengembalikan 200 tetapi frontend menyembunyikan data.
+## 75. Apa itu MCP dan apa risiko keamanannya?
 
-Apakah aman?
+**Contoh jawaban:**
 
-Tidak otomatis.
+MCP, atau Model Context Protocol, adalah protokol yang memungkinkan aplikasi AI terhubung dengan sumber data dan tools melalui pola integrasi yang terstruktur.
 
-Frontend bukan security boundary.
+Misalnya, AI assistant menggunakan integrasi MCP untuk membaca dokumen atau menjalankan fungsi pada layanan lain.
 
----
+Risikonya bergantung pada server, tools, data, dan izin yang diberikan. Server yang tidak tepercaya, kredensial yang bocor, atau kontrol akses yang lemah dapat membuat AI mengakses atau mengubah data secara tidak semestinya.
 
-### Skenario 3
+Untuk mengamankannya, saya akan memeriksa identitas dan kepercayaan terhadap server, hak akses, pengelolaan token, validasi input, batasan tools, serta persetujuan untuk tindakan sensitif.
 
-> Endpoint menggunakan UUID sehingga IDOR dianggap mustahil.
+## 76. Bagaimana menguji keamanan aplikasi AI secara end-to-end?
 
-Bagaimana respons Anda?
+**Contoh jawaban:**
 
-UUID bukan authorization mechanism.
+Saya akan menguji keseluruhan alur, bukan hanya modelnya.
 
-Test apakah user A dapat mengakses UUID milik user B.
+Misalnya, pengguna mengirim pertanyaan ke chatbot. Backend memeriksa identitas, sistem retrieval mencari dokumen, model menyusun jawaban, lalu aplikasi menampilkan hasilnya.
 
----
+Setiap tahap memiliki risiko sendiri: autentikasi yang lemah, retrieval yang mengambil data tidak semestinya, prompt injection melalui dokumen, atau output yang diproses tanpa validasi.
 
-### Skenario 4
+Pengujian end-to-end memastikan kontrol keamanan tetap berjalan di seluruh alur dan tidak dapat dilewati hanya karena satu komponen AI memberikan hasil yang tidak terduga.
 
-> Scanner menemukan SQL Injection tetapi developer mengatakan ORM sudah digunakan.
+# Bagian 10: Skenario Praktis AI Security
 
-Apa yang dilakukan?
+## 77. Chatbot internal membocorkan dokumen rahasia. Apa yang akan kamu lakukan?
 
-Inspect implementation.
+**Contoh jawaban:**
 
-Cari:
+Pertama, saya akan memastikan dampak dan ruang lingkup masalah tanpa menyebarkan data sensitif lebih jauh. Jika kebocoran masih berlangsung, saya akan bekerja sama dengan tim terkait untuk membatasi akses yang terdampak.
 
-* raw SQL,
-* string concatenation,
-* dynamic query,
-* unsafe query construction.
+Selanjutnya, saya akan menelusuri alur pengambilan dokumen, identitas pengguna, filter akses, penyimpanan percakapan, dan log yang relevan.
 
----
+Saya ingin mengetahui apakah penyebabnya adalah otorisasi pada retrieval yang lemah, kesalahan konfigurasi, konten berbahaya, atau masalah lain.
 
-### Skenario 5
+Setelah penyebab ditemukan, saya akan memperbaiki kontrol akses di backend, menambahkan pengujian regresi, dan menguji ulang skenario lintas pengguna untuk memastikan kebocoran tidak terulang.
 
-> Developer mengatakan vulnerability hanya bisa dieksploitasi oleh authenticated user.
+## 78. AI agent bisa menghapus file. Bagaimana kamu mengamankannya?
 
-Apakah otomatis low severity?
+**Contoh jawaban:**
 
-Tidak.
+Saya akan memeriksa apakah kemampuan menghapus file memang dibutuhkan. Jika tidak, izin tersebut harus dihilangkan.
 
-Authenticated attacker tetap dapat memiliki impact besar.
+Jika dibutuhkan, akses harus dibatasi berdasarkan pengguna, direktori, dan jenis file. Sistem juga perlu memvalidasi setiap permintaan sebelum dijalankan oleh tool.
 
----
+Untuk tindakan yang berisiko tinggi, saya akan mempertimbangkan persetujuan manusia, pencatatan aktivitas, dan mekanisme pemulihan. Saya juga akan menguji apakah prompt injection bisa membuat agent mencoba menghapus file yang tidak semestinya.
 
-# 39. Secure Design Questions
+## 79. Model AI menghasilkan SQL dan aplikasi menjalankannya. Apa risikonya?
 
-Contoh pertanyaan:
+**Contoh jawaban:**
 
-> "Design authentication untuk aplikasi banking."
+Risikonya adalah model dapat menghasilkan query yang salah, terlalu luas, atau tidak sesuai dengan hak akses yang seharusnya.
 
-Bahas:
+Misalnya, pengguna meminta laporan penjualan, tetapi query yang dihasilkan mencoba membaca tabel lain yang berisi data pribadi.
 
-```text
-Login
- ↓
-MFA
- ↓
-Session/token
- ↓
-Authorization
- ↓
-Sensitive transaction verification
- ↓
-Audit logging
- ↓
-Monitoring
-```
+Saya akan menghindari memberikan akses database yang luas kepada model. Jika penggunaan SQL dinamis memang diperlukan, sistem harus menggunakan akun database dengan hak minimum, membatasi query yang diizinkan, memvalidasi struktur query, dan menerapkan kontrol akses pada data.
 
-Jangan hanya fokus pada login.
+Untuk operasi yang sensitif, query harus diperiksa sebelum dieksekusi. Output model tidak boleh dianggap aman hanya karena sintaksnya valid.
 
-Security harus mencakup seluruh transaction lifecycle.
+## 80. Bagaimana jika AI agent menerima instruksi berbahaya dari sebuah halaman web?
 
----
+**Contoh jawaban:**
 
-# 40. Coding Questions
+Saya akan memperlakukan konten halaman web sebagai data tidak tepercaya, bukan sebagai instruksi yang otomatis boleh diikuti oleh agent.
 
-AppSec Engineer kadang diminta membaca atau memperbaiki kode.
+Agent seharusnya tidak dapat mengubah kebijakan keamanan hanya karena halaman web memintanya. Tools yang tersedia juga harus dibatasi sesuai tugas.
 
-Contoh:
+Jika agent perlu melakukan tindakan eksternal, seperti mengirim email atau mengubah data, backend harus memeriksa otorisasi dan meminta persetujuan sesuai tingkat risikonya.
 
-```java
-String query =
-    "SELECT * FROM users WHERE id = " + userId;
-```
+Saya juga akan menambahkan pengujian untuk indirect prompt injection dan memeriksa apakah kontrol tersebut tetap efektif pada berbagai variasi konten.
 
-Pertanyaan:
+# Bagian 11: Testing, Observability, dan Tata Kelola AI
 
-> Apa masalahnya?
+## 81. Apa perbedaan evaluasi kualitas model dan pengujian keamanan model?
 
-Jawaban:
+**Contoh jawaban:**
 
-SQL Injection jika `userId` berasal dari input tidak terpercaya.
+Evaluasi kualitas memeriksa apakah model memberikan jawaban yang benar, relevan, dan sesuai tujuan.
 
----
+Pengujian keamanan memeriksa apakah model atau aplikasi dapat disalahgunakan, membocorkan informasi, melewati batas akses, atau memicu tindakan berbahaya.
 
-Contoh:
+Keduanya bisa beririsan. Misalnya, jawaban yang salah merupakan masalah kualitas, tetapi jika jawaban itu menyebabkan AI agent menghapus data, masalahnya juga menyangkut keamanan.
 
-```java
-if (user.isAdmin()) {
-    showAdminPanel();
-}
-```
+## 82. Apa itu AI security regression testing?
 
-Pertanyaan:
+**Contoh jawaban:**
 
-> Apakah ini cukup untuk authorization?
+Regression testing memastikan bahwa perbaikan yang sudah dibuat tidak rusak akibat perubahan kode, model, prompt, data, atau konfigurasi.
 
-Belum tentu.
+Misalnya, tim memperbaiki kebocoran dokumen pada chatbot. Setelah model atau sistem retrieval diperbarui, pengujian perlu memastikan pengguna tetap tidak bisa memperoleh dokumen yang bukan haknya.
 
-Harus dipastikan **server-side authorization dilakukan pada setiap privileged operation**, bukan sekadar menyembunyikan UI.
+Pengujian sebaiknya menggunakan kumpulan skenario yang terdokumentasi dan diperbarui ketika ditemukan teknik serangan baru.
 
----
+## 83. Mengapa logging dan monitoring penting pada aplikasi AI?
 
-# 41. Pertanyaan tentang Security Mindset
-
-Interviewer sering memberikan pertanyaan seperti:
-
-> "Apa hal pertama yang Anda lakukan ketika diberikan aplikasi baru?"
-
-Jawaban yang matang:
-
-```text
-Understand architecture
-        ↓
-Identify assets
-        ↓
-Identify trust boundaries
-        ↓
-Map attack surface
-        ↓
-Understand authentication
-        ↓
-Understand authorization
-        ↓
-Identify sensitive workflows
-        ↓
-Test high-risk areas
-```
+**Contoh jawaban:**
 
----
+Logging dan monitoring membantu tim mengetahui apa yang terjadi ketika sistem digunakan, mendeteksi aktivitas mencurigakan, dan menyelidiki insiden.
 
-# 42. Pertanyaan yang Menguji Pengalaman Nyata
+Pada aplikasi AI, hal yang perlu diperhatikan antara lain pola penggunaan tools, kegagalan otorisasi, lonjakan penggunaan token, dan permintaan yang mencoba mengakses data di luar hak pengguna.
 
-Siapkan jawaban untuk:
+Namun, logging juga harus dirancang dengan hati-hati. Prompt, dokumen, dan respons bisa berisi data pribadi atau rahasia. Log harus dibatasi, dilindungi, dan disimpan sesuai kebutuhan.
 
-### "Ceritakan vulnerability paling menarik yang pernah Anda temukan."
+## 84. Apa itu AI governance?
 
-Gunakan format:
+**Contoh jawaban:**
 
-```text
-Context
- ↓
-Observation
- ↓
-Hypothesis
- ↓
-Testing
- ↓
-Root cause
- ↓
-Impact
- ↓
-Remediation
-```
+AI governance adalah aturan, tanggung jawab, dan proses yang digunakan organisasi untuk mengelola penggunaan AI secara aman dan bertanggung jawab.
 
-Jangan hanya menceritakan payload.
+Contohnya, perusahaan menentukan data apa yang boleh dikirim ke penyedia model eksternal, siapa yang boleh merilis fitur AI, bagaimana risiko dievaluasi, dan siapa yang bertanggung jawab jika terjadi insiden.
 
-Yang ingin diketahui interviewer adalah **cara berpikir Anda**.
+Dari sisi AppSec, governance membantu memastikan bahwa persyaratan keamanan tidak hanya bergantung pada keputusan masing-masing developer.
 
----
+## 85. Framework apa yang relevan untuk AI Security?
 
-### "Bagaimana Anda menemukan vulnerability tersebut?"
+**Contoh jawaban:**
 
-Jelaskan reasoning.
+Saya akan mempertimbangkan framework sesuai tujuan penggunaannya.
 
-Contoh:
+- **OWASP Top 10 for LLM Applications:** membantu mengidentifikasi risiko keamanan yang spesifik pada aplikasi LLM.
+- **NIST AI Risk Management Framework:** membantu organisasi mengelola risiko AI sepanjang siklus hidup sistem.
+- **NIST Generative AI Profile:** memberikan panduan tambahan untuk mengidentifikasi dan mengelola risiko generative AI.
+- **OWASP GenAI Security Project:** menyediakan berbagai panduan terkait keamanan generative AI, AI agent, dan pengelolaan risiko.
 
-```text
-Observed endpoint
-        ↓
-Noticed object identifier
-        ↓
-Changed identifier
-        ↓
-Compared authorization behavior
-        ↓
-Confirmed cross-user access
-```
+Framework bukan pengganti pengujian teknis. Saya akan menggunakannya untuk menyusun cakupan penilaian risiko, kontrol yang dibutuhkan, dan bukti pengujian.
 
----
+# Bagian 12: Pertanyaan Behavioral dan Komunikasi
 
-### "Bagaimana Anda menjelaskan vulnerability kepada developer?"
+## 86. Apa yang kamu lakukan jika developer tidak setuju dengan temuan keamanan?
 
-Fokus pada:
+**Contoh jawaban:**
 
-* root cause,
-* reproducibility,
-* impact,
-* remediation.
+Saya akan menjelaskan temuan berdasarkan bukti, bukan hanya meminta developer mempercayai penilaian saya.
 
-Bukan menyalahkan developer.
+Saya akan menunjukkan alur yang bermasalah, kondisi yang memungkinkan eksploitasi, dan dampaknya terhadap sistem. Jika perlu, saya akan membuat proof of concept yang aman di lingkungan pengujian yang diizinkan.
 
----
+Jika masih ada perbedaan pendapat, saya akan membahas risiko dan pilihan mitigasi bersama tim terkait, lalu mendokumentasikan keputusan yang diambil.
 
-# 43. Pertanyaan Behavioral yang Tetap Technical
+Tujuannya bukan memenangkan perdebatan, melainkan memastikan risiko dipahami dan ditangani secara proporsional.
 
-### "Developer tidak setuju dengan finding Anda. Apa yang Anda lakukan?"
+## 87. Bagaimana menentukan prioritas ketika ada banyak temuan keamanan?
 
-Jawaban ideal:
+**Contoh jawaban:**
 
-1. reproduce bersama,
-2. tunjukkan evidence,
-3. jelaskan threat model,
-4. diskusikan impact,
-5. dengarkan konteks developer,
-6. cari remediation yang feasible,
-7. dokumentasikan keputusan.
+Saya akan mempertimbangkan dampak, kemudahan eksploitasi, paparan sistem, sensitivitas data, dan kemungkinan adanya eksploitasi aktif.
 
----
+Misalnya, kelemahan yang memungkinkan akses tidak sah ke data pelanggan dalam jumlah besar perlu diprioritaskan dibandingkan masalah dengan dampak sangat terbatas.
 
-### "Mana yang lebih penting: security atau usability?"
+Saya juga akan mempertimbangkan apakah ada mitigasi sementara dan berapa lama perbaikan dapat dilakukan. Prioritas akhir harus berdasarkan risiko nyata, bukan hanya angka severity dari scanner.
 
-Jawaban matang:
+## 88. Bagaimana menjelaskan celah keamanan kepada orang nonteknis?
 
-> Keduanya harus dipertimbangkan berdasarkan risk dan business context. Security control yang terlalu berat dapat mendorong pengguna atau developer mencari workaround, sementara kontrol yang terlalu lemah dapat menciptakan exposure.
+**Contoh jawaban:**
 
----
+Saya akan menjelaskan dampaknya menggunakan bahasa yang berhubungan dengan proses bisnis.
 
-# 44. Pertanyaan yang Sering Menjebak
+Misalnya, daripada hanya mengatakan bahwa aplikasi memiliki Broken Access Control, saya akan menjelaskan bahwa pengguna yang sudah login bisa melihat dokumen milik pelanggan lain karena server tidak memeriksa kepemilikan dokumen.
 
-### "Apakah POST aman dari CSRF?"
+Setelah itu, saya akan menjelaskan kemungkinan dampaknya dan tindakan yang dibutuhkan. Istilah teknis tetap bisa disebutkan, tetapi harus disertai penjelasan yang mudah dipahami.
 
-Tidak.
+## 89. Apa yang kamu lakukan jika belum mengetahui jawaban sebuah pertanyaan teknis?
 
-Method HTTP bukan CSRF protection.
+**Contoh jawaban:**
 
----
+Saya akan menjelaskan apa yang sudah saya pahami, menyampaikan bagian yang belum saya pastikan, dan menguraikan bagaimana saya akan mencari jawabannya.
 
-### "Apakah HTTPS mencegah SQL Injection?"
+Misalnya, jika ditanya tentang teknik serangan yang belum pernah saya temui, saya akan mencoba memahami alur sistem, aset yang terancam, kemungkinan dampak, dan kontrol keamanan yang relevan.
 
-Tidak.
+Saya tidak akan mengarang jawaban hanya agar terdengar meyakinkan. Dalam pekerjaan keamanan, mengakui ketidakpastian dan memverifikasi asumsi merupakan bagian penting dari proses analisis.
 
----
+# Bagian 13: Pertanyaan Teknis Tingkat Lanjut
 
-### "Apakah JWT aman?"
+## 90. Bagaimana mengamankan file upload?
 
-JWT adalah format/token mechanism, bukan jaminan keamanan.
+**Contoh jawaban:**
 
----
+Saya akan memeriksa jenis file yang diizinkan, ukuran file, cara aplikasi memproses file, dan lokasi penyimpanannya.
 
-### "Apakah UUID mencegah IDOR?"
+Validasi tidak cukup dengan memeriksa ekstensi nama file karena ekstensi dapat dimanipulasi. Aplikasi perlu memeriksa karakteristik file sesuai kebutuhan, menggunakan nama penyimpanan yang terkontrol, dan menghindari eksekusi file yang diunggah.
 
-Tidak.
+Untuk dokumen yang berisiko, pemindaian malware dan pemrosesan dalam lingkungan terisolasi juga dapat dipertimbangkan.
 
----
+## 91. Apa itu Content Security Policy (CSP)?
 
-### "Apakah WAF mencegah SQL Injection?"
+**Contoh jawaban:**
 
-WAF dapat menjadi defense layer, tetapi bukan pengganti secure coding.
+CSP adalah kebijakan browser yang membatasi sumber konten yang boleh dimuat atau dijalankan oleh halaman web.
 
----
+Misalnya, perusahaan ingin mengurangi risiko JavaScript dari sumber yang tidak diizinkan dijalankan pada situsnya. CSP dapat membantu menetapkan aturan tersebut.
 
-### "Apakah encryption membuat data aman?"
+CSP merupakan lapisan pertahanan tambahan, bukan pengganti penanganan XSS yang benar. Kebijakan yang terlalu longgar mungkin memberikan perlindungan terbatas, sedangkan kebijakan yang terlalu ketat dapat merusak fungsi situs jika tidak diuji dengan baik.
 
-Tidak otomatis.
+## 92. Apa itu CORS dan apakah CORS merupakan mekanisme autentikasi?
 
-Key management, access control, implementation, dan threat model tetap penting.
+**Contoh jawaban:**
 
----
+CORS adalah mekanisme browser yang menentukan apakah JavaScript dari suatu origin boleh membaca respons dari origin lain.
 
-### "Apakah frontend validation merupakan security control?"
+CORS bukan mekanisme autentikasi dan bukan pengganti otorisasi di server.
 
-Frontend validation membantu UX, tetapi server harus melakukan validasi dan authorization sendiri.
+Misalnya, API perusahaan hanya boleh dibaca oleh situs tertentu melalui browser. CORS membantu mengatur akses baca lintas origin, tetapi endpoint API tetap harus memverifikasi identitas dan hak akses pemanggilnya.
 
----
+Konfigurasi CORS yang salah dapat menambah risiko, terutama jika digabungkan dengan penggunaan credential dan kontrol akses yang lemah.
 
-# 45. Pertanyaan Advanced
+## 93. Apa itu race condition?
 
-Untuk level Senior AppSec, siapkan:
+**Contoh jawaban:**
 
-### Architecture
+Race condition terjadi ketika hasil operasi bergantung pada urutan atau waktu beberapa proses yang berjalan hampir bersamaan.
 
-* Bagaimana threat modeling microservices?
-* Bagaimana mengamankan service-to-service communication?
-* Bagaimana menangani authorization lintas service?
-* Apa risiko API Gateway?
-* Bagaimana mengamankan event-driven architecture?
+Misalnya, aplikasi memiliki saldo Rp100.000 dan menerima dua permintaan pembelian secara bersamaan. Jika keduanya membaca saldo sebelum salah satunya mengurangi saldo, sistem mungkin memproses transaksi yang seharusnya ditolak.
 
-### Identity
+Pencegahannya dapat mencakup transaksi database yang benar, locking, operasi atomik, dan pemeriksaan konsistensi di sisi server.
 
-* OAuth 2.0 vs OpenID Connect?
-* Access token vs refresh token?
-* PKCE?
-* Token rotation?
-* Session revocation?
+## 94. Apa itu SSRF dan bagaimana membedakannya dari CSRF?
 
-### Cloud
+**Contoh jawaban:**
 
-* IAM privilege escalation?
-* SSRF terhadap cloud metadata?
-* Object storage exposure?
-* Secrets management?
-* Workload identity?
+SSRF membuat server mengirimkan permintaan ke tujuan yang dapat dipengaruhi penyerang. CSRF mencoba membuat browser pengguna mengirimkan permintaan yang tidak diinginkan menggunakan konteks sesi pengguna tersebut.
 
-### Supply Chain
+Jadi, pada SSRF, server menjadi pihak yang dimanfaatkan untuk mengakses tujuan lain. Pada CSRF, browser korban menjadi pihak yang mengirimkan permintaan ke aplikasi tempat korban memiliki sesi aktif.
 
-* Dependency confusion?
-* Typosquatting?
-* Malicious package?
-* Lockfile?
-* SBOM?
-* Artifact signing?
+Keduanya membutuhkan pendekatan pencegahan yang berbeda karena titik serangan dan konteks kepercayaannya berbeda.
 
-### Application Logic
+## 95. Apa yang dimaksud dengan security champion?
 
-* Race condition?
-* Replay attack?
-* Idempotency?
-* State machine abuse?
-* Multi-step authorization bypass?
+**Contoh jawaban:**
 
----
+Security champion adalah anggota tim produk atau engineering yang membantu membawa praktik keamanan ke pekerjaan sehari-hari timnya.
 
-# 46. OAuth 2.0 dan OIDC
+Ia tidak selalu menggantikan AppSec Engineer. Perannya bisa membantu melakukan review awal, menyebarkan pengetahuan keamanan, dan memastikan masalah yang ditemukan ditangani.
 
-Minimal pahami:
+Model ini membantu tim AppSec bekerja lebih efektif, terutama ketika perusahaan memiliki banyak tim developer.
 
-```text
-User
- ↓
-Authorization Server
- ↓
-Authorization Code
- ↓
-Client
- ↓
-Access Token
- ↓
-Resource Server
-```
+# Bagian 14: Studi Kasus Technical Interview
 
-Bedakan:
+## 96. Kamu menemukan endpoint yang membocorkan data pengguna lain. Apa langkahmu?
 
-**OAuth 2.0**
+**Contoh jawaban:**
 
-Authorization.
+Saya akan memvalidasi temuan dalam ruang lingkup yang diizinkan, memastikan data yang terdampak, dan menghindari pengambilan data lebih banyak dari yang diperlukan.
 
-**OpenID Connect**
+Setelah itu, saya akan mengidentifikasi apakah penyebabnya adalah pemeriksaan kepemilikan objek yang tidak ada atau aturan otorisasi yang salah.
 
-Authentication/identity layer di atas OAuth 2.0.
+Saya akan merekomendasikan pemeriksaan hak akses di sisi server pada setiap permintaan yang relevan, kemudian membuat pengujian regresi agar pengguna tidak dapat mengakses objek milik pengguna lain.
 
-Pahami juga:
+## 97. Sebuah aplikasi menggunakan library yang memiliki CVE kritis. Apakah harus langsung diperbarui?
 
-* authorization code,
-* PKCE,
-* redirect URI,
-* state,
-* nonce,
-* access token,
-* refresh token.
+**Contoh jawaban:**
 
----
+Saya akan segera menilai risikonya, tetapi tidak menganggap setiap CVE otomatis memiliki dampak yang sama terhadap semua aplikasi.
 
-# 47. Security Testing dalam CI/CD
-
-Salah satu pertanyaan yang sangat mungkin muncul:
-
-> "Bagaimana Anda mencegah vulnerability masuk production?"
-
-Jawaban:
-
-```text
-Developer
-   ↓
-Pre-commit checks
-   ↓
-Pull Request
-   ↓
-SAST
-   ↓
-SCA
-   ↓
-Secret scanning
-   ↓
-Security unit tests
-   ↓
-Build
-   ↓
-DAST/API testing
-   ↓
-Deployment
-   ↓
-Runtime monitoring
-```
-
-Tetapi jangan mengklaim bahwa automation menggantikan security engineer.
-
-Automation menangani pola yang dapat diotomatisasi.
-
-Security engineer menangani:
-
-* architecture,
-* threat modeling,
-* business logic,
-* complex authorization,
-* manual investigation,
-* risk decisions.
+Saya akan memeriksa apakah versi tersebut benar-benar digunakan, apakah bagian yang rentan dapat dijangkau, apakah ada eksploitasi yang diketahui, dan apakah tersedia versi perbaikan.
 
----
+Jika risikonya tinggi, tim perlu memprioritaskan pembaruan atau mitigasi sementara. Setelah itu, pengujian regresi diperlukan untuk memastikan pembaruan tidak merusak fungsi aplikasi.
 
-# 48. Vulnerability Remediation
-
-Interviewer dapat bertanya:
-
-> "Anda menemukan vulnerability. Apa yang Anda berikan kepada developer?"
-
-Report ideal:
-
-```text
-Title
-Severity
-Affected component
-Description
-Precondition
-Steps to reproduce
-Evidence
-Impact
-Root cause
-Remediation
-References
-```
-
-Untuk vulnerability kompleks, tambahkan:
-
-```text
-Attack scenario
-Affected users
-Exploitability
-Business impact
-Suggested test case
-```
+## 98. Sebuah chatbot menjawab dengan data rahasia yang bukan milik pengguna. Apa dugaan awalmu?
 
----
+**Contoh jawaban:**
 
-# 49. Bagaimana Menjawab Technical Interview dengan Baik
+Saya akan menyelidiki beberapa kemungkinan: kontrol akses pada sistem retrieval tidak berjalan, data antar pengguna tercampur, cache tidak dipisahkan dengan benar, atau informasi sensitif sudah masuk ke konteks model.
 
-Jangan menjawab seperti ensiklopedia.
+Saya tidak akan langsung menyimpulkan bahwa model menghafal data tersebut. Penyebabnya harus ditelusuri dari alur data dan arsitektur aplikasi.
 
-Gunakan pola:
+Langkah berikutnya adalah membatasi dampak, mengumpulkan bukti yang aman, memperbaiki sumber masalah, dan menguji ulang skenario lintas pengguna.
 
-### Definition
+## 99. Pipeline CI/CD menemukan kerentanan kritis menjelang rilis. Apa yang kamu lakukan?
 
-Apa masalahnya?
+**Contoh jawaban:**
 
-### Mechanism
+Saya akan memverifikasi temuan, memahami dampaknya, dan menentukan apakah rilis perlu ditahan sesuai kebijakan organisasi.
 
-Bagaimana terjadi?
+Jika kerentanan valid dan berisiko tinggi, saya akan merekomendasikan perbaikan atau mitigasi yang memadai sebelum rilis. Jika ada alasan bisnis untuk melanjutkan, keputusan harus melalui proses pengecualian yang terdokumentasi dan disetujui oleh pihak yang berwenang.
 
-### Example
+Setelah itu, saya akan memastikan temuan ditangani dan pemeriksaan yang sesuai tetap berjalan pada rilis berikutnya.
 
-Berikan contoh sederhana.
+## 100. Bagaimana menyusun program Application Security untuk perusahaan yang baru memulainya?
 
-### Impact
+**Contoh jawaban:**
 
-Apa yang dapat dilakukan attacker?
+Saya akan mulai dengan memahami aplikasi yang dimiliki perusahaan, data yang diproses, arsitektur sistem, dan risiko bisnisnya.
 
-### Mitigation
+Selanjutnya, saya akan menentukan kontrol dasar yang paling berdampak, seperti standar secure coding, pengelolaan secret, pemeriksaan dependency, pengujian autentikasi dan otorisasi, serta proses pelaporan dan perbaikan kerentanan.
 
-Bagaimana memperbaikinya?
+Saya juga akan bekerja sama dengan developer untuk mengintegrasikan pengujian ke dalam proses pengembangan. Program perlu diukur melalui indikator yang berguna, seperti waktu perbaikan, temuan berulang, cakupan pengujian, dan risiko yang berhasil dikurangi.
 
-Contoh:
+## 101. Bagaimana menyusun program keamanan untuk produk AI?
 
-> "IDOR adalah authorization flaw ketika user dapat mengakses object milik user lain. Biasanya terjadi ketika server menerima object ID tetapi tidak memeriksa ownership atau permission. Misalnya user A mengganti `/orders/1001` menjadi `/orders/1002` dan mendapatkan order user B. Mitigasinya adalah melakukan server-side authorization check terhadap resource tersebut pada setiap request."
+**Contoh jawaban:**
 
-Ini jauh lebih kuat daripada sekadar:
+Saya akan memulai dengan memetakan bagaimana produk AI digunakan, model yang dipakai, sumber data, integrasi eksternal, tools yang tersedia, dan jenis tindakan yang bisa dilakukan sistem.
 
-> "IDOR adalah Insecure Direct Object Reference."
+Setelah itu, saya akan menilai risiko seperti prompt injection, kebocoran data, penyalahgunaan tools, ketergantungan pada komponen pihak ketiga, dan penyalahgunaan sumber daya.
 
----
+Saya akan menerapkan kontrol pada level aplikasi, menguji skenario serangan yang relevan, dan memastikan ada monitoring serta proses respons insiden. Program juga perlu dievaluasi setiap kali model, sumber data, tools, atau arsitektur berubah.
 
-# 50. Checklist Belajar Sebelum Interview
-
-## Fundamental
-
-* [ ] CIA Triad
-* [ ] Authentication
-* [ ] Authorization
-* [ ] Least privilege
-* [ ] Defense in depth
-* [ ] Trust boundary
-* [ ] Attack surface
-* [ ] Threat vs vulnerability vs risk
-
-## Web Security
-
-* [ ] XSS
-* [ ] CSRF
-* [ ] SQL Injection
-* [ ] SSRF
-* [ ] IDOR
-* [ ] CSRF
-* [ ] Session attacks
-* [ ] Path traversal
-* [ ] File upload
-* [ ] Deserialization
-
-## Identity
-
-* [ ] Session
-* [ ] JWT
-* [ ] OAuth 2.0
-* [ ] OIDC
-* [ ] MFA
-* [ ] Password hashing
-* [ ] Token lifecycle
-
-## API
-
-* [ ] API authentication
-* [ ] Object authorization
-* [ ] Function authorization
-* [ ] Mass assignment
-* [ ] Rate limiting
-* [ ] Replay attack
-* [ ] API abuse
-* [ ] Business logic
-
-## Application
-
-* [ ] Business logic
-* [ ] Race condition
-* [ ] State machine
-* [ ] Transaction security
-* [ ] Input validation
-* [ ] Output encoding
-* [ ] Secure error handling
-
-## Cryptography
-
-* [ ] Hashing
-* [ ] Encryption
-* [ ] Encoding
-* [ ] Symmetric crypto
-* [ ] Asymmetric crypto
-* [ ] Digital signature
-* [ ] Key management
-* [ ] Randomness
-
-## DevSecOps
-
-* [ ] SAST
-* [ ] DAST
-* [ ] IAST
-* [ ] SCA
-* [ ] Secret scanning
-* [ ] Container scanning
-* [ ] IaC scanning
-* [ ] SBOM
-* [ ] CI/CD security
-
-## Cloud
-
-* [ ] IAM
-* [ ] Least privilege
-* [ ] Secrets
-* [ ] KMS
-* [ ] Object storage
-* [ ] Metadata service
-* [ ] Network security
-* [ ] Container security
-* [ ] Kubernetes security
-
-## Security Process
-
-* [ ] Threat modeling
-* [ ] Secure code review
-* [ ] Vulnerability management
-* [ ] Risk assessment
-* [ ] Incident response
-* [ ] Security architecture
-* [ ] Security awareness
-* [ ] Security champions
+# Bagian 15: Cara Belajar dan Checklist Sebelum Interview
 
----
+Tidak semua kandidat perlu menguasai seluruh topik dengan kedalaman yang sama. Prioritas belajar sebaiknya disesuaikan dengan posisi yang dilamar.
 
-# 51. 20 Pertanyaan yang Paling Layak Dilatih
-
-Jika waktu belajar terbatas, prioritaskan pertanyaan berikut:
-
-1. Apa perbedaan authentication dan authorization?
-2. Bagaimana Anda menemukan dan membuktikan IDOR?
-3. Bagaimana mencegah broken access control?
-4. Mengapa frontend authorization tidak cukup?
-5. Bagaimana mencegah SQL Injection?
-6. Apa perbedaan XSS dan CSRF?
-7. Bagaimana mencegah SSRF?
-8. Bagaimana password harus disimpan?
-9. Apa risiko JWT?
-10. Apa perbedaan OAuth 2.0 dan OIDC?
-11. Bagaimana Anda melakukan security code review?
-12. Bagaimana melakukan threat modeling?
-13. Apa perbedaan SAST, DAST, SCA, dan IAST?
-14. Bagaimana security dimasukkan ke CI/CD?
-15. Bagaimana menilai severity sebuah vulnerability?
-16. Bagaimana menemukan business logic vulnerability?
-17. Bagaimana menangani race condition?
-18. Bagaimana menangani secret yang bocor ke Git?
-19. Bagaimana mengamankan API?
-20. Ceritakan vulnerability yang pernah Anda temukan dan bagaimana Anda memvalidasinya.
+## Jika melamar AppSec Engineer umum
 
----
+Fokuskan persiapan pada:
 
-# 52. Level Senior: Jangan Hanya Menjawab "Apa", Jelaskan "Mengapa"
+- [ ] HTTP, browser, cookies, dan session.
+- [ ] Authentication dan authorization.
+- [ ] OWASP Top 10 dan kerentanan web.
+- [ ] API security dan kontrol akses.
+- [ ] Secure code review.
+- [ ] SAST, DAST, SCA, dan dependency security.
+- [ ] Threat modeling dan Secure SDLC.
+- [ ] Dasar-dasar cloud dan secrets management.
+- [ ] Pelaporan temuan dan prioritas perbaikan.
 
-Perbedaan kandidat junior dan senior sering terlihat dari kedalaman reasoning.
+## Jika melamar posisi yang banyak menguji aplikasi secara langsung
 
-Junior mungkin menjawab:
+Tambahkan materi:
 
-> "Gunakan parameterized query untuk mencegah SQL Injection."
+- [ ] Reconnaissance dan pemetaan attack surface.
+- [ ] Burp Suite dan pengujian HTTP.
+- [ ] Pengujian autentikasi dan session management.
+- [ ] Pengujian akses lintas pengguna.
+- [ ] Pengujian input dan output.
+- [ ] Validasi temuan dan proof of concept yang aman.
+- [ ] Penyusunan laporan teknis.
 
-Senior akan mampu menjelaskan:
+## Jika melamar posisi yang berkaitan dengan AI Security
 
-> "Masalahnya terjadi karena data yang dikontrol user menjadi bagian dari SQL syntax. Parameterized query memisahkan data dari query structure sehingga input tidak diperlakukan sebagai SQL syntax. Tetapi saya juga akan melihat apakah aplikasi menggunakan raw query atau dynamic SQL di bagian lain karena penggunaan ORM tidak otomatis menjamin seluruh application bebas SQL Injection."
+Tambahkan materi:
 
-Pola berpikir seperti ini yang perlu dilatih.
+- [ ] Dasar LLM, prompt, context window, dan token.
+- [ ] Prompt injection, baik langsung maupun tidak langsung.
+- [ ] Kebocoran data dan pemisahan konteks antar pengguna.
+- [ ] RAG, embedding, dan vector database.
+- [ ] Insecure output handling.
+- [ ] AI agent dan keamanan tools.
+- [ ] AI supply chain dan data poisoning.
+- [ ] AI red teaming dan regression testing.
+- [ ] Logging, monitoring, dan tata kelola AI.
 
----
+## Referensi resmi untuk belajar lebih lanjut
 
-# 53. Framework Berpikir untuk Hampir Semua Skenario Interview
-
-Ketika interviewer memberikan aplikasi atau endpoint yang belum pernah Anda lihat, gunakan urutan:
-
-```text
-1. What is the asset?
-        ↓
-2. Who is the attacker?
-        ↓
-3. What does the attacker control?
-        ↓
-4. What trust boundary is crossed?
-        ↓
-5. What security assumption exists?
-        ↓
-6. Can I manipulate that assumption?
-        ↓
-7. What happens if it succeeds?
-        ↓
-8. How should the application enforce the rule?
-```
-
-Ini dapat digunakan untuk menganalisis:
-
-* IDOR,
-* privilege escalation,
-* SSRF,
-* business logic,
-* authentication bypass,
-* payment abuse,
-* race condition,
-* API vulnerabilities.
+Berikut beberapa referensi yang dapat digunakan untuk memperdalam materi:
 
----
+1. [OWASP Top 10](https://owasp.org/www-project-top-ten/) — risiko keamanan aplikasi web.
+2. [OWASP API Security](https://owasp.org/www-project-api-security/) — risiko keamanan API.
+3. [PortSwigger Web Security Academy](https://portswigger.net/web-security) — materi dan laboratorium praktik keamanan web.
+4. [NIST Secure Software Development Framework](https://csrc.nist.gov/projects/ssdf) — panduan pengembangan software yang aman.
+5. [OWASP GenAI Security Project](https://genai.owasp.org/) — panduan keamanan generative AI dan aplikasi berbasis LLM.
+6. [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) — risiko utama aplikasi LLM dan langkah mitigasinya.
+7. [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — kerangka kerja untuk mengelola risiko AI.
+8. [NIST Generative AI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence) — panduan pengelolaan risiko generative AI.
 
 # Penutup
 
-Technical interview Application Security Engineer pada akhirnya bukan kompetisi menghafal sebanyak mungkin vulnerability.
+Persiapan interview Application Security Engineer tidak harus dimulai dengan menghafal ratusan istilah. Mulailah dari cara kerja aplikasi, pahami bagaimana data berpindah antar komponen, lalu pelajari apa yang bisa salah dan bagaimana memperbaikinya.
 
-Yang perlu terlihat adalah kemampuan untuk berpikir:
+Untuk setiap topik, cobalah menjawab empat pertanyaan sederhana:
 
-```text
-Understand the system
-        ↓
-Identify security boundary
-        ↓
-Understand attacker control
-        ↓
-Find broken assumption
-        ↓
-Prove the vulnerability
-        ↓
-Understand impact
-        ↓
-Explain root cause
-        ↓
-Design practical remediation
-        ↓
-Verify the fix
-```
+1. Apa masalah keamanannya?
+2. Bagaimana masalah itu bisa terjadi?
+3. Apa dampaknya bagi aplikasi atau pengguna?
+4. Bagaimana cara mencegah dan mengujinya?
 
-Jika mampu melakukan alur tersebut, Anda tidak hanya mampu menjawab pertanyaan seperti **"Apa itu IDOR?"**, tetapi juga pertanyaan yang lebih penting:
+Jika melamar posisi yang berhubungan dengan AI, jangan berhenti pada prompt injection. Pelajari juga bagaimana data diambil, bagaimana hak akses diterapkan, bagaimana tools dijalankan, dan bagaimana aplikasi tetap aman ketika model memberikan output yang tidak terduga.
 
-> **"Saya memberikan aplikasi ini kepada Anda. Apa yang pertama kali Anda cari, mengapa Anda mencarinya, bagaimana Anda membuktikannya, dan bagaimana Anda memperbaikinya?"**
-
-Itulah pola berpikir yang paling penting untuk technical interview AppSec Engineer.
+**Tujuan interview bukan menunjukkan bahwa kamu hafal semua istilah. Tujuannya adalah menunjukkan bahwa kamu bisa berpikir seperti seorang security engineer: memahami risiko, menguji asumsi, membuktikan temuan, dan membantu tim memperbaiki masalah secara efektif.**
